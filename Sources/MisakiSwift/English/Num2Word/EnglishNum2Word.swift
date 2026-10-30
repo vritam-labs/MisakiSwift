@@ -87,7 +87,7 @@ struct EnglishNum2Word {
       lastWord += "th"
     }
     
-    lastWords[lastWords.count - 1] = lastWord.capitalized
+    lastWords[lastWords.count - 1] = lastWord  // num2words only titles when asked; misaki splits on [^a-z]
     outWords[outWords.count - 1] = lastWords.joined(separator: "-")
     return outWords.joined(separator: " ")
   }

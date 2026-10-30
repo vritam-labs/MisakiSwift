@@ -99,7 +99,7 @@ final public class EnglishG2P {
           tokens[i].phonemes = tokens[i].text
           tokens[i].`_`.rating = 3
         } else if tokens[i].text.allSatisfy({ EnglishG2P.subTokenJunks.contains($0) }) {
-          tokens[i].phonemes = nil
+          tokens[i].phonemes = ""  // misaki: '' (nil would print the unk marker)
           tokens[i].`_`.rating = 3
         }
       } else if i > 0 {
@@ -213,6 +213,10 @@ final public class EnglishG2P {
           mutableTokens[mutableTokens.count - 1] = MToken(text: last.text + ".", tokenRange: last.tokenRange.lowerBound..<tokenRange.upperBound,
                                                           tag: last.tag, whitespace: "")
         } else {
+          // spaCy tags "4.5", "1,200" and "%" as CD/NN; NLTagger says OtherWord/Punctuation, which would break
+          // currency tracking ("$4.5 million dollars") and silence "%" ("percent").
+          let isNum = word.first?.isNumber == true && word.allSatisfy { $0.isNumber || $0 == "," || $0 == "." }
+          let tag: NLTag = isNum ? .number : (Lexicon.symbolSet[word] != nil ? .noun : tag)
           mutableTokens.append(MToken(text: word, tokenRange: tokenRange, tag: tag, whitespace: ""))
         }
       }
@@ -258,7 +262,7 @@ final public class EnglishG2P {
         if token._.prespace,
            !phonemeBuilder.isEmpty,
            !(phonemeBuilder.last?.isWhitespace ?? false),
-           token.phonemes != nil {
+           token.phonemes?.isEmpty == false {  // misaki: `and tk.phonemes`, so "21st"'s empty "st" adds no space
           phonemeBuilder += " "
         }
         phonemeBuilder += token.phonemes ?? unk

@@ -46,10 +46,11 @@ struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
   for c in cases {
     let got = heard(g2p.phonemize(text: c.text).0), want = heard(c.phonemes)
     if got == want { exact += 1 }
-    let expected = want.split(separator: " ")
+    // omittingEmptySubsequences: false, so a doubled space (an extra pause token) counts as a difference
+    let expected = want.split(separator: " ", omittingEmptySubsequences: false)
     words += expected.count
     let fb = c.fallback.map { heard($0.phonemes) }
-    for (e, a) in wordHunks(expected, got.split(separator: " ")) {
+    for (e, a) in wordHunks(expected, got.split(separator: " ", omittingEmptySubsequences: false)) {
       let n = max(e.count, a.count)
       if e.contains(where: { w in fb.contains { !$0.isEmpty && w.contains($0) } }) { fallbackWords += n; continue }
       bugWords += n
