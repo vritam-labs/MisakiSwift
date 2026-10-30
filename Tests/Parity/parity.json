@@ -1,0 +1,5559 @@
+{
+ "vocab": ";:,.!?—…\"()“” ̃ʣʥʦʨᵝꭧAIOQSTWYᵊabcdefhijklmnopqrstuvwxyzɑɐɒæβɔɕçɖðʤəɚɛɜɟɡɥɨɪʝɯɰŋɳɲɴøɸθœɹɾɻʁɽʂʃʈʧʊʋʌɣɤχʎʒʔˈˌːʰʲ↓→↗↘ᵻ",
+ "cases": [
+  {
+   "source": "page_1.txt",
+   "text": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or",
+   "phonemes": "pɹəvˈIdᵻd pɹˈɑpəɹ ˌætɹəbjˈuʃən ɪz pɹəvˈIdᵻd, ɡˈuɡᵊl hˈɪɹbˌI ɡɹˈænts pəɹmˈɪʃən tə ɹˌipɹədˈus ðə tˈAbᵊlz ænd fˈɪɡjəɹz ɪn ðɪs pˈApəɹ sˈOlli fɔɹ jˈus ɪn ʤˌɜɹnᵊlˈɪstɪk ɔɹ",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Attention Is All You Need",
+   "phonemes": "ətˈɛnʧən ˌɪz ˈɔl jˌu nˈid",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Ashish Vaswani*",
+   "phonemes": "ˈæʃɪʃ væswˈɑni ˈæstəɹɹˌɪsk",
+   "fallback": [
+    {
+     "text": "Ashish",
+     "phonemes": "ˈæʃɪʃ"
+    },
+    {
+     "text": "Vaswani*",
+     "phonemes": "væswˈɑni ˈæstəɹɹˌɪsk"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Noam Shazeer*",
+   "phonemes": "nˈOm ʃæzˈɪɹ",
+   "fallback": [
+    {
+     "text": "Noam",
+     "phonemes": "nˈOm"
+    },
+    {
+     "text": "Shazeer",
+     "phonemes": "ʃæzˈɪɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Niki Parmar*",
+   "phonemes": "nˈɪki pˈɑɹməɹ",
+   "fallback": [
+    {
+     "text": "Niki",
+     "phonemes": "nˈɪki"
+    },
+    {
+     "text": "Parmar",
+     "phonemes": "pˈɑɹməɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Jakob Uszkoreit*",
+   "phonemes": "jˈækɑb ˈʌszkɔɹˌAt",
+   "fallback": [
+    {
+     "text": "Jakob",
+     "phonemes": "jˈækɑb"
+    },
+    {
+     "text": "Uszkoreit",
+     "phonemes": "ˈʌszkɔɹˌAt"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Google Brain Google Brain",
+   "phonemes": "ɡˈuɡᵊl bɹˈAn ɡˈuɡᵊl bɹˈAn",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Google Research",
+   "phonemes": "ɡˈuɡᵊl ɹˈisˌɜɹʧ",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Google Research avaswaniegoogle.com noamgoogle.com nikipegoogle.com uszogoogle.com",
+   "phonemes": "ɡˈuɡᵊl ɹˈisˌɜɹʧ ˌævəswˌɑnɪˈAɡuɡᵊl.kˈɑm nˈOmɡuɡᵊl.kˈɑm nˈɪkIpɡˌuɡᵊl.kˈɑm ˈʌszəɡˌuɡᵊl.kˈɑm",
+   "fallback": [
+    {
+     "text": "avaswaniegoogle.com",
+     "phonemes": "ˌævəswˌɑnɪˈAɡuɡᵊl.kˈɑm"
+    },
+    {
+     "text": "noamgoogle.com",
+     "phonemes": "nˈOmɡuɡᵊl.kˈɑm"
+    },
+    {
+     "text": "nikipegoogle.com",
+     "phonemes": "nˈɪkIpɡˌuɡᵊl.kˈɑm"
+    },
+    {
+     "text": "uszogoogle.com",
+     "phonemes": "ˈʌszəɡˌuɡᵊl.kˈɑm"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Aidan N.",
+   "phonemes": "ˈAdən ˈɛn",
+   "fallback": [
+    {
+     "text": "Aidan",
+     "phonemes": "ˈAdən"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Gomez* t Llion Jones*",
+   "phonemes": "ɡˈOmɛz ˈæstəɹɹˌɪsk tˈi lˈiən ʤˈOnz",
+   "fallback": [
+    {
+     "text": "Gomez*",
+     "phonemes": "ɡˈOmɛz ˈæstəɹɹˌɪsk"
+    },
+    {
+     "text": "Llion",
+     "phonemes": "lˈiən"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Lukasz Kaiser* Google Research",
+   "phonemes": "lˈukæsz kˈIzəɹ ɡˈuɡᵊl ɹˈisˌɜɹʧ",
+   "fallback": [
+    {
+     "text": "Lukasz",
+     "phonemes": "lˈukæsz"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "University of Toronto",
+   "phonemes": "jˌunəvˈɜɹsəTi ʌv təɹˈɑntO",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Google Brain C llionogoogle.com:",
+   "phonemes": "ɡˈuɡᵊl bɹˈAn sˈi lˈiənəɡˌuɡᵊl.kˈɑm:",
+   "fallback": [
+    {
+     "text": "llionogoogle.com",
+     "phonemes": "lˈiənəɡˌuɡᵊl.kˈɑm"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "aidan@cs.toronto.cdu",
+   "phonemes": "ˈAdən æt sˌiˈɛs.təɹɹˈɑntO.sˌidˌijˈu",
+   "fallback": [
+    {
+     "text": "aidan@cs.toronto.cdu",
+     "phonemes": "ˈAdən æt sˌiˈɛs.təɹɹˈɑntO.sˌidˌijˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "luas2aiseregpogle.cm",
+   "phonemes": "lˈuəztuˈAzəɹɹˌɛɡpɑɡᵊl.sˌiˈɛm",
+   "fallback": [
+    {
+     "text": "luas",
+     "phonemes": "lˈuəz"
+    },
+    {
+     "text": "aiseregpogle.cm",
+     "phonemes": "ˈAzəɹɹˌɛɡpɑɡᵊl.sˌiˈɛm"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Illia Polosukhin* #",
+   "phonemes": "ɪlˈiə pˈɑləsˌʌkhɪn ",
+   "fallback": [
+    {
+     "text": "Illia",
+     "phonemes": "ɪlˈiə"
+    },
+    {
+     "text": "Polosukhin",
+     "phonemes": "pˈɑləsˌʌkhɪn"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "illia.polosukhin@gmail.com",
+   "phonemes": "ɪlˈiə.pˈɑləsˌʌkhɪn æt ʤˈimˈAl.kˈɑm",
+   "fallback": [
+    {
+     "text": "illia.polosukhin@gmail.com",
+     "phonemes": "ɪlˈiə.pˈɑləsˌʌkhɪn æt ʤˈimˈAl.kˈɑm"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Abstract",
+   "phonemes": "ˈæbstɹˌækt",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder.",
+   "phonemes": "ðə dˈɑmənənt sˈikwəns tɹˌænzdˈʌkʃən mˈɑdᵊlz ɑɹ bˈAst ˌɔn kˈɑmplˌɛks ɹəkˈɜɹənt ɔɹ kˌɑnvəlˈuʃənᵊl nˈʊɹᵊl nˈɛtwˌɜɹks ðæt ɪnklˈud ɐn ɪnkˈOdəɹ ænd ɐ dˌikˈOdəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "The best performing models also connect the encoder and decoder through an attention mechanism.",
+   "phonemes": "ðə bˈɛst pəɹfˈɔɹmɪŋ mˈɑdᵊlz ˈɔlsO kənˈɛkt ði ɪnkˈOdəɹ ænd dˌikˈOdəɹ θɹu ɐn ətˈɛnʧən mˈɛkənˌɪzəm.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+   "phonemes": "wˌi pɹəpˈOz ɐ nˈu sˈɪmpəl nˈɛtwˌɜɹk ˈɑɹkətˌɛkʧəɹ, ðə tɹænsfˈɔɹməɹ, bˈAst sˈOlli ˌɔn ətˈɛnʧən mˈɛkənˌɪzəmz, dəspˈɛnsɪŋ wɪð ɹəkˈɜɹəns ænd kˌɑnvəlˈuʃənz əntˈIəɹli.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.",
+   "phonemes": "ɪkspˈɛɹəmənts ˌɔn tˈu məʃˈin tɹænzlˈAʃən tˈæsks ʃˈO ðiz mˈɑdᵊlz tə bi səpˈɪɹiəɹ ɪn kwˈɑləTi wˌIl bˈiɪŋ mˈɔɹ pˈæɹəlˌɛlIzəbᵊl ænd ɹəkwˈIəɹɪŋ səɡnˈɪfəkəntli lˈɛs tˈIm tə tɹˈAn.",
+   "fallback": [
+    {
+     "text": "parallelizable",
+     "phonemes": "pˈæɹəlˌɛlIzəbᵊl"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU.",
+   "phonemes": "ˌWəɹ mˈɑdᵊl əʧˈivz twˈɛnti ˈAt pYnt fˈɔɹ bˌiˌɛlˌijˈu ˌɔn ðə dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ɪŋɡlˈɪʃtOʤˈɜɹmən tɹænzlˈAʃən tˈæsk, ɪmpɹˈuvɪŋ ˈOvəɹ ði ɪɡzˈɪstɪŋ bˈɛst ɹəzˈʌlts, ɪnklˈudɪŋ ɑnsˈɑmbᵊlz, bI ˈOvəɹ tˈu bˌiˌɛlˌijˈu.",
+   "fallback": [
+    {
+     "text": "Englishto-German",
+     "phonemes": "ɪŋɡlˈɪʃtOʤˈɜɹmən"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUS, a small fraction of the training costs of the best models from the literature.",
+   "phonemes": "ˌɔn ðə dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ˈɪŋɡlɪʃtəfɹˈɛnʧ tɹænzlˈAʃən tˈæsk, ˌWəɹ mˈɑdᵊl əstˈæblɪʃᵻz ɐ nˈu sˈɪŋɡᵊlmˌɑdᵊl stˈAtʌvðiˈɑɹt bˌiˌɛlˌijˈu skˈɔɹ ʌv fˈɔɹTi wˈʌn pYnt ˈAt ˈæftəɹ tɹˈAnɪŋ fɔɹ θɹˈi pYnt fˈIv dˈAz ˌɔn ˈAt ʤˌipˌijˌuˈɛs, ɐ smˈɔl fɹˈækʃən ʌv ðə tɹˈAnɪŋ kˈɔsts ʌv ðə bˈɛst mˈɑdᵊlz fɹʌm ðə lˈɪTəɹəʧəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+   "phonemes": "wˌi ʃˈO ðæt ðə tɹænsfˈɔɹməɹ ʤˈɛnəɹəlˌIzᵻz wˈɛl tʊ ˈʌðəɹ tˈæsks bI əplˈIɪŋ ɪt səksˈɛsfəli tʊ ˈɪŋɡlɪʃ kənstˈɪʧʊənsi pˈɑɹsɪŋ bˈOθ wɪð lˈɑɹʤ ænd lˈɪməTᵻd tɹˈAnɪŋ dˈATə.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "*Equal contribution.",
+   "phonemes": "ˈikwᵊl kˌɑntɹəbjˈuʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Listing order is random.",
+   "phonemes": "lˈɪstɪŋ ˈɔɹdəɹ ɪz ɹˈændəm.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Jakob proposed replacing RNNS with self-attention and started the effort to evaluate this idea.",
+   "phonemes": "jˈækɑb pɹəpˈOzd ɹᵻplˈAsɪŋ ˌɑɹˌɛnˌɛnˈɛs wɪð sˌɛlfətˈɛnʧən ænd stˈɑɹTᵻd ði ˈɛfəɹt tʊ əvˈæljʊˌAt ðɪs Idˈiə.",
+   "fallback": [
+    {
+     "text": "Jakob",
+     "phonemes": "jˈækɑb"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work.",
+   "phonemes": "ˈæʃɪʃ, wɪð ɪlˈiə, dəzˈInd ænd ˈɪmpləmˌɛntᵻd ðə fˈɜɹst tɹænsfˈɔɹməɹ mˈɑdᵊlz ænd hæz bɪn kɹˈuʃəli ɪnvˈɑlvd ɪn ˈɛvəɹi ˈæspˌɛkt ʌv ðɪs wˈɜɹk.",
+   "fallback": [
+    {
+     "text": "Ashish",
+     "phonemes": "ˈæʃɪʃ"
+    },
+    {
+     "text": "Illia",
+     "phonemes": "ɪlˈiə"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail.",
+   "phonemes": "nˈOm pɹəpˈOzd skˈAld dˌɑtpɹˈɑdˌʌkt ətˈɛnʧən, mˈʌltihˌɛd ətˈɛnʧən ænd ðə pəɹˈæməTəɹfɹˌi pəzˈɪʃən ɹˌɛpɹəzˌɛntˈAʃən ænd bəkˈAm ði ˈʌðəɹ pˈɜɹsᵊn ɪnvˈɑlvd ɪn nˈɪɹli ˈɛvəɹi dətˈAl.",
+   "fallback": [
+    {
+     "text": "Noam",
+     "phonemes": "nˈOm"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and tensor2tensor.",
+   "phonemes": "nˈɪki dəzˈInd, ˈɪmpləmˌɛntᵻd, tˈund ænd əvˈæljʊˌATᵻd kˈWntləs mˈɑdᵊl vˈɛɹiənts ɪn ˌWəɹ əɹˈɪʤənᵊl kˈOdbˌAs ænd tˈɛnsəɹtətˈɛnsəɹ.",
+   "fallback": [
+    {
+     "text": "Niki",
+     "phonemes": "nˈɪki"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Llion also experimented with novel model variants, was responsible for our initial codebase, and efficient inference and visualizations.",
+   "phonemes": "lˈiən ˈɔlsO ɪkspˈɛɹəməntᵻd wɪð nˈɑvᵊl mˈɑdᵊl vˈɛɹiənts, wʌz ɹəspˈɑnsəbᵊl fɔɹ ˌWəɹ ɪnˈɪʃᵊl kˈOdbˌAs, ænd əfˈɪʃənt ˈɪnfəɹəns ænd vˌɪʒələzˈAʃənz.",
+   "fallback": [
+    {
+     "text": "Llion",
+     "phonemes": "lˈiən"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Lukasz and Aidan spent countless long days designing various parts of and implementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating our research.",
+   "phonemes": "lˈukæsz ænd ˈAdən spˈɛnt kˈWntləs lˈɔŋ dˈAz dəzˈInɪŋ vˈɛɹiəs pˈɑɹts ʌv ænd ˈɪmpləmˌɛntɪŋ tˈɛnsəɹtətˈɛnsəɹ, ɹᵻplˈAsɪŋ ˌWəɹ ˈɜɹliəɹ kˈOdbˌAs, ɡɹˈAtli ɪmpɹˈuvɪŋ ɹəzˈʌlts ænd mˈæsəvli əksˈɛləɹˌATɪŋ ˌWəɹ ɹˈisˌɜɹʧ.",
+   "fallback": [
+    {
+     "text": "Lukasz",
+     "phonemes": "lˈukæsz"
+    },
+    {
+     "text": "Aidan",
+     "phonemes": "ˈAdən"
+    }
+   ]
+  },
+  {
+   "source": "page_1.txt",
+   "text": "tWork performed while at Google Brain.",
+   "phonemes": "tˈiwˌɜɹk pəɹfˈɔɹmd wˌIl æt ɡˈuɡᵊl bɹˈAn.",
+   "fallback": []
+  },
+  {
+   "source": "page_1.txt",
+   "text": "Work performed while at Google Research.",
+   "phonemes": "wˈɜɹk pəɹfˈɔɹmd wˌIl æt ɡˈuɡᵊl ɹˈisˌɜɹʧ.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)",
+   "phonemes": "tˈAbᵊl fˈɔɹ: ðə tɹænsfˈɔɹməɹ ʤˈɛnəɹəlˌIzᵻz wˈɛl tʊ ˈɪŋɡlɪʃ kənstˈɪʧʊənsi pˈɑɹsɪŋ (ɹəzˈʌlts ɑɹ ˌɔn sˈɛkʃən twˈɛnti θɹˈi ʌv dˌʌbᵊljuˌɛsʤˈA)",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Petrov et al.",
+   "phonemes": "pˈɛtɹɑv ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "Petrov",
+     "phonemes": "pˈɛtɹɑv"
+    },
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2006) [29]",
+   "phonemes": "(tˈu θˈWzᵊnd sˈɪks) [twˈɛnti nˈIn)",
+   "fallback": [
+    {
+     "text": "[29",
+     "phonemes": "[twˈɛnti nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "WSJ only, discriminative",
+   "phonemes": "dˌʌbᵊljuˌɛsʤˈA ˈOnli, dəskɹˈɪmənˌATɪv",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Zhu et al.",
+   "phonemes": "ʒˈu ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "Zhu",
+     "phonemes": "ʒˈu"
+    },
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2013) [40]",
+   "phonemes": "(twˈɛnti θˌɜɹtˈin) [fˈɔɹTi)",
+   "fallback": [
+    {
+     "text": "[40",
+     "phonemes": "[fˈɔɹTi"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "WSJ only, discriminative",
+   "phonemes": "dˌʌbᵊljuˌɛsʤˈA ˈOnli, dəskɹˈɪmənˌATɪv",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Dyer et al.",
+   "phonemes": "dˈIəɹ ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2016) [8]",
+   "phonemes": "(twˈɛnti sˌɪkstˈin) [ˈAt)",
+   "fallback": [
+    {
+     "text": "[8",
+     "phonemes": "[ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "WSJ only, discriminative",
+   "phonemes": "dˌʌbᵊljuˌɛsʤˈA ˈOnli, dəskɹˈɪmənˌATɪv",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Transformer (4 layers)",
+   "phonemes": "tɹænsfˈɔɹməɹ (fˈɔɹ lˈAəɹz)",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "WSJ only, discriminative",
+   "phonemes": "dˌʌbᵊljuˌɛsʤˈA ˈOnli, dəskɹˈɪmənˌATɪv",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Zhu et al.",
+   "phonemes": "ʒˈu ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "Zhu",
+     "phonemes": "ʒˈu"
+    },
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2013) [40]",
+   "phonemes": "(twˈɛnti θˌɜɹtˈin) [fˈɔɹTi)",
+   "fallback": [
+    {
+     "text": "[40",
+     "phonemes": "[fˈɔɹTi"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "semi-supervised",
+   "phonemes": "sˌɛmIsˈupəɹvˌIzd",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Huang & Harper (2009) [14]",
+   "phonemes": "hwˈɑŋ ænd hˈɑɹpəɹ (tˈu θˈWzᵊnd nˈIn) [fˈɔɹtin)",
+   "fallback": [
+    {
+     "text": "Huang",
+     "phonemes": "hwˈɑŋ"
+    },
+    {
+     "text": "[14",
+     "phonemes": "[fˈɔɹtin"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "semi-supervised",
+   "phonemes": "sˌɛmIsˈupəɹvˌIzd",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "McClosky et al.",
+   "phonemes": "mə klˈɑski ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "McClosky",
+     "phonemes": "mə klˈɑski"
+    },
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2006) [26]",
+   "phonemes": "(tˈu θˈWzᵊnd sˈɪks) [twˈɛnti sˈɪks)",
+   "fallback": [
+    {
+     "text": "[26",
+     "phonemes": "[twˈɛnti sˈɪks"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "semi-supervised",
+   "phonemes": "sˌɛmIsˈupəɹvˌIzd",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Vinyals & Kaiser el al.",
+   "phonemes": "vˈɪnɪᵊlz ænd kˈIzəɹ ˌɛl ˈæl.",
+   "fallback": [
+    {
+     "text": "Vinyals",
+     "phonemes": "vˈɪnɪᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2014) [37]",
+   "phonemes": "(twˈɛnti fˌɔɹtˈin) [θˈɜɹTi sˈɛvən)",
+   "fallback": [
+    {
+     "text": "[37",
+     "phonemes": "[θˈɜɹTi sˈɛvən"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "semi-supervised",
+   "phonemes": "sˌɛmIsˈupəɹvˌIzd",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Transformer (4 layers)",
+   "phonemes": "tɹænsfˈɔɹməɹ (fˈɔɹ lˈAəɹz)",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "semi-supervised",
+   "phonemes": "sˌɛmIsˈupəɹvˌIzd",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Luong et al.",
+   "phonemes": "ljˈuɑŋ ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "Luong",
+     "phonemes": "ljˈuɑŋ"
+    },
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2015) [23]",
+   "phonemes": "(twˈɛnti fˌɪftˈin) [twˈɛnti θɹˈi)",
+   "fallback": [
+    {
+     "text": "[23",
+     "phonemes": "[twˈɛnti θɹˈi"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "multi-task",
+   "phonemes": "mˈʌltitˌæsk",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Dyer et al.",
+   "phonemes": "dˈIəɹ ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "(2016) [8]",
+   "phonemes": "(twˈɛnti sˌɪkstˈin) [ˈAt)",
+   "fallback": [
+    {
+     "text": "[8",
+     "phonemes": "[ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "generative",
+   "phonemes": "ʤˈɛnəɹəTɪv",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "increased the maximum output length to input length + 300.",
+   "phonemes": "ɪnkɹˈist ðə mˈæksəməm ˈWtpˌʊt lˈɛŋθ tʊ ˈɪnpˌʊt lˈɛŋθ plˈʌs θɹˈi hˈʌndɹəd.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "We used a beam size of 21 and a = 0.3 for both WSJ only and the semi-supervised setting.",
+   "phonemes": "wˌi jˈuzd ɐ bˈim sˈIz ʌv twˈɛnti wˈʌn ænd ɐ ˈikwᵊlz zˈɪɹO pYnt θɹˈi fɔɹ bˈOθ dˌʌbᵊljuˌɛsʤˈA ˈOnli ænd ðə sˌɛmIsˈupəɹvˌIzd sˈɛTɪŋ.",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Our results in Table 4 show that despite the lack of task-specific tuning our model performs surprisingly well, yielding better results than all previously reported models with the exception of the Recurrent Neural Network Grammar [8].",
+   "phonemes": "ˌWəɹ ɹəzˈʌlts ɪn tˈAbᵊl fˈɔɹ ʃˈO ðæt dəspˈIt ðə lˈæk ʌv tˌæskspəsˈɪfɪk tˈunɪŋ ˌWəɹ mˈɑdᵊl pəɹfˈɔɹmz səɹpɹˈIzɪŋli wˈɛl, jˈildɪŋ bˈɛTəɹ ɹəzˈʌlts ðən ˈɔl pɹˈiviəsli ɹəpˈɔɹTᵻd mˈɑdᵊlz wɪð ði ɪksˈɛpʃən ʌv ðə ɹəkˈɜɹənt nˈʊɹᵊl nˈɛtwˌɜɹk ɡɹˈæməɹ [ˈAt).",
+   "fallback": [
+    {
+     "text": "[8",
+     "phonemes": "[ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "In contrast to RNN sequenceo-sequence models [37), the Transformer outperforms the BerkeleyParser [29] even when training only on the WSJ training set of 40K sentences.",
+   "phonemes": "ɪn kˈɑntɹˌæst tʊ ˌɑɹˌɛnˈɛn sˌikwənsˈAOsˈikwəns mˈɑdᵊlz [θˈɜɹTi sˈɛvən), ðə tɹænsfˈɔɹməɹ ˌWtpəɹfˈɔɹmz ðə bˌɜɹklipˈɑɹsəɹ [twˈɛnti nˈIn) ˈivən wˌɛn tɹˈAnɪŋ ˈOnli ˌɔn ðə dˌʌbᵊljuˌɛsʤˈA tɹˈAnɪŋ sˈɛt ʌv fˈɔɹTi kˈA sˈɛntᵊnsᵻz.",
+   "fallback": [
+    {
+     "text": "sequenceo-sequence",
+     "phonemes": "sˌikwənsˈAOsˈikwəns"
+    },
+    {
+     "text": "[37",
+     "phonemes": "[θˈɜɹTi sˈɛvən"
+    },
+    {
+     "text": "[29",
+     "phonemes": "[twˈɛnti nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "7 Conclusion",
+   "phonemes": "sˈɛvən kənklˈuʒən",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "In this work, we presented the Transformer, the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.",
+   "phonemes": "ɪn ðɪs wˈɜɹk, wi pɹizˈɛntᵻd ðə tɹænsfˈɔɹməɹ, ðə fˈɜɹst sˈikwəns tɹˌænzdˈʌkʃən mˈɑdᵊl bˈAst əntˈIəɹli ˌɔn ətˈɛnʧən, ɹᵻplˈAsɪŋ ðə ɹəkˈɜɹənt lˈAəɹz mˈOst kˈɑmənli jˈuzd ɪn ɪnkˌOdəɹdˌikˈOdəɹ ˈɑɹkətˌɛkʧəɹz wɪð mˌʌltihˈɛdᵻd sˌɛlfətˈɛnʧən.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "For translation tasks, the Transformer can be trained significantly faster than architectures based on recurrent or convolutional layers.",
+   "phonemes": "fˌɔɹ tɹænzlˈAʃən tˈæsks, ðə tɹænsfˈɔɹməɹ kæn bi tɹˈAnd səɡnˈɪfəkəntli fˈæstəɹ ðən ˈɑɹkətˌɛkʧəɹz bˈAst ˌɔn ɹəkˈɜɹənt ɔɹ kˌɑnvəlˈuʃənᵊl lˈAəɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "On both WMT 2014 English-to-German and WMT 2014 English-to-French translation tasks, we achieve a new state of the art.",
+   "phonemes": "ˌɔn bˈOθ dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ˈɪŋɡlɪʃtəʤˈɜɹmən ænd dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ˈɪŋɡlɪʃtəfɹˈɛnʧ tɹænzlˈAʃən tˈæsks, wi əʧˈiv ɐ nˈu stˈAt ʌv ði ˈɑɹt.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "In the former task our best model outperforms even all previously reported ensembles.",
+   "phonemes": "ɪn ðə fˈɔɹməɹ tˈæsk ˌWəɹ bˈɛst mˈɑdᵊl ˌWtpəɹfˈɔɹmz ˈivən ˈɔl pɹˈiviəsli ɹəpˈɔɹTᵻd ɑnsˈɑmbᵊlz.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "We are excited about the future of attention-based models and plan to apply them to other tasks.",
+   "phonemes": "wˌi ɑɹ ɪksˈITᵻd əbˈWt ðə fjˈuʧəɹ ʌv ətˈɛnʧənbˌAst mˈɑdᵊlz ænd plˈæn tʊ əplˈI ðˌɛm tʊ ˈʌðəɹ tˈæsks.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "We plan to extend the Transformer to problems involving input and output modalities other than text and to investigate local, restricted attention mechanisms to efficiently handle large inputs and outputs such as images, audio and video.",
+   "phonemes": "wˌi plˈæn tʊ ɪkstˈɛnd ðə tɹænsfˈɔɹməɹ tə pɹˈɑbləmz ɪnvˈɑlvɪŋ ˈɪnpˌʊt ænd ˈWtpˌʊt mOdˈæləTiz ˈʌðəɹ ðən tˈɛkst ænd tʊ ɪnvˈɛstəɡˌAt lˈOkəl, ɹəstɹˈɪktᵻd ətˈɛnʧən mˈɛkənˌɪzəmz tʊ əfˈɪʃəntli hˈændəl lˈɑɹʤ ˈɪnpˌʊts ænd ˈWtpˌʊts sˈʌʧ æz ˈɪmɪʤᵻz, ˈɔdiO ænd vˈɪdiO.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Making generation less sequential is another research goals of ours.",
+   "phonemes": "mˈAkɪŋ ʤˌɛnəɹˈAʃən lˈɛs səkwˈɛnʧᵊl ɪz ənˈʌðəɹ ɹˈisˌɜɹʧ ɡˈOlz ʌv ˈWəɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "The code we used to train and evaluate our models is available at https://github.",
+   "phonemes": "ðə kˈOd wi jˈust tə tɹˈAn ænd əvˈæljʊˌAt ˌWəɹ mˈɑdᵊlz ɪz əvˈAləbᵊl æt ˌAʧtˌitˈipˌiˈɛs:slˈæʃslæʃ ɡˈɪthʌb.",
+   "fallback": [
+    {
+     "text": "https://github",
+     "phonemes": "ˌAʧtˌitˈipˌiˈɛs:slˈæʃslæʃ ɡˈɪthʌb"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": ".",
+   "phonemes": ".",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "com/ tensorflow/tensor2tensor.",
+   "phonemes": "kˈɑm tˈɛnsɔɹflˌO slˈæʃ tˈɛnsəɹtətˈɛnsəɹ.",
+   "fallback": [
+    {
+     "text": "tensorflow/tensor",
+     "phonemes": "tˈɛnsɔɹflˌO slˈæʃ tˈɛnsəɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Acknowledgements We are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful comments, corrections and inspiration.",
+   "phonemes": "əknˈɑlɪʤmənts wˌi ɑɹ ɡɹˈAtfᵊl tə nˈæl kˈælʧbɹənəɹ ænd stˈɛfən ɡˈWwz fɔɹ ðɛɹ fɹˈutfᵊl kˈɑmˌɛnts, kəɹˈɛkʃənz ænd ˌɪnspəɹˈAʃən.",
+   "fallback": [
+    {
+     "text": "Acknowledgements",
+     "phonemes": "əknˈɑlɪʤmənts"
+    },
+    {
+     "text": "Nal",
+     "phonemes": "nˈæl"
+    },
+    {
+     "text": "Kalchbrenner",
+     "phonemes": "kˈælʧbɹənəɹ"
+    },
+    {
+     "text": "Stephan",
+     "phonemes": "stˈɛfən"
+    },
+    {
+     "text": "Gouws",
+     "phonemes": "ɡˈWwz"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "References",
+   "phonemes": "ɹˈɛfəɹənsᵻz",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton.",
+   "phonemes": "[wˈʌn] ʤˈɪmi lˈA bˈɑ, ʤˈAmi ɹˈIən kˈIɹOz, ænd ʤˈɛfɹi ˈi hˈɪntən.",
+   "fallback": [
+    {
+     "text": "[1]",
+     "phonemes": "[wˈʌn]"
+    },
+    {
+     "text": "Jamie",
+     "phonemes": "ʤˈAmi"
+    },
+    {
+     "text": "Ryan",
+     "phonemes": "ɹˈIən"
+    },
+    {
+     "text": "Kiros",
+     "phonemes": "kˈIɹOz"
+    },
+    {
+     "text": "Geoffrey",
+     "phonemes": "ʤˈɛfɹi"
+    },
+    {
+     "text": "Hinton",
+     "phonemes": "hˈɪntən"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Layer normalization.",
+   "phonemes": "lˈAəɹ nˌɔɹmələzˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "arXiv preprint",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "arXiv:1607.06450, 2016.",
+   "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd sˈɛvən.zˈiəɹOsˈɪks fˈɔɹfˈIvzˈiəɹO, twˈɛnti sˌɪkstˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1607.06450",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd sˈɛvən.zˈiəɹOsˈɪks fˈɔɹfˈIvzˈiəɹO"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "[2] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.",
+   "phonemes": "[tˈu] dˌizˈimˈɪtɹi bˈɑdənˌW, kjˈuŋhɪˌʌn ʧˈO, ænd jˈɑʃjuə bˈɛŋɡɪˌO.",
+   "fallback": [
+    {
+     "text": "[2]",
+     "phonemes": "[tˈu]"
+    },
+    {
+     "text": "Dzmitry",
+     "phonemes": "dˌizˈimˈɪtɹi"
+    },
+    {
+     "text": "Bahdanau",
+     "phonemes": "bˈɑdənˌW"
+    },
+    {
+     "text": "Kyunghyun",
+     "phonemes": "kjˈuŋhɪˌʌn"
+    },
+    {
+     "text": "Cho",
+     "phonemes": "ʧˈO"
+    },
+    {
+     "text": "Yoshua",
+     "phonemes": "jˈɑʃjuə"
+    },
+    {
+     "text": "Bengio",
+     "phonemes": "bˈɛŋɡɪˌO"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Neural machine translation by jointly",
+   "phonemes": "nˈʊɹᵊl məʃˈin tɹænzlˈAʃən bI ʤˈYntli",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "learning to align and translate.",
+   "phonemes": "lˈɜɹnɪŋ tʊ əlˈIn ænd tɹænzlˈAt.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "CORR, abs/1409.0473, 2014.",
+   "phonemes": "sˌiˌOˌɑɹˈɑɹ, ˈæbz wˈʌn fˈɔɹ zˈɪɹO nˈIn zˈɪɹO fˈɔɹ sˈɛvən θɹˈi, twˈɛnti fˌɔɹtˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "[3] Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V.",
+   "phonemes": "[θɹˈi) dˈɛni bɹˈɪts, ˈɑnə ɡˈOldi, mˈɪnθˈæŋ ljˈuɑŋ, ænd kwˈɑk vˈi",
+   "fallback": [
+    {
+     "text": "[3",
+     "phonemes": "[θɹˈi"
+    },
+    {
+     "text": "Denny",
+     "phonemes": "dˈɛni"
+    },
+    {
+     "text": "Britz",
+     "phonemes": "bɹˈɪts"
+    },
+    {
+     "text": "Minh-Thang",
+     "phonemes": "mˈɪnθˈæŋ"
+    },
+    {
+     "text": "Luong",
+     "phonemes": "ljˈuɑŋ"
+    },
+    {
+     "text": "Quoc",
+     "phonemes": "kwˈɑk"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Le.",
+   "phonemes": "lə.",
+   "fallback": [
+    {
+     "text": "Le",
+     "phonemes": "lə"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Massive exploration of neural",
+   "phonemes": "mˈæsɪv ˌɛkspləɹˈAʃən ʌv nˈʊɹᵊl",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "machine translation architectures.",
+   "phonemes": "məʃˈin tɹænzlˈAʃən ˈɑɹkətˌɛkʧəɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "CORR, abs/1703.03906, 2017.",
+   "phonemes": "sˌiˌOˌɑɹˈɑɹ, ˈæbz wˈʌn sˈɛvən zˈɪɹO θɹˈi zˈɪɹO θɹˈi nˈIn zˈɪɹO sˈɪks, twˈɛnti sˌɛvəntˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_10.txt",
+   "text": "[4] Jianpeng Cheng, Li Dong, and Mirella Lapata.",
+   "phonemes": "[fˈɔɹ] ʤˌIənpˈɛŋ ʧˈɛŋ, lˈi dˈɔŋ, ænd mˈIəɹlə læpˈɑTə.",
+   "fallback": [
+    {
+     "text": "[4]",
+     "phonemes": "[fˈɔɹ]"
+    },
+    {
+     "text": "Jianpeng",
+     "phonemes": "ʤˌIənpˈɛŋ"
+    },
+    {
+     "text": "Cheng",
+     "phonemes": "ʧˈɛŋ"
+    },
+    {
+     "text": "Mirella",
+     "phonemes": "mˈIəɹlə"
+    },
+    {
+     "text": "Lapata",
+     "phonemes": "læpˈɑTə"
+    }
+   ]
+  },
+  {
+   "source": "page_10.txt",
+   "text": "Long short-term memory-networks for machine",
+   "phonemes": "lˈɔŋ ʃˈɔɹttˌɜɹm mˌɛməɹinˈɛtwˌɜɹks fɔɹ məʃˈin",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio.",
+   "phonemes": "[fˈIv] kjˈuŋhɪˌʌn ʧˈO, bˈɑɹt vˈæn mˈɛɹiənbˌOəɹ, kˈæɡləɹ ɡˈʌlsAəɹ, fˈɛθI bˈWɡɛɹz, hˈɑlʤəɹ ʃwˈɛŋk, ænd jˈɑʃjuə bˈɛŋɡɪˌO.",
+   "fallback": [
+    {
+     "text": "[5]",
+     "phonemes": "[fˈIv]"
+    },
+    {
+     "text": "Kyunghyun",
+     "phonemes": "kjˈuŋhɪˌʌn"
+    },
+    {
+     "text": "Cho",
+     "phonemes": "ʧˈO"
+    },
+    {
+     "text": "Merrienboer",
+     "phonemes": "mˈɛɹiənbˌOəɹ"
+    },
+    {
+     "text": "Caglar",
+     "phonemes": "kˈæɡləɹ"
+    },
+    {
+     "text": "Gulcehre",
+     "phonemes": "ɡˈʌlsAəɹ"
+    },
+    {
+     "text": "Fethi",
+     "phonemes": "fˈɛθI"
+    },
+    {
+     "text": "Bougares",
+     "phonemes": "bˈWɡɛɹz"
+    },
+    {
+     "text": "Holger",
+     "phonemes": "hˈɑlʤəɹ"
+    },
+    {
+     "text": "Schwenk",
+     "phonemes": "ʃwˈɛŋk"
+    },
+    {
+     "text": "Yoshua",
+     "phonemes": "jˈɑʃjuə"
+    },
+    {
+     "text": "Bengio",
+     "phonemes": "bˈɛŋɡɪˌO"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Learning phrase representations using rnn encoder-decoder for statistical machine translation.",
+   "phonemes": "lˈɜɹnɪŋ fɹˈAz ɹˌɛpɹəzˌɛntˈAʃənz jˈuzɪŋ ˌɑɹɹˌɛnˈɛn ɪnkˌOdəɹdˌikˈOdəɹ fɔɹ stətˈɪstəkəl məʃˈin tɹænzlˈAʃən.",
+   "fallback": [
+    {
+     "text": "rnn",
+     "phonemes": "ˌɑɹɹˌɛnˈɛn"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "CORR, abs/1406.1078, 2014.",
+   "phonemes": "sˌiˌOˌɑɹˈɑɹ, ˈæbz wˈʌn fˈɔɹ zˈɪɹO sˈɪks wˈʌn zˈɪɹO sˈɛvən ˈAt, twˈɛnti fˌɔɹtˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[6] Francois Chollet.",
+   "phonemes": "[sˈɪks] fɹˈænswɑ kˈɑlɪt.",
+   "fallback": [
+    {
+     "text": "[6]",
+     "phonemes": "[sˈɪks]"
+    },
+    {
+     "text": "Francois",
+     "phonemes": "fɹˈænswɑ"
+    },
+    {
+     "text": "Chollet",
+     "phonemes": "kˈɑlɪt"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Xception: Deep learning with depthwise separable convolutions.",
+   "phonemes": "ˈɛkssˈɛpʃən: dˈip lˈɜɹnɪŋ wɪð dˈɛpθwIz sˈɛpəɹəbᵊl kˌɑnvəlˈuʃənz.",
+   "fallback": [
+    {
+     "text": "Xception",
+     "phonemes": "ˈɛkssˈɛpʃən"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXiv:1610.02357, 2016.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd tˈɛn.zˈiəɹOtˈu θɹˈifˈIvsˈɛvən, twˈɛnti sˌɪkstˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1610.02357",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd tˈɛn.zˈiəɹOtˈu θɹˈifˈIvsˈɛvən"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[7] Junyoung Chung, Çaglar Gulçehre, Kyunghyun Cho, and Yoshua Bengio.",
+   "phonemes": "[sˈɛvən) ʤˈʌnɪˌʌŋ ʧˈʌŋ, sˈæɡləɹ ɡˈʌlsAəɹ, kjˈuŋhɪˌʌn ʧˈO, ænd jˈɑʃjuə bˈɛŋɡɪˌO.",
+   "fallback": [
+    {
+     "text": "[7",
+     "phonemes": "[sˈɛvən"
+    },
+    {
+     "text": "Junyoung",
+     "phonemes": "ʤˈʌnɪˌʌŋ"
+    },
+    {
+     "text": "Chung",
+     "phonemes": "ʧˈʌŋ"
+    },
+    {
+     "text": "Çaglar",
+     "phonemes": "sˈæɡləɹ"
+    },
+    {
+     "text": "Gulçehre",
+     "phonemes": "ɡˈʌlsAəɹ"
+    },
+    {
+     "text": "Kyunghyun",
+     "phonemes": "kjˈuŋhɪˌʌn"
+    },
+    {
+     "text": "Cho",
+     "phonemes": "ʧˈO"
+    },
+    {
+     "text": "Yoshua",
+     "phonemes": "jˈɑʃjuə"
+    },
+    {
+     "text": "Bengio",
+     "phonemes": "bˈɛŋɡɪˌO"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Empirical evaluation of gated recurrent neural networks on sequence modeling.",
+   "phonemes": "ɪmpˈɪɹəkᵊl əvˌæljʊˈAʃən ʌv ɡˈATᵻd ɹəkˈɜɹənt nˈʊɹᵊl nˈɛtwˌɜɹks ˌɔn sˈikwəns mˈɑdᵊlɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "CORR, abs/1412.3555, 2014.",
+   "phonemes": "sˌiˌOˌɑɹˈɑɹ, ˈæbz wˈʌn fˈɔɹ wˈʌn tˈu θɹˈi fˈIv fˈIv fˈIv, twˈɛnti fˌɔɹtˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[8] Chris Dyer, Adhiguna Kuncoro, Miguel Ballesteros, and Noah A.",
+   "phonemes": "[ˈAt) kɹˈɪs dˈIəɹ, ədhɪɡˈunə kʌŋkˈɔɹO, miɡˈɛl bˌælɪstˈɛɹOz, ænd nˈOə ˈA",
+   "fallback": [
+    {
+     "text": "[8",
+     "phonemes": "[ˈAt"
+    },
+    {
+     "text": "Adhiguna",
+     "phonemes": "ədhɪɡˈunə"
+    },
+    {
+     "text": "Kuncoro",
+     "phonemes": "kʌŋkˈɔɹO"
+    },
+    {
+     "text": "Miguel",
+     "phonemes": "miɡˈɛl"
+    },
+    {
+     "text": "Ballesteros",
+     "phonemes": "bˌælɪstˈɛɹOz"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Smith.",
+   "phonemes": "smˈɪθ.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Recurrent neural network grammars.",
+   "phonemes": "ɹəkˈɜɹənt nˈʊɹᵊl nˈɛtwˌɜɹk ɡɹˈæməɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "In Proc.",
+   "phonemes": "ɪn pɹˈɑk.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "OfNAACL, 2016.",
+   "phonemes": "ˌʌvˌɛnˌAˌAsˌiˈɛl, twˈɛnti sˌɪkstˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[9] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N.",
+   "phonemes": "[nˈIn] ʤˈOnəz ʤˈAɹɪŋ, mˈIkᵊl ˈɔli, dˈAvəd ɡɹˈæŋiəɹ, dˈɛniz jˈæɹæts, ænd jˈæn ˈɛn",
+   "fallback": [
+    {
+     "text": "[9]",
+     "phonemes": "[nˈIn]"
+    },
+    {
+     "text": "Jonas",
+     "phonemes": "ʤˈOnəz"
+    },
+    {
+     "text": "Gehring",
+     "phonemes": "ʤˈAɹɪŋ"
+    },
+    {
+     "text": "Auli",
+     "phonemes": "ˈɔli"
+    },
+    {
+     "text": "Grangier",
+     "phonemes": "ɡɹˈæŋiəɹ"
+    },
+    {
+     "text": "Yarats",
+     "phonemes": "jˈæɹæts"
+    },
+    {
+     "text": "Yann",
+     "phonemes": "jˈæn"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Dauphin.",
+   "phonemes": "dˈɔfən.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Convolutional sequence to sequence learning.",
+   "phonemes": "kˌɑnvəlˈuʃənᵊl sˈikwəns tə sˈikwəns lˈɜɹnɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arX:1705.03122v2, 2017.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ ˈɛks:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd fˈIv.zˈiəɹOθɹˈi wˈʌntˈutˈu vˈi tˈu, twˈɛnti sˌɛvəntˈin.",
+   "fallback": [
+    {
+     "text": "arX:1705.03122v2",
+     "phonemes": "ˈɑɹ ˈɛks:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd fˈIv.zˈiəɹOθɹˈi wˈʌntˈutˈu vˈi tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[10] Alex Graves.",
+   "phonemes": "[tˈɛn] ˈælɪks ɡɹˈAvz.",
+   "fallback": [
+    {
+     "text": "[10]",
+     "phonemes": "[tˈɛn]"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Generating sequences with recurrent neural networks.",
+   "phonemes": "ʤˈɛnəɹˌATɪŋ sˈikwənsᵻz wɪð ɹəkˈɜɹənt nˈʊɹᵊl nˈɛtwˌɜɹks.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXiv:1308.0850, 2013.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd θɹˈihˈʌndɹɪd ˈAt.zˈiəɹOˈAtfˈIvzˈiəɹO, twˈɛnti θˌɜɹtˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1308.0850",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd θɹˈihˈʌndɹɪd ˈAt.zˈiəɹOˈAtfˈIvzˈiəɹO"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[11] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.",
+   "phonemes": "[ɪlˈɛvən] kˈImɪŋ hˌi, zˈIəŋɪˌu ʒˈæŋ, ʃˈAɑkɪŋ ɹˈɛn, ænd ʤˈIən sˈʌn.",
+   "fallback": [
+    {
+     "text": "[11]",
+     "phonemes": "[ɪlˈɛvən]"
+    },
+    {
+     "text": "Kaiming",
+     "phonemes": "kˈImɪŋ"
+    },
+    {
+     "text": "Xiangyu",
+     "phonemes": "zˈIəŋɪˌu"
+    },
+    {
+     "text": "Zhang",
+     "phonemes": "ʒˈæŋ"
+    },
+    {
+     "text": "Shaoqing",
+     "phonemes": "ʃˈAɑkɪŋ"
+    },
+    {
+     "text": "Jian",
+     "phonemes": "ʤˈIən"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Deep residual learning for image recognition.",
+   "phonemes": "dˈip ɹəzˈɪʤəwəl lˈɜɹnɪŋ fɔɹ ˈɪmɪʤ ɹˌɛkəɡnˈɪʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770-778, 2016.",
+   "phonemes": "ɪn pɹəsˈidɪŋz ʌv ði ˌIˌiˌiˈi kˈɑnfəɹəns ˌɔn kəmpjˈuTəɹ vˈɪʒən ænd pˈæTəɹn ɹˌɛkəɡnˈɪʃən, pˈAʤᵻz sˈɛvən hˈʌndɹəd sˈɛvəntisˌɛvən sˌɛvənti ˌAt, twˈɛnti sˌɪkstˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[12] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jurgen Schmidhuber.",
+   "phonemes": "[twˈɛlv) sˈɛp hˈɑkɹATəɹ, jˈɑʃjuə bˈɛŋɡɪˌO, pˈWlO fɹæskˈOni, ænd ʤˈɜɹʤən ʃmˈɪdhjubəɹ.",
+   "fallback": [
+    {
+     "text": "[12",
+     "phonemes": "[twˈɛlv"
+    },
+    {
+     "text": "Sepp",
+     "phonemes": "sˈɛp"
+    },
+    {
+     "text": "Hochreiter",
+     "phonemes": "hˈɑkɹATəɹ"
+    },
+    {
+     "text": "Yoshua",
+     "phonemes": "jˈɑʃjuə"
+    },
+    {
+     "text": "Bengio",
+     "phonemes": "bˈɛŋɡɪˌO"
+    },
+    {
+     "text": "Paolo",
+     "phonemes": "pˈWlO"
+    },
+    {
+     "text": "Frasconi",
+     "phonemes": "fɹæskˈOni"
+    },
+    {
+     "text": "Jurgen",
+     "phonemes": "ʤˈɜɹʤən"
+    },
+    {
+     "text": "Schmidhuber",
+     "phonemes": "ʃmˈɪdhjubəɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001.",
+   "phonemes": "ɡɹˈAdiənt flˈO ɪn ɹəkˈɜɹənt nˈɛts: ðə dˈɪfəkəlti ʌv lˈɜɹnɪŋ lˈɔŋtˌɜɹm dəpˈɛndᵊnsiz, tˈu θˈWzᵊnd wˈʌn.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[13] Sepp Hochreiter and Jurgen Schmidhuber.",
+   "phonemes": "[θˈɜɹtin] sˈɛp hˈɑkɹATəɹ ænd ʤˈɜɹʤən ʃmˈɪdhjubəɹ.",
+   "fallback": [
+    {
+     "text": "[13]",
+     "phonemes": "[θˈɜɹtin]"
+    },
+    {
+     "text": "Sepp",
+     "phonemes": "sˈɛp"
+    },
+    {
+     "text": "Hochreiter",
+     "phonemes": "hˈɑkɹATəɹ"
+    },
+    {
+     "text": "Jurgen",
+     "phonemes": "ʤˈɜɹʤən"
+    },
+    {
+     "text": "Schmidhuber",
+     "phonemes": "ʃmˈɪdhjubəɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Long short-term memory.",
+   "phonemes": "lˈɔŋ ʃˈɔɹttˌɜɹm mˈɛməɹi.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Neural computation, 9(8):1735-1780, 1997.",
+   "phonemes": "nˈʊɹᵊl kˌɑmpjətˈAʃən, nˈIn(ˈAt):wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd θˈɜɹTi fˈIv dˈæʃ wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd ˈATi, nˌIntˈin nˈIndi sˈɛvən.",
+   "fallback": [
+    {
+     "text": "9(8):1735-1780",
+     "phonemes": "nˈIn(ˈAt):wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd θˈɜɹTi fˈIv dˈæʃ wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd ˈATi"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[14] Zhongqiang Huang and Mary Harper.",
+   "phonemes": "[fˈɔɹtin) ʒˈɑŋkjæŋ hwˈɑŋ ænd mˈɛɹi hˈɑɹpəɹ.",
+   "fallback": [
+    {
+     "text": "[14",
+     "phonemes": "[fˈɔɹtin"
+    },
+    {
+     "text": "Zhongqiang",
+     "phonemes": "ʒˈɑŋkjæŋ"
+    },
+    {
+     "text": "Huang",
+     "phonemes": "hwˈɑŋ"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Self-training PCFG grammars with latent annotations across languages.",
+   "phonemes": "sˌɛlftɹˈAnɪŋ pˌisˌiˌɛfʤˈi ɡɹˈæməɹz wɪð lˈAtᵊnt ˌænətˈAʃənz əkɹˈɔs lˈæŋɡwɪʤᵻz.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pages 832-841.",
+   "phonemes": "ɪn pɹəsˈidɪŋz ʌv ðə tˈu θˈWzᵊnd nˈIn kˈɑnfəɹəns ˌɔn ɪmpˈɪɹəkᵊl mˈɛθədz ɪn nˈæʧəɹᵊl lˈæŋɡwɪʤ pɹˈɑsɛsɪŋ, pˈAʤᵻz ˈAt hˈʌndɹəd θˈɜɹTi tˈuˌAt fˌɔɹTi wˌʌn.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "ACL, August 2009.",
+   "phonemes": "ˌAsˌiˈɛl, ˈɔɡəst tˈu θˈWzᵊnd nˈIn.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[15] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu.",
+   "phonemes": "[fˈɪftin] ɹˈæfᵊl ʤˈOzfOvˌɪʧ, ˈɔɹɪˌɑl vˈɪnɪᵊlz, mˈIk ʃˈʌstəɹ, nˈOm ʃæzˈɪɹ, ænd jˈɑŋhjui wˈu.",
+   "fallback": [
+    {
+     "text": "[15]",
+     "phonemes": "[fˈɪftin]"
+    },
+    {
+     "text": "Rafal",
+     "phonemes": "ɹˈæfᵊl"
+    },
+    {
+     "text": "Jozefowicz",
+     "phonemes": "ʤˈOzfOvˌɪʧ"
+    },
+    {
+     "text": "Oriol",
+     "phonemes": "ˈɔɹɪˌɑl"
+    },
+    {
+     "text": "Vinyals",
+     "phonemes": "vˈɪnɪᵊlz"
+    },
+    {
+     "text": "Schuster",
+     "phonemes": "ʃˈʌstəɹ"
+    },
+    {
+     "text": "Noam",
+     "phonemes": "nˈOm"
+    },
+    {
+     "text": "Shazeer",
+     "phonemes": "ʃæzˈɪɹ"
+    },
+    {
+     "text": "Yonghui",
+     "phonemes": "jˈɑŋhjui"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Exploring the limits of language modeling.",
+   "phonemes": "ɪksplˈɔɹɪŋ ðə lˈɪməts ʌv lˈæŋɡwɪʤ mˈɑdᵊlɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXiv:1602.02410, 2016.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd tˈu.zˈiəɹOtˈu fˈɔɹwˈʌnzˈiəɹO, twˈɛnti sˌɪkstˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1602.02410",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd tˈu.zˈiəɹOtˈu fˈɔɹwˈʌnzˈiəɹO"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[16] Lukasz Kaiser and Samy Bengio.",
+   "phonemes": "[sˈɪkstin] lˈukæsz kˈIzəɹ ænd sˈAmi bˈɛŋɡɪˌO.",
+   "fallback": [
+    {
+     "text": "[16]",
+     "phonemes": "[sˈɪkstin]"
+    },
+    {
+     "text": "Lukasz",
+     "phonemes": "lˈukæsz"
+    },
+    {
+     "text": "Samy",
+     "phonemes": "sˈAmi"
+    },
+    {
+     "text": "Bengio",
+     "phonemes": "bˈɛŋɡɪˌO"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Can active memory replace attention?",
+   "phonemes": "kˌæn ˈæktɪv mˈɛməɹi ɹəplˈAs ətˈɛnʧən?",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "In Advances in Neural Information Processing Systems, (NIPS), 2016.",
+   "phonemes": "ɪn ədvˈænsᵻz ɪn nˈʊɹᵊl ˌɪnfəɹmˈAʃən pɹˈɑsɛsɪŋ sˈɪstəmz, (ˌɛnˌIpˌiˈɛs), twˈɛnti sˌɪkstˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[17] Lukasz Kaiser and Ilya Sutskever.",
+   "phonemes": "[sˈɛvəntˌin] lˈukæsz kˈIzəɹ ænd ˈɪliə sˈʌtskɛvəɹ.",
+   "fallback": [
+    {
+     "text": "[17]",
+     "phonemes": "[sˈɛvəntˌin]"
+    },
+    {
+     "text": "Lukasz",
+     "phonemes": "lˈukæsz"
+    },
+    {
+     "text": "Ilya",
+     "phonemes": "ˈɪliə"
+    },
+    {
+     "text": "Sutskever",
+     "phonemes": "sˈʌtskɛvəɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Neural GPUS learn algorithms.",
+   "phonemes": "nˈʊɹᵊl ʤˌipˌijˌuˈɛs lˈɜɹn ˈælɡəɹˌɪðəmz.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "In International Conference on Learning Representations (ICLR), 2016.",
+   "phonemes": "ɪn ˌɪntəɹnˈæʃᵊnəl kˈɑnfəɹəns ˌɔn lˈɜɹnɪŋ ɹˌɛpɹəzˌɛntˈAʃənz (ˌIsˌiˌɛlˈɑɹ), twˈɛnti sˌɪkstˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[18] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu.",
+   "phonemes": "[ˈAtin) nˈæl kˈælʧbɹənəɹ, lˈæs ɛspˈɛhOlt, kəɹˈɛn sɪmˈɑnjən, ˈɛɹən vˈæn dˈɛn ˈuəd, ˈælɪks ɡɹˈAvz, ænd kˈɔɹA kˈævəkkjˌuəɡlˌu.",
+   "fallback": [
+    {
+     "text": "[18",
+     "phonemes": "[ˈAtin"
+    },
+    {
+     "text": "Nal",
+     "phonemes": "nˈæl"
+    },
+    {
+     "text": "Kalchbrenner",
+     "phonemes": "kˈælʧbɹənəɹ"
+    },
+    {
+     "text": "Lasse",
+     "phonemes": "lˈæs"
+    },
+    {
+     "text": "Espeholt",
+     "phonemes": "ɛspˈɛhOlt"
+    },
+    {
+     "text": "Simonyan",
+     "phonemes": "sɪmˈɑnjən"
+    },
+    {
+     "text": "Oord",
+     "phonemes": "ˈuəd"
+    },
+    {
+     "text": "Koray",
+     "phonemes": "kˈɔɹA"
+    },
+    {
+     "text": "Kavukcuoglu",
+     "phonemes": "kˈævəkkjˌuəɡlˌu"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Neural machine translation in linear time.",
+   "phonemes": "nˈʊɹᵊl məʃˈin tɹænzlˈAʃən ɪn lˈɪniəɹ tˈIm.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXv:16/0.1009912, 2017.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ ˌɛksvˈi:sˈɪkstin slˈæʃ zˈiəɹO.wˈʌn mˈɪliən nˈIn θˈWzənd nˈInhˈʌndɹɪd twˈɛlv, twˈɛnti sˌɛvəntˈin.",
+   "fallback": [
+    {
+     "text": "arXv:16/0.1009912",
+     "phonemes": "ˈɑɹ ˌɛksvˈi:sˈɪkstin slˈæʃ zˈiəɹO.wˈʌn mˈɪliən nˈIn θˈWzənd nˈInhˈʌndɹɪd twˈɛlv"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[19] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M.",
+   "phonemes": "[nˈIntin] jˈun kˈɪm, kˈɑɹl dˈɛntᵊn, ljˈuɑŋ hˈOŋ, ænd ˌæləɡzˈændəɹ ˈɛm",
+   "fallback": [
+    {
+     "text": "[19]",
+     "phonemes": "[nˈIntin]"
+    },
+    {
+     "text": "Yoon",
+     "phonemes": "jˈun"
+    },
+    {
+     "text": "Kim",
+     "phonemes": "kˈɪm"
+    },
+    {
+     "text": "Luong",
+     "phonemes": "ljˈuɑŋ"
+    },
+    {
+     "text": "Hoang",
+     "phonemes": "hˈOŋ"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Rush.",
+   "phonemes": "ɹˈʌʃ.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Structured attention networks.",
+   "phonemes": "stɹˈʌkʧəɹd ətˈɛnʧən nˈɛtwˌɜɹks.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "In International Conference on Learning Representations, 2017.",
+   "phonemes": "ɪn ˌɪntəɹnˈæʃᵊnəl kˈɑnfəɹəns ˌɔn lˈɜɹnɪŋ ɹˌɛpɹəzˌɛntˈAʃənz, twˈɛnti sˌɛvəntˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[20] Diederik Kingma and Jimmy Ba.",
+   "phonemes": "[twˈɛnti] dˈidəɹɹˌɪk kˈɪŋmə ænd ʤˈɪmi bˈɑ.",
+   "fallback": [
+    {
+     "text": "[20]",
+     "phonemes": "[twˈɛnti]"
+    },
+    {
+     "text": "Diederik",
+     "phonemes": "dˈidəɹɹˌɪk"
+    },
+    {
+     "text": "Kingma",
+     "phonemes": "kˈɪŋmə"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Adam: A method for stochastic optimization.",
+   "phonemes": "ˈædəm: ɐ mˈɛθəd fɔɹ stəkˈæstɪk ˌɑptəməzˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "In ICLR, 2015.",
+   "phonemes": "ɪn ˌIsˌiˌɛlˈɑɹ, twˈɛnti fˌɪftˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[21] Oleksii Kuchaiev and Boris Ginsburg.",
+   "phonemes": "[twˈɛnti wˈʌn) ˈOlksɪˌI kˈuʧAəv ænd bˈɔɹɪs ʤˈɪnzbɜɹɡ.",
+   "fallback": [
+    {
+     "text": "[21",
+     "phonemes": "[twˈɛnti wˈʌn"
+    },
+    {
+     "text": "Oleksii",
+     "phonemes": "ˈOlksɪˌI"
+    },
+    {
+     "text": "Kuchaiev",
+     "phonemes": "kˈuʧAəv"
+    },
+    {
+     "text": "Boris",
+     "phonemes": "bˈɔɹɪs"
+    },
+    {
+     "text": "Ginsburg",
+     "phonemes": "ʤˈɪnzbɜɹɡ"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Factorization tricks for LSTM networks.",
+   "phonemes": "fˌæktəɹəzˈAʃən tɹˈɪks fɔɹ ˌɛlˌɛstˌiˈɛm nˈɛtwˌɜɹks.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXiv:1703.10722, 2017.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd θɹˈi.tˈɛn θˈWzənd sˈɛvənhˈʌndɹɪd twˈɛnti tˈu, twˈɛnti sˌɛvəntˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1703.10722",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd θɹˈi.tˈɛn θˈWzənd sˈɛvənhˈʌndɹɪd twˈɛnti tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[22] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio.",
+   "phonemes": "[twˈɛnti tˈu) ʒˈWhæn lˈɪn, mˈɪnwA fˈɛŋ, sˈɪsəɹO nˈɑɡɛɹə dˈuz sˈæntOs, mˈO jˈu, bˈɪŋ ʃˌiˈɑŋ, bˈOɪn ʤˈO, ænd jˈɑʃjuə bˈɛŋɡɪˌO.",
+   "fallback": [
+    {
+     "text": "[22",
+     "phonemes": "[twˈɛnti tˈu"
+    },
+    {
+     "text": "Zhouhan",
+     "phonemes": "ʒˈWhæn"
+    },
+    {
+     "text": "Lin",
+     "phonemes": "lˈɪn"
+    },
+    {
+     "text": "Minwei",
+     "phonemes": "mˈɪnwA"
+    },
+    {
+     "text": "Feng",
+     "phonemes": "fˈɛŋ"
+    },
+    {
+     "text": "Nogueira",
+     "phonemes": "nˈɑɡɛɹə"
+    },
+    {
+     "text": "Yu",
+     "phonemes": "jˈu"
+    },
+    {
+     "text": "Bowen",
+     "phonemes": "bˈOɪn"
+    },
+    {
+     "text": "Yoshua",
+     "phonemes": "jˈɑʃjuə"
+    },
+    {
+     "text": "Bengio",
+     "phonemes": "bˈɛŋɡɪˌO"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "A structured self-attentive sentence embedding.",
+   "phonemes": "ɐ stɹˈʌkʧəɹd sˌɛlfətˈɛntɪv sˈɛntᵊns əmbˈɛdɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXiv:1703.03130, 2017.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd θɹˈi.zˈiəɹOθɹˈi wˈʌnθɹˈizˈiəɹO, twˈɛnti sˌɛvəntˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1703.03130",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd θɹˈi.zˈiəɹOθɹˈi wˈʌnθɹˈizˈiəɹO"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[23] Minh-Thang Luong, Quoc V.",
+   "phonemes": "[twˈɛnti θɹˈi] mˈɪnθˈæŋ ljˈuɑŋ, kwˈɑk vˈi",
+   "fallback": [
+    {
+     "text": "[23]",
+     "phonemes": "[twˈɛnti θɹˈi]"
+    },
+    {
+     "text": "Minh-Thang",
+     "phonemes": "mˈɪnθˈæŋ"
+    },
+    {
+     "text": "Luong",
+     "phonemes": "ljˈuɑŋ"
+    },
+    {
+     "text": "Quoc",
+     "phonemes": "kwˈɑk"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Le, Ilya Sutskever, Oriol Vinyals, and Lukasz Kaiser.",
+   "phonemes": "lə, ˈɪliə sˈʌtskɛvəɹ, ˈɔɹɪˌɑl vˈɪnɪᵊlz, ænd lˈukæsz kˈIzəɹ.",
+   "fallback": [
+    {
+     "text": "Le",
+     "phonemes": "lə"
+    },
+    {
+     "text": "Ilya",
+     "phonemes": "ˈɪliə"
+    },
+    {
+     "text": "Sutskever",
+     "phonemes": "sˈʌtskɛvəɹ"
+    },
+    {
+     "text": "Oriol",
+     "phonemes": "ˈɔɹɪˌɑl"
+    },
+    {
+     "text": "Vinyals",
+     "phonemes": "vˈɪnɪᵊlz"
+    },
+    {
+     "text": "Lukasz",
+     "phonemes": "lˈukæsz"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Multi-task sequence to sequence learning.",
+   "phonemes": "mˈʌltitˌæsk sˈikwəns tə sˈikwəns lˈɜɹnɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXiv:1511.06114, 2015.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd fˈIvhˈʌndɹɪd ɪlˈɛvən.zˈiəɹOsˈɪks wˈʌnwˈʌnfˈɔɹ, twˈɛnti fˌɪftˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1511.06114",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd fˈIvhˈʌndɹɪd ɪlˈɛvən.zˈiəɹOsˈɪks wˈʌnwˈʌnfˈɔɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "[24] Minh-Thang Luong, Hieu Pham, and Christopher D Manning.",
+   "phonemes": "[twˈɛnti fˈɔɹ) mˈɪnθˈæŋ ljˈuɑŋ, hˈiu fˈæm, ænd kɹˈɪstəfəɹ dˈi mˈænɪŋ.",
+   "fallback": [
+    {
+     "text": "[24",
+     "phonemes": "[twˈɛnti fˈɔɹ"
+    },
+    {
+     "text": "Minh-Thang",
+     "phonemes": "mˈɪnθˈæŋ"
+    },
+    {
+     "text": "Luong",
+     "phonemes": "ljˈuɑŋ"
+    },
+    {
+     "text": "Hieu",
+     "phonemes": "hˈiu"
+    },
+    {
+     "text": "Pham",
+     "phonemes": "fˈæm"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "Effective approaches to attentionbased neural machine translation.",
+   "phonemes": "əfˈɛktɪv əpɹˈOʧᵻz tʊ ətˈɛnʃənbˌAst nˈʊɹᵊl məʃˈin tɹænzlˈAʃən.",
+   "fallback": [
+    {
+     "text": "attentionbased",
+     "phonemes": "ətˈɛnʃənbˌAst"
+    }
+   ]
+  },
+  {
+   "source": "page_11.txt",
+   "text": "arXiv preprint arXiv:1508.04025, 2015.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd fˈIvhˈʌndɹɪd ˈAt.zˈiəɹOfˈɔɹ zˈiəɹOtˈufˈIv, twˈɛnti fˌɪftˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1508.04025",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd fˈIvhˈʌndɹɪd ˈAt.zˈiəɹOfˈɔɹ zˈiəɹOtˈufˈIv"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[25] Mitchell P Marcus, Mary Ann Marcinkiewicz, and Beatrice Santorini.",
+   "phonemes": "[twˈɛnti fˈIv] mˈɪʧᵊl pˈi mˈɑɹkəs, mˈɛɹi ˈæn mˈɑɹsɪŋkjˌuɪkz, ænd bˈiətɹɪs sˌæntəɹˈini.",
+   "fallback": [
+    {
+     "text": "[25]",
+     "phonemes": "[twˈɛnti fˈIv]"
+    },
+    {
+     "text": "Marcus",
+     "phonemes": "mˈɑɹkəs"
+    },
+    {
+     "text": "Ann",
+     "phonemes": "ˈæn"
+    },
+    {
+     "text": "Marcinkiewicz",
+     "phonemes": "mˈɑɹsɪŋkjˌuɪkz"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Building a large annotated corpus of english: The penn treebank.",
+   "phonemes": "bˈɪldɪŋ ɐ lˈɑɹʤ ˈænətˌATᵻd kˈɔɹpəs ʌv ˈɪŋɡlɪʃ: ðə pˈɛn tɹˈibæŋk.",
+   "fallback": [
+    {
+     "text": "penn",
+     "phonemes": "pˈɛn"
+    },
+    {
+     "text": "treebank",
+     "phonemes": "tɹˈibæŋk"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Computational linguistics, 19(2):313-330, 1993.",
+   "phonemes": "kˌɑmpjətˈAʃᵊnəl lɪŋɡwˈɪstɪks, nˈIntin(tˈu):θɹˈihˈʌndɹɪd θˈɜɹtin dˈæʃ θɹˈihˈʌndɹɪd θˈɜɹTi, nˌIntˈin nˈIndi θɹˈi.",
+   "fallback": [
+    {
+     "text": "19(2):313-330",
+     "phonemes": "nˈIntin(tˈu):θɹˈihˈʌndɹɪd θˈɜɹtin dˈæʃ θɹˈihˈʌndɹɪd θˈɜɹTi"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[26] David McClosky, Eugene Charniak, and Mark Johnson.",
+   "phonemes": "[twˈɛnti sˈɪks] dˈAvəd mə klˈɑski, juʤˈin ʧˈɑɹnɪˌæk, ænd mˈɑɹk ʤˈɑnsᵊn.",
+   "fallback": [
+    {
+     "text": "[26]",
+     "phonemes": "[twˈɛnti sˈɪks]"
+    },
+    {
+     "text": "McClosky",
+     "phonemes": "mə klˈɑski"
+    },
+    {
+     "text": "Charniak",
+     "phonemes": "ʧˈɑɹnɪˌæk"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Effective self-training for parsing.",
+   "phonemes": "əfˈɛktɪv sˌɛlftɹˈAnɪŋ fɔɹ pˈɑɹsɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "In Proceedings of the Human Language Technology Conference of the NAACL, Main Conference, pages 152-159.",
+   "phonemes": "ɪn pɹəsˈidɪŋz ʌv ðə hjˈumən lˈæŋɡwɪʤ tɛknˈɑləʤi kˈɑnfəɹəns ʌv ði ˌɛnˌAˌAsˌiˈɛl, mˈAn kˈɑnfəɹəns, pˈAʤᵻz wˈʌn hˈʌndɹəd fˈɪfti tˈuwˌʌn fˌɪfti nˌIn.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "ACL, June 2006.",
+   "phonemes": "ˌAsˌiˈɛl, ʤˈun tˈu θˈWzᵊnd sˈɪks.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[27] Ankur Parikh, Oscar Tackstrom, Dipanjan Das, and Jakob Uszkoreit.",
+   "phonemes": "[twˈɛnti sˈɛvən) ˈæŋkɜɹ pˈæɹɪk, ˈɑskəɹ tˈækstɹɑm, dˈɪpænʤən dˌəz, ænd jˈækɑb ˈʌszkɔɹˌAt.",
+   "fallback": [
+    {
+     "text": "[27",
+     "phonemes": "[twˈɛnti sˈɛvən"
+    },
+    {
+     "text": "Ankur",
+     "phonemes": "ˈæŋkɜɹ"
+    },
+    {
+     "text": "Parikh",
+     "phonemes": "pˈæɹɪk"
+    },
+    {
+     "text": "Tackstrom",
+     "phonemes": "tˈækstɹɑm"
+    },
+    {
+     "text": "Dipanjan",
+     "phonemes": "dˈɪpænʤən"
+    },
+    {
+     "text": "Jakob",
+     "phonemes": "jˈækɑb"
+    },
+    {
+     "text": "Uszkoreit",
+     "phonemes": "ˈʌszkɔɹˌAt"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "A decomposable attention model.",
+   "phonemes": "ɐ dˌikəmpˈOzəbᵊl ətˈɛnʧən mˈɑdᵊl.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "In Empirical Methods in Natural Language Processing, 2016.",
+   "phonemes": "ɪn ɪmpˈɪɹəkᵊl mˈɛθədz ɪn nˈæʧəɹᵊl lˈæŋɡwɪʤ pɹˈɑsɛsɪŋ, twˈɛnti sˌɪkstˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[28] Romain Paulus, Caiming Xiong, and Richard Socher.",
+   "phonemes": "[twˈɛnti ˈAt] ɹˈɑmAn pˈɔləs, kˈAmɪŋ kʃəŋ, ænd ɹˈɪʧəɹd sˈɑʧəɹ.",
+   "fallback": [
+    {
+     "text": "[28]",
+     "phonemes": "[twˈɛnti ˈAt]"
+    },
+    {
+     "text": "Romain",
+     "phonemes": "ɹˈɑmAn"
+    },
+    {
+     "text": "Paulus",
+     "phonemes": "pˈɔləs"
+    },
+    {
+     "text": "Caiming",
+     "phonemes": "kˈAmɪŋ"
+    },
+    {
+     "text": "Xiong",
+     "phonemes": "kʃəŋ"
+    },
+    {
+     "text": "Socher",
+     "phonemes": "sˈɑʧəɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "A deep reinforced model for abstractive summarization.",
+   "phonemes": "ɐ dˈip ɹˌiənfˈɔɹst mˈɑdᵊl fɔɹ əbstɹˈæktɪv sˌʌməɹəzˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "arXiv preprint arXi:1705.04304, 2017.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈI:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd fˈIv.zˈiəɹOfˈɔɹ θɹˈizˈiəɹOfˈɔɹ, twˈɛnti sˌɛvəntˈin.",
+   "fallback": [
+    {
+     "text": "arXi:1705.04304",
+     "phonemes": "ˈɑɹ zˈI:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd fˈIv.zˈiəɹOfˈɔɹ θɹˈizˈiəɹOfˈɔɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[29] Slav Petrov, Leon Barrett, Romain Thibaux, and Dan Klein.",
+   "phonemes": "[twˈɛnti nˈIn) slˈɑv pˈɛtɹɑv, lˈiɑn bˈæɹɪt, ɹˈɑmAn θˈɪbɔks, ænd dˈæn klˈIn.",
+   "fallback": [
+    {
+     "text": "[29",
+     "phonemes": "[twˈɛnti nˈIn"
+    },
+    {
+     "text": "Petrov",
+     "phonemes": "pˈɛtɹɑv"
+    },
+    {
+     "text": "Leon",
+     "phonemes": "lˈiɑn"
+    },
+    {
+     "text": "Barrett",
+     "phonemes": "bˈæɹɪt"
+    },
+    {
+     "text": "Romain",
+     "phonemes": "ɹˈɑmAn"
+    },
+    {
+     "text": "Thibaux",
+     "phonemes": "θˈɪbɔks"
+    },
+    {
+     "text": "Klein",
+     "phonemes": "klˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Learning accurate, compact, and interpretable tree annotation.",
+   "phonemes": "lˈɜɹnɪŋ ˈækjəɹət, kˈɑmpˌækt, ænd ɪntˈɜɹpɹəTəbᵊl tɹˈi ˌænətˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "In Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the ACL, pages 433-440.",
+   "phonemes": "ɪn pɹəsˈidɪŋz ʌv ðə twˈɛnti fˈɜɹst ˌɪntəɹnˈæʃᵊnəl kˈɑnfəɹəns ˌɔn kˌɑmpjətˈAʃᵊnəl lɪŋɡwˈɪstɪks ænd fˈɔɹTi fˈɔɹθ ˈænjəwəl mˈiTɪŋ ʌv ði ˌAsˌiˈɛl, pˈAʤᵻz fˈɔɹ hˈʌndɹəd θˈɜɹTi θɹˈifˌɔɹ fˌɔɹTi.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "ACL, July 2006.",
+   "phonemes": "ˌAsˌiˈɛl, ʤəlˈI tˈu θˈWzᵊnd sˈɪks.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[30] Ofir Press and Lior Wolf.",
+   "phonemes": "[θˈɜɹTi) ˈɑfɪɹ pɹˈɛs ænd lɪˈɔɹ wˈʊlf.",
+   "fallback": [
+    {
+     "text": "[30",
+     "phonemes": "[θˈɜɹTi"
+    },
+    {
+     "text": "Ofir",
+     "phonemes": "ˈɑfɪɹ"
+    },
+    {
+     "text": "Lior",
+     "phonemes": "lɪˈɔɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Using the output embedding to improve language models.",
+   "phonemes": "jˈuzɪŋ ði ˈWtpˌʊt əmbˈɛdɪŋ tʊ ɪmpɹˈuv lˈæŋɡwɪʤ mˈɑdᵊlz.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "arXiv preprint arXiv:1608.05859, 2016.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd ˈAt.zˈiəɹOfˈIv ˈAtfˈIvnˈIn, twˈɛnti sˌɪkstˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1608.05859",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd ˈAt.zˈiəɹOfˈIv ˈAtfˈIvnˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[31] Rico Sennrich, Barry Haddow, and Alexandra Birch.",
+   "phonemes": "[θˈɜɹTi wˈʌn] ɹˈikO sˈɛnɹɪʧ, bˈɑɹi hˈædO, ænd ˌælɪɡzˈændɹə bˈɜɹʧ.",
+   "fallback": [
+    {
+     "text": "[31]",
+     "phonemes": "[θˈɜɹTi wˈʌn]"
+    },
+    {
+     "text": "Sennrich",
+     "phonemes": "sˈɛnɹɪʧ"
+    },
+    {
+     "text": "Haddow",
+     "phonemes": "hˈædO"
+    },
+    {
+     "text": "Alexandra",
+     "phonemes": "ˌælɪɡzˈændɹə"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Neural machine translation of rare words with subword units.",
+   "phonemes": "nˈʊɹᵊl məʃˈin tɹænzlˈAʃən ʌv ɹˈɛɹ wˈɜɹdz wɪð sˈʌbwɜɹd jˈunəts.",
+   "fallback": [
+    {
+     "text": "subword",
+     "phonemes": "sˈʌbwɜɹd"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "arXiv preprint arXiv:1508.07909, 2015.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd fˈIvhˈʌndɹɪd ˈAt.zˈiəɹOsˈɛvən nˈInzˈiəɹOnˈIn, twˈɛnti fˌɪftˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1508.07909",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd fˈIvhˈʌndɹɪd ˈAt.zˈiəɹOsˈɛvən nˈInzˈiəɹOnˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[32] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean.",
+   "phonemes": "[θˈɜɹTi tˈu) nˈOm ʃæzˈɪɹ, æzˈAliə mˌɜɹhOsˈini, kɹɪstˈɔf mˈæzIəɹz, ˈændi dˈAvəs, kwˈɑk lə, ʤˈɛfɹi hˈɪntən, ænd ʤˈɛf dˈin.",
+   "fallback": [
+    {
+     "text": "[32",
+     "phonemes": "[θˈɜɹTi tˈu"
+    },
+    {
+     "text": "Noam",
+     "phonemes": "nˈOm"
+    },
+    {
+     "text": "Shazeer",
+     "phonemes": "ʃæzˈɪɹ"
+    },
+    {
+     "text": "Azalia",
+     "phonemes": "æzˈAliə"
+    },
+    {
+     "text": "Mirhoseini",
+     "phonemes": "mˌɜɹhOsˈini"
+    },
+    {
+     "text": "Krzysztof",
+     "phonemes": "kɹɪstˈɔf"
+    },
+    {
+     "text": "Maziarz",
+     "phonemes": "mˈæzIəɹz"
+    },
+    {
+     "text": "Andy",
+     "phonemes": "ˈændi"
+    },
+    {
+     "text": "Quoc",
+     "phonemes": "kwˈɑk"
+    },
+    {
+     "text": "Le",
+     "phonemes": "lə"
+    },
+    {
+     "text": "Geoffrey",
+     "phonemes": "ʤˈɛfɹi"
+    },
+    {
+     "text": "Hinton",
+     "phonemes": "hˈɪntən"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Outrageously large neural networks: The sparsely-gated mixture-of-experts layer.",
+   "phonemes": "WtɹˈAʤəsli lˈɑɹʤ nˈʊɹᵊl nˈɛtwˌɜɹks: ðə spˈɑɹsliɡˌATᵻd mˈɪksʧəɹʌvˈɛkspˌɜɹts lˈAəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "arXiv preprint arXiv:1701.06338, 2017.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd wˈʌn.zˈiəɹOsˈɪks θɹˈiθɹˈiˈAt, twˈɛnti sˌɛvəntˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1701.06338",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɛvənhˈʌndɹɪd wˈʌn.zˈiəɹOsˈɪks θɹˈiθɹˈiˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[33] Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov.",
+   "phonemes": "[θˈɜɹTi θɹˈi) nˈɪTɪʃ sɹˌɪvəstˈɑvə, ʤˈɛfɹi ˈi hˈɪntən, ˈælɪks kɹɪʒˈɛvski, ˈɪliə sˈʌtskɛvəɹ, ænd ɹˈʌslən sˈæləkhˌʌtdɪnˌɑv.",
+   "fallback": [
+    {
+     "text": "[33",
+     "phonemes": "[θˈɜɹTi θɹˈi"
+    },
+    {
+     "text": "Nitish",
+     "phonemes": "nˈɪTɪʃ"
+    },
+    {
+     "text": "Srivastava",
+     "phonemes": "sɹˌɪvəstˈɑvə"
+    },
+    {
+     "text": "Geoffrey",
+     "phonemes": "ʤˈɛfɹi"
+    },
+    {
+     "text": "Hinton",
+     "phonemes": "hˈɪntən"
+    },
+    {
+     "text": "Krizhevsky",
+     "phonemes": "kɹɪʒˈɛvski"
+    },
+    {
+     "text": "Ilya",
+     "phonemes": "ˈɪliə"
+    },
+    {
+     "text": "Sutskever",
+     "phonemes": "sˈʌtskɛvəɹ"
+    },
+    {
+     "text": "Ruslan",
+     "phonemes": "ɹˈʌslən"
+    },
+    {
+     "text": "Salakhutdinov",
+     "phonemes": "sˈæləkhˌʌtdɪnˌɑv"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Dropout: a simple way to prevent neural networks from overfitting.",
+   "phonemes": "dɹˈɑpˌWt: ɐ sˈɪmpəl wˈA tə pɹivˈɛnt nˈʊɹᵊl nˈɛtwˌɜɹks fɹʌm ˌOvəɹfˈɪTɪŋ.",
+   "fallback": [
+    {
+     "text": "overfitting",
+     "phonemes": "ˌOvəɹfˈɪTɪŋ"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Journal of Machine Learning Research, 15(1):1929-1958, 2014.",
+   "phonemes": "ʤˈɜɹnᵊl ʌv məʃˈin lˈɜɹnɪŋ ɹˈisˌɜɹʧ, fˈɪftin(wˈʌn):nˈIntinhˈʌndɹɪd twˈɛnti nˈIn dˈæʃ nˈIntinhˈʌndɹɪd fˈɪfti ˈAt, twˈɛnti fˌɔɹtˈin.",
+   "fallback": [
+    {
+     "text": "15(1):1929-1958",
+     "phonemes": "fˈɪftin(wˈʌn):nˈIntinhˈʌndɹɪd twˈɛnti nˈIn dˈæʃ nˈIntinhˈʌndɹɪd fˈɪfti ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus.",
+   "phonemes": "[θˈɜɹTi fˈɔɹ] sˈAnbAˌɑɹ sˈʌkhbɑTəɹ, ˈɑɹθəɹ ʃlˈæm, ʤˈAsᵊn wˈɛstən, ænd ɹˈɑb fˈɜɹɡəs.",
+   "fallback": [
+    {
+     "text": "[34]",
+     "phonemes": "[θˈɜɹTi fˈɔɹ]"
+    },
+    {
+     "text": "Sainbayar",
+     "phonemes": "sˈAnbAˌɑɹ"
+    },
+    {
+     "text": "Sukhbaatar",
+     "phonemes": "sˈʌkhbɑTəɹ"
+    },
+    {
+     "text": "Szlam",
+     "phonemes": "ʃlˈæm"
+    },
+    {
+     "text": "Weston",
+     "phonemes": "wˈɛstən"
+    },
+    {
+     "text": "Fergus",
+     "phonemes": "fˈɜɹɡəs"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "End-to-end memory networks.",
+   "phonemes": "ˈɛndtʊˈɛnd mˈɛməɹi nˈɛtwˌɜɹks.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "In C.",
+   "phonemes": "ɪn sˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Cortes, N.",
+   "phonemes": "kˈɔɹtɛz, ˈɛn",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "D.",
+   "phonemes": "dˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Lawrence, D.",
+   "phonemes": "lˈɔɹəns, dˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "D.",
+   "phonemes": "dˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Lee, M.",
+   "phonemes": "lˈi, ˈɛm",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Sugiyama, and R.",
+   "phonemes": "sˌuʤɪjˈɑmə, ænd ˈɑɹ",
+   "fallback": [
+    {
+     "text": "Sugiyama",
+     "phonemes": "sˌuʤɪjˈɑmə"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440-2448.",
+   "phonemes": "ɡˈɑɹnɪt, ˈɛdəTəɹz, ədvˈænsᵻz ɪn nˈʊɹᵊl ˌɪnfəɹmˈAʃən pɹˈɑsɛsɪŋ sˈɪstəmz twˈɛnti ˈAt, pˈAʤᵻz twˌɛnti fˌɔɹ fˌɔɹTitwˈɛnti fˈɔɹ fˈɔɹTi ˈAt.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Curran Associates, Inc., 2015.",
+   "phonemes": "kˈɜɹən əsˈOsiəts, ˈɪŋk., twˈɛnti fˌɪftˈin.",
+   "fallback": [
+    {
+     "text": "Curran",
+     "phonemes": "kˈɜɹən"
+    },
+    {
+     "text": "Inc.",
+     "phonemes": "ˈɪŋk."
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[35] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le.",
+   "phonemes": "[θˈɜɹTi fˈIv] ˈɪliə sˈʌtskɛvəɹ, ˈɔɹɪˌɑl vˈɪnɪᵊlz, ænd kwˈɑk vˌivˈi lə.",
+   "fallback": [
+    {
+     "text": "[35]",
+     "phonemes": "[θˈɜɹTi fˈIv]"
+    },
+    {
+     "text": "Ilya",
+     "phonemes": "ˈɪliə"
+    },
+    {
+     "text": "Sutskever",
+     "phonemes": "sˈʌtskɛvəɹ"
+    },
+    {
+     "text": "Oriol",
+     "phonemes": "ˈɔɹɪˌɑl"
+    },
+    {
+     "text": "Vinyals",
+     "phonemes": "vˈɪnɪᵊlz"
+    },
+    {
+     "text": "Quoc",
+     "phonemes": "kwˈɑk"
+    },
+    {
+     "text": "Le",
+     "phonemes": "lə"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Sequence to sequence learning with neural networks.",
+   "phonemes": "sˈikwəns tə sˈikwəns lˈɜɹnɪŋ wɪð nˈʊɹᵊl nˈɛtwˌɜɹks.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "In Advances in Neural Information Processing Systems, pages 3104-3112, 2014.",
+   "phonemes": "ɪn ədvˈænsᵻz ɪn nˈʊɹᵊl ˌɪnfəɹmˈAʃən pɹˈɑsɛsɪŋ sˈɪstəmz, pˈAʤᵻz θˈɜɹTi wˈʌn ˈO fˈɔɹθˌɜɹTi wˌʌn twˌɛlv, twˈɛnti fˌɔɹtˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[36] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna.",
+   "phonemes": "[θˈɜɹTi sˈɪks] kɹˈɪsʧən ʃˈɛʤədi, vˈɪnsənt vˈænhWk, sˈɜɹʤi ˈIɔf, ʤˈɑnəθən ʃlˈɛnz, ænd zˈibˈɪɡnju wˈɑʤnə.",
+   "fallback": [
+    {
+     "text": "[36]",
+     "phonemes": "[θˈɜɹTi sˈɪks]"
+    },
+    {
+     "text": "Szegedy",
+     "phonemes": "ʃˈɛʤədi"
+    },
+    {
+     "text": "Vanhoucke",
+     "phonemes": "vˈænhWk"
+    },
+    {
+     "text": "Sergey",
+     "phonemes": "sˈɜɹʤi"
+    },
+    {
+     "text": "Ioffe",
+     "phonemes": "ˈIɔf"
+    },
+    {
+     "text": "Jonathon",
+     "phonemes": "ʤˈɑnəθən"
+    },
+    {
+     "text": "Shlens",
+     "phonemes": "ʃlˈɛnz"
+    },
+    {
+     "text": "Zbigniew",
+     "phonemes": "zˈibˈɪɡnju"
+    },
+    {
+     "text": "Wojna",
+     "phonemes": "wˈɑʤnə"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Rethinking the inception architecture for computer vision.",
+   "phonemes": "ɹiθˈɪŋkɪŋ ði ɪnsˈɛpʃən ˈɑɹkətˌɛkʧəɹ fɔɹ kəmpjˈuTəɹ vˈɪʒən.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "CORR, abs/1512.00567, 2015.",
+   "phonemes": "sˌiˌOˌɑɹˈɑɹ, ˈæbz wˈʌn fˈIv wˈʌn tˈu zˈɪɹO zˈɪɹO fˈIv sˈɪks sˈɛvən, twˈɛnti fˌɪftˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton.",
+   "phonemes": "[θˈɜɹTi sˈɛvən) vˈɪnɪᵊlz ænd kˈIzəɹ, kˈu, pˈɛtɹɑv, sˈʌtskɛvəɹ, ænd hˈɪntən.",
+   "fallback": [
+    {
+     "text": "[37",
+     "phonemes": "[θˈɜɹTi sˈɛvən"
+    },
+    {
+     "text": "Vinyals",
+     "phonemes": "vˈɪnɪᵊlz"
+    },
+    {
+     "text": "Koo",
+     "phonemes": "kˈu"
+    },
+    {
+     "text": "Petrov",
+     "phonemes": "pˈɛtɹɑv"
+    },
+    {
+     "text": "Sutskever",
+     "phonemes": "sˈʌtskɛvəɹ"
+    },
+    {
+     "text": "Hinton",
+     "phonemes": "hˈɪntən"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Grammar as a foreign language.",
+   "phonemes": "ɡɹˈæməɹ æz ɐ fˈɔɹən lˈæŋɡwɪʤ.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "In Advances in Neural Information Processing Systems, 2015.",
+   "phonemes": "ɪn ədvˈænsᵻz ɪn nˈʊɹᵊl ˌɪnfəɹmˈAʃən pɹˈɑsɛsɪŋ sˈɪstəmz, twˈɛnti fˌɪftˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[38] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al.",
+   "phonemes": "[θˈɜɹTi ˈAt) jˈɑŋhjui wˈu, mˈIk ʃˈʌstəɹ, ʒˈIfəŋɡ ʧˈɛn, kwˈɑk vˈi lə, mOhˈæmɪd nˈɔɹuzi, wˈʊlfɡæŋ mˈæʃəɹɹi, mˈæksəm kɹˈɪkʌn, juˈɑn kˈW, ʧˈɪn ɡˈW, klˈWs mˈæʃəɹɹi, ˈɛt ˈæl.",
+   "fallback": [
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    },
+    {
+     "text": "Yonghui",
+     "phonemes": "jˈɑŋhjui"
+    },
+    {
+     "text": "Schuster",
+     "phonemes": "ʃˈʌstəɹ"
+    },
+    {
+     "text": "Zhifeng",
+     "phonemes": "ʒˈIfəŋɡ"
+    },
+    {
+     "text": "Chen",
+     "phonemes": "ʧˈɛn"
+    },
+    {
+     "text": "Quoc",
+     "phonemes": "kwˈɑk"
+    },
+    {
+     "text": "Le",
+     "phonemes": "lə"
+    },
+    {
+     "text": "Mohammad",
+     "phonemes": "mOhˈæmɪd"
+    },
+    {
+     "text": "Norouzi",
+     "phonemes": "nˈɔɹuzi"
+    },
+    {
+     "text": "Wolfgang",
+     "phonemes": "wˈʊlfɡæŋ"
+    },
+    {
+     "text": "Macherey",
+     "phonemes": "mˈæʃəɹɹi"
+    },
+    {
+     "text": "Krikun",
+     "phonemes": "kɹˈɪkʌn"
+    },
+    {
+     "text": "Cao",
+     "phonemes": "kˈW"
+    },
+    {
+     "text": "Gao",
+     "phonemes": "ɡˈW"
+    },
+    {
+     "text": "Klaus",
+     "phonemes": "klˈWs"
+    },
+    {
+     "text": "Macherey",
+     "phonemes": "mˈæʃəɹɹi"
+    },
+    {
+     "text": "et",
+     "phonemes": "ˈɛt"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Google' 's neural machine translation system: Bridging the gap between human and machine translation.",
+   "phonemes": "ɡˈuɡᵊl s nˈʊɹᵊl məʃˈin tɹænzlˈAʃən sˈɪstəm: bɹˈɪʤɪŋ ðə ɡˈæp bətwˈin hjˈumən ænd məʃˈin tɹænzlˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "arXiv preprint arXiv:1609.08144, 2016.",
+   "phonemes": "ˈɑɹkˌIv pɹipɹˈɪnt ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd nˈIn.zˈiəɹOˈAt wˈʌnfˈɔɹfˈɔɹ, twˈɛnti sˌɪkstˈin.",
+   "fallback": [
+    {
+     "text": "arXiv:1609.08144",
+     "phonemes": "ˈɑɹ zˈɪv:wˈʌn θˈWzənd sˈɪkshˈʌndɹɪd nˈIn.zˈiəɹOˈAt wˈʌnfˈɔɹfˈɔɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[39] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu.",
+   "phonemes": "[θˈɜɹTi nˈIn) ʤˈI ʤˈO, jˈɪŋ kˈW, zjˈuɡwɑŋ wˈæŋɡ, pˈɛŋ lˈi, ænd wˈA sˈu.",
+   "fallback": [
+    {
+     "text": "[39",
+     "phonemes": "[θˈɜɹTi nˈIn"
+    },
+    {
+     "text": "Jie",
+     "phonemes": "ʤˈI"
+    },
+    {
+     "text": "Ying",
+     "phonemes": "jˈɪŋ"
+    },
+    {
+     "text": "Cao",
+     "phonemes": "kˈW"
+    },
+    {
+     "text": "Xuguang",
+     "phonemes": "zjˈuɡwɑŋ"
+    },
+    {
+     "text": "Wang",
+     "phonemes": "wˈæŋɡ"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Deep recurrent models with fast-forward connections for neural machine translation.",
+   "phonemes": "dˈip ɹəkˈɜɹənt mˈɑdᵊlz wɪð fˌæstfˈɔɹwəɹd kənˈɛkʃənz fɔɹ nˈʊɹᵊl məʃˈin tɹænzlˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "CORR, abs/1606.04199, 2016.",
+   "phonemes": "sˌiˌOˌɑɹˈɑɹ, ˈæbz wˈʌn sˈɪks zˈɪɹO sˈɪks zˈɪɹO fˈɔɹ wˈʌn nˈIn nˈIn, twˈɛnti sˌɪkstˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "[40] Muhua Zhu, Yue Zhang, Wenliang Chen, Min Zhang, and Jingbo Zhu.",
+   "phonemes": "[fˈɔɹTi) mjˈuhjuə ʒˈu, juˈA ʒˈæŋ, wˈɛnljæŋ ʧˈɛn, mˈɪn ʒˈæŋ, ænd ʤˈɪŋbO ʒˈu.",
+   "fallback": [
+    {
+     "text": "[40",
+     "phonemes": "[fˈɔɹTi"
+    },
+    {
+     "text": "Muhua",
+     "phonemes": "mjˈuhjuə"
+    },
+    {
+     "text": "Zhu",
+     "phonemes": "ʒˈu"
+    },
+    {
+     "text": "Zhang",
+     "phonemes": "ʒˈæŋ"
+    },
+    {
+     "text": "Wenliang",
+     "phonemes": "wˈɛnljæŋ"
+    },
+    {
+     "text": "Chen",
+     "phonemes": "ʧˈɛn"
+    },
+    {
+     "text": "Zhang",
+     "phonemes": "ʒˈæŋ"
+    },
+    {
+     "text": "Jingbo",
+     "phonemes": "ʤˈɪŋbO"
+    },
+    {
+     "text": "Zhu",
+     "phonemes": "ʒˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "Fast and accurate shift-reduce constituent parsing.",
+   "phonemes": "fˈæst ænd ˈækjəɹət ʃˌɪftɹədˈus kənstˈɪʧʊənt pˈɑɹsɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_12.txt",
+   "text": "In Proceedings ofthe 51st Annual Meeting of the ACL (Volume 1: Long Papers), pages 434 443.",
+   "phonemes": "ɪn pɹəsˈidɪŋz ˈɔfð fˈɪfti fˈɜɹst ˈænjəwəl mˈiTɪŋ ʌv ði ˌAsˌiˈɛl (vˈɑljˌum wˈʌn: lˈɔŋ pˈApəɹz), pˈAʤᵻz fˈɔɹ hˈʌndɹəd θˈɜɹTi fˈɔɹ fˈɔɹ hˈʌndɹəd fˈɔɹTi θɹˈi.",
+   "fallback": [
+    {
+     "text": "ofthe",
+     "phonemes": "ˈɔfð"
+    }
+   ]
+  },
+  {
+   "source": "page_12.txt",
+   "text": "ACL, August 2013.",
+   "phonemes": "ˌAsˌiˈɛl, ˈɔɡəst twˈɛnti θˌɜɹtˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Recurrent neural networks, long short-term memory [13] and gated recurrent [7] neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation [35, 2, 5].",
+   "phonemes": "ɹəkˈɜɹənt nˈʊɹᵊl nˈɛtwˌɜɹks, lˈɔŋ ʃˈɔɹttˌɜɹm mˈɛməɹi [θˈɜɹtin) ænd ɡˈATᵻd ɹəkˈɜɹənt [sˈɛvən] nˈʊɹᵊl nˈɛtwˌɜɹks ɪn pəɹtˈɪkjələɹ, hæv bɪn fˈɜɹmli əstˈæblɪʃt æz stˈAt ʌv ði ˈɑɹt əpɹˈOʧᵻz ɪn sˈikwəns mˈɑdᵊlɪŋ ænd tɹˌænzdˈʌkʃən pɹˈɑbləmz sˈʌʧ æz lˈæŋɡwɪʤ mˈɑdᵊlɪŋ ænd məʃˈin tɹænzlˈAʃən [θˈɜɹTi fˈIv, tˈu, fˈIv).",
+   "fallback": [
+    {
+     "text": "[13",
+     "phonemes": "[θˈɜɹtin"
+    },
+    {
+     "text": "[7]",
+     "phonemes": "[sˈɛvən]"
+    },
+    {
+     "text": "[35",
+     "phonemes": "[θˈɜɹTi fˈIv"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures [38, 24, 15].",
+   "phonemes": "nˈuməɹəs ˈɛfəɹts hæv sˈɪns kəntˈɪnjud tə pˈʊʃ ðə bˈWndəɹiz ʌv ɹəkˈɜɹənt lˈæŋɡwɪʤ mˈɑdᵊlz ænd ɪnkˌOdəɹdˌikˈOdəɹ ˈɑɹkətˌɛkʧəɹz [θˈɜɹTi ˈAt, twˈɛnti fˈɔɹ, fˌɪftˈin).",
+   "fallback": [
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Recurrent models typically factor computation along the symbol positions of the input and output sequences.",
+   "phonemes": "ɹəkˈɜɹənt mˈɑdᵊlz tˈɪpəkᵊli fˈæktəɹ kˌɑmpjətˈAʃən əlˈɔŋ ðə sˈɪmbᵊl pəzˈɪʃənz ʌv ði ˈɪnpˌʊt ænd ˈWtpˌʊt sˈikwənsᵻz.",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Aligning the positions to steps in computation time, they generate a sequence of hidden states hi, as a function of the previous hidden state h-1 and the input for position t.",
+   "phonemes": "əlˈInɪŋ ðə pəzˈɪʃənz tə stˈɛps ɪn kˌɑmpjətˈAʃən tˈIm, ðA ʤˈɛnəɹˌAt ɐ sˈikwəns ʌv hˈɪdᵊn stˈAts hˈI, æz ɐ fˈʌŋkʃən ʌv ðə pɹˈiviəs hˈɪdᵊn stˈAt ˈAʧ wˈʌn ænd ði ˈɪnpˌʊt fɔɹ pəzˈɪʃən tˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "This inherently sequential nature precludes parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples.",
+   "phonemes": "ðˌɪs ɪnhˈɛɹəntli səkwˈɛnʧᵊl nˈAʧəɹ pɹiklˈudz pˌæɹəlˌɛlᵻzˈAʃən wɪðˈɪn tɹˈAnɪŋ ɪɡzˈæmpəlz, wˌɪʧ bəkˈʌmz kɹˈɪTəkᵊl æt lˈɔŋɡəɹ sˈikwəns lˈɛŋθs, æz mˈɛməɹi kənstɹˈAnts lˈɪmət bˈæʧɪŋ əkɹˈɔs ɪɡzˈæmpəlz.",
+   "fallback": [
+    {
+     "text": "parallelization",
+     "phonemes": "pˌæɹəlˌɛlᵻzˈAʃən"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Recent work has achieved significant improvements in computational efficiency through factorization tricks [21] and conditional computation [32], while also improving model performance in case of the latter.",
+   "phonemes": "ɹˈisᵊnt wˈɜɹk hæz əʧˈivd səɡnˈɪfəkᵊnt ɪmpɹˈuvmənts ɪn kˌɑmpjətˈAʃᵊnəl əfˈɪʃənsi θɹu fˌæktəɹəzˈAʃən tɹˈɪks [twˈɛnti wˈʌn) ænd kəndˈɪʃᵊnəl kˌɑmpjətˈAʃən [θˈɜɹTi tˈu), wˌIl ˈɔlsO ɪmpɹˈuvɪŋ mˈɑdᵊl pəɹfˈɔɹməns ɪn kˈAs ʌv ðə lˈæTəɹ.",
+   "fallback": [
+    {
+     "text": "[21",
+     "phonemes": "[twˈɛnti wˈʌn"
+    },
+    {
+     "text": "[32",
+     "phonemes": "[θˈɜɹTi tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "The fundamental constraint of sequential computation, however, remains.",
+   "phonemes": "ðə fˌʌndəmˈɛntᵊl kənstɹˈAnt ʌv səkwˈɛnʧᵊl kˌɑmpjətˈAʃən, hWˈɛvəɹ, ɹəmˈAnz.",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Attention mechanisms have become an integral part of compelling sequence modeling and transduction models in various tasks, allowing modeling of dependencies without regard to their distance in the input or output sequences [2, 19].",
+   "phonemes": "ətˈɛnʧən mˈɛkənˌɪzəmz hæv bəkˈʌm ɐn ˈɪntəɡɹəl pˈɑɹt ʌv kəmpˈɛlɪŋ sˈikwəns mˈɑdᵊlɪŋ ænd tɹˌænzdˈʌkʃən mˈɑdᵊlz ɪn vˈɛɹiəs tˈæsks, əlˈWɪŋ mˈɑdᵊlɪŋ ʌv dəpˈɛndᵊnsiz wɪðˈWt ɹəɡˈɑɹd tə ðɛɹ dˈɪstᵊns ɪn ði ˈɪnpˌʊt ɔɹ ˈWtpˌʊt sˈikwənsᵻz [tˈu, nˌIntˈin).",
+   "fallback": [
+    {
+     "text": "[2",
+     "phonemes": "[tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "In all but a few cases [27], however, such attention mechanisms are used in conjunction with a recurrent network.",
+   "phonemes": "ɪn ˈɔl bˌʌt ɐ fjˈu kˈAsᵻz [twˈɛnti sˈɛvən), hWˈɛvəɹ, sˈʌʧ ətˈɛnʧən mˈɛkənˌɪzəmz ɑɹ jˈuzd ɪn kənʤˈʌŋkʃən wɪð ɐ ɹəkˈɜɹənt nˈɛtwˌɜɹk.",
+   "fallback": [
+    {
+     "text": "[27",
+     "phonemes": "[twˈɛnti sˈɛvən"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output.",
+   "phonemes": "ɪn ðɪs wˈɜɹk wi pɹəpˈOz ðə tɹænsfˈɔɹməɹ, ɐ mˈɑdᵊl ˈɑɹkətˌɛkʧəɹ ᵻsʧˈuɪŋ ɹəkˈɜɹəns ænd ɪnstˈɛd ɹᵻlˈIɪŋ əntˈIəɹli ˌɔn ɐn ətˈɛnʧən mˈɛkənˌɪzəm tə dɹˈɔ ɡlˈObᵊl dəpˈɛndᵊnsiz bətwˈin ˈɪnpˌʊt ænd ˈWtpˌʊt.",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUS.",
+   "phonemes": "ðə tɹænsfˈɔɹməɹ əlˈWz fɔɹ səɡnˈɪfəkəntli mˈɔɹ pˌæɹəlˌɛlᵻzˈAʃən ænd kæn ɹˈiʧ ɐ nˈu stˈAt ʌv ði ˈɑɹt ɪn tɹænzlˈAʃən kwˈɑləTi ˈæftəɹ bˈiɪŋ tɹˈAnd fɔɹ æz lˈɪTᵊl æz twˈɛlv ˈWəɹz ˌɔn ˈAt pˈi wˈʌn hˈʌndɹəd ʤˌipˌijˌuˈɛs.",
+   "fallback": [
+    {
+     "text": "parallelization",
+     "phonemes": "pˌæɹəlˌɛlᵻzˈAʃən"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "2 Background",
+   "phonemes": "tˈu bˈækɡɹˌWnd",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU [16], ByteNet [18] and ConvS2S [9], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions.",
+   "phonemes": "ðə ɡˈOl ʌv ɹᵻdˈusɪŋ səkwˈɛnʧᵊl kˌɑmpjətˈAʃən ˈɔlsO fˈɔɹmz ðə fWndˈAʃən ʌv ði ɪkstˈɛndᵻd nˈʊɹᵊl ʤˌipˌijˈu [sˈɪkstin), bˈItnˌɛt [ˈAtin) ænd kˈɑnvˌɛstʊˈɛs [nˈIn), ˈɔl ʌv wˌɪʧ jˈuz kˌɑnvəlˈuʃənᵊl nˈʊɹᵊl nˈɛtwˌɜɹks æz bˈAsɪk bˈɪldɪŋ blˈɑk, kəmpjˈuTɪŋ hˈɪdᵊn ɹˌɛpɹəzˌɛntˈAʃənz ɪn pˈɛɹəlˌɛl fɔɹ ˈɔl ˈɪnpˌʊt ænd ˈWtpˌʊt pəzˈɪʃənz.",
+   "fallback": [
+    {
+     "text": "[16",
+     "phonemes": "[sˈɪkstin"
+    },
+    {
+     "text": "[18",
+     "phonemes": "[ˈAtin"
+    },
+    {
+     "text": "[9",
+     "phonemes": "[nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet.",
+   "phonemes": "ɪn ðiz mˈɑdᵊlz, ðə nˈʌmbəɹ ʌv ˌɑpəɹˈAʃənz ɹəkwˈIəɹd tə ɹəlˈAt sˈɪɡnᵊlz fɹʌm tˈu ˈɑɹbətɹˌɛɹi ˈɪnpˌʊt ɔɹ ˈWtpˌʊt pəzˈɪʃənz ɡɹˈOz ɪn ðə dˈɪstᵊns bətwˈin pəzˈɪʃənz, lˈɪniəɹli fɔɹ kˈɑnvˌɛstʊˈɛs ænd lˌɔɡəɹˈɪθmɪkᵊli fɔɹ bˈItnˌɛt.",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "This makes it more difficult to learn dependencies between distant positions [12].",
+   "phonemes": "ðˌɪs mˌAks ɪt mˈɔɹ dˈɪfəkəlt tə lˈɜɹn dəpˈɛndᵊnsiz bətwˈin dˈɪstᵊnt pəzˈɪʃənz [twˈɛlv).",
+   "fallback": [
+    {
+     "text": "[12",
+     "phonemes": "[twˈɛlv"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "In the Transformer this is reduced to a constant number of operations, albeit at the cost of reduced effective resolution due to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as described in section 3.2.",
+   "phonemes": "ɪn ðə tɹænsfˈɔɹməɹ ðɪs ɪz ɹədˈust tə ɐ kˈɑnstᵊnt nˈʌmbəɹ ʌv ˌɑpəɹˈAʃənz, ælbˈiət æt ðə kˈɔst ʌv ɹədˈust əfˈɛktɪv ɹˌɛzəlˈuʃən dˈu tʊ ˈævɹɪʤɪŋ ətˈɛnʧənwˌATᵻd pəzˈɪʃənz, ɐn əfˈɛkt wi kˌWntəɹˈækt wɪð mˈʌltihˌɛd ətˈɛnʧən æz dəskɹˈIbd ɪn sˈɛkʃən θɹˈi pYnt tˈu.",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence.",
+   "phonemes": "sˌɛlfətˈɛnʧən, sˈʌmtˌImz kˈɔld ˈɪntɹəətˈɛnʃən ɪz ɐn ətˈɛnʧən mˈɛkənˌɪzəm ɹᵻlˈATɪŋ dˈɪfəɹənt pəzˈɪʃənz ʌv ɐ sˈɪŋɡᵊl sˈikwəns ɪn ˈɔɹdəɹ tə kəmpjˈut ɐ ɹˌɛpɹəzˌɛntˈAʃən ʌv ðə sˈikwəns.",
+   "fallback": [
+    {
+     "text": "intra-attention",
+     "phonemes": "ˈɪntɹəətˈɛnʃən"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations [4, 27, 28, 22].",
+   "phonemes": "sˌɛlfətˈɛnʧən hæz bɪn jˈuzd səksˈɛsfəli ɪn ɐ vəɹˈIəTi ʌv tˈæsks ɪnklˈudɪŋ ɹˈidɪŋ kˌɑmpɹəhˈɛnʃən, əbstɹˈæktɪv sˌʌməɹəzˈAʃən, tˈɛksʧəwəl ɪntˈAlmənt ænd lˈɜɹnɪŋ tˌæskˌɪndəpˈɛndənt sˈɛntᵊns ɹˌɛpɹəzˌɛntˈAʃənz [fˈɔɹ, twˈɛnti sˈɛvən, twˈɛnti ˈAt, twˈɛnti tˈu).",
+   "fallback": [
+    {
+     "text": "[4",
+     "phonemes": "[fˈɔɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "End-to-end memory networks are based on a recurrent attention mechanism instead of sequencealigned recurrence and have been shown to perform well on simple-language question answering and language modeling tasks [34].",
+   "phonemes": "ˈɛndtʊˈɛnd mˈɛməɹi nˈɛtwˌɜɹks ɑɹ bˈAst ˌɔn ɐ ɹəkˈɜɹənt ətˈɛnʧən mˈɛkənˌɪzəm ɪnstˈɛd ʌv sˈikwənsˌilInd ɹəkˈɜɹəns ænd hæv bɪn ʃˈOn tə pəɹfˈɔɹm wˈɛl ˌɔn sˌɪmpəllˈæŋɡwɪʤ kwˈɛsʧᵊn ˈænsəɹɪŋ ænd lˈæŋɡwɪʤ mˈɑdᵊlɪŋ tˈæsks [θˈɜɹTi fˈɔɹ).",
+   "fallback": [
+    {
+     "text": "sequencealigned",
+     "phonemes": "sˈikwənsˌilInd"
+    },
+    {
+     "text": "[34",
+     "phonemes": "[θˈɜɹTi fˈɔɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "To the best of our knowledge, however, the Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequencealigned RNNS or convolution.",
+   "phonemes": "tə ðə bˈɛst ʌv ˌWəɹ nˈɑləʤ, hWˈɛvəɹ, ðə tɹænsfˈɔɹməɹ ɪz ðə fˈɜɹst tɹˌænzdˈʌkʃən mˈɑdᵊl ɹᵻlˈIɪŋ əntˈIəɹli ˌɔn sˌɛlfətˈɛnʧən tə kəmpjˈut ɹˌɛpɹəzˌɛntˈAʃənz ʌv ɪts ˈɪnpˌʊt ænd ˈWtpˌʊt wɪðˈWt jˈuzɪŋ sˈikwənsˌilInd ˌɑɹˌɛnˌɛnˈɛs ɔɹ kˌɑnvəlˈuʃən.",
+   "fallback": [
+    {
+     "text": "sequencealigned",
+     "phonemes": "sˈikwənsˌilInd"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "In the following sections, we will describe the Transformer, motivate self-attention and discuss its advantages over models such as [17, 18] and [9].",
+   "phonemes": "ɪn ðə fˈɑlOɪŋ sˈɛkʃənz, wi wɪl dəskɹˈIb ðə tɹænsfˈɔɹməɹ, mˈOTəvˌAt sˌɛlfətˈɛnʧən ænd dəskˈʌs ɪts ədvˈæntɪʤᵻz ˈOvəɹ mˈɑdᵊlz sˈʌʧ æz [sˈɛvəntˌin, ˌAtˈin) ænd [nˈIn).",
+   "fallback": [
+    {
+     "text": "[17",
+     "phonemes": "[sˈɛvəntˌin"
+    },
+    {
+     "text": "[9",
+     "phonemes": "[nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "3 Model Architecture",
+   "phonemes": "θɹˈi mˈɑdᵊl ˈɑɹkətˌɛkʧəɹ",
+   "fallback": []
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Most competitive neural sequence transduction models have an encoder-decoder structure [5, 2, 35].",
+   "phonemes": "mˈOst kəmpˈɛTəTɪv nˈʊɹᵊl sˈikwəns tɹˌænzdˈʌkʃən mˈɑdᵊlz hæv ɐn ɪnkˌOdəɹdˌikˈOdəɹ stɹˈʌkʧəɹ [fˈIv, tˈu, θˈɜɹTi fˈIv).",
+   "fallback": [
+    {
+     "text": "[5",
+     "phonemes": "[fˈIv"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Here, the encoder maps an input sequence of symbol representations (31, In) to a sequence of continuous representations Z = (21, 2m).",
+   "phonemes": "hˈɪɹ, ði ɪnkˈOdəɹ mˈæps ɐn ˈɪnpˌʊt sˈikwəns ʌv sˈɪmbᵊl ɹˌɛpɹəzˌɛntˈAʃənz (θˈɜɹTi wˈʌn, ɪn) tə ɐ sˈikwəns ʌv kəntˈɪnjəwəs ɹˌɛpɹəzˌɛntˈAʃənz zˈi ˈikwᵊlz (twˈɛnti wˈʌn, tˈu ˈɛm).",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "Given Z, the decoder then generates an output sequence (31, Jm) of symbols one element at a time.",
+   "phonemes": "ɡˈɪvən zˈi, ðə dˌikˈOdəɹ ðˈɛn ʤˈɛnəɹˌAts ɐn ˈWtpˌʊt sˈikwəns (θˈɜɹTi wˈʌn, ʤˌAˈɛm) ʌv sˈɪmbᵊlz wˈʌn ˈɛləmənt æt ɐ tˈIm.",
+   "fallback": [
+    {
+     "text": "Jm",
+     "phonemes": "ʤˌAˈɛm"
+    }
+   ]
+  },
+  {
+   "source": "page_2.txt",
+   "text": "At each step the model is auto-regressive [10], consuming the previously generated symbols as additional input when generating the next.",
+   "phonemes": "ˌæt ˈiʧ stˈɛp ðə mˈɑdᵊl ɪz ˌɔTOɹəɡɹˈɛsɪv [tˈɛn), kənsˈumɪŋ ðə pɹˈiviəsli ʤˈɛnəɹˌATᵻd sˈɪmbᵊlz æz ədˈɪʃənᵊl ˈɪnpˌʊt wˌɛn ʤˈɛnəɹˌATɪŋ ðə nˈɛkst.",
+   "fallback": [
+    {
+     "text": "[10",
+     "phonemes": "[tˈɛn"
+    }
+   ]
+  },
+  {
+   "source": "page_3.txt",
+   "text": "The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1, respectively.",
+   "phonemes": "ðə tɹænsfˈɔɹməɹ fˈɑlOz ðɪs ˈOvəɹˌɔl ˈɑɹkətˌɛkʧəɹ jˈuzɪŋ stˈækt sˌɛlfətˈɛnʧən ænd pˈYntwˌIz, fˈʊli kənˈɛktᵻd lˈAəɹz fɔɹ bˈOθ ði ɪnkˈOdəɹ ænd dˌikˈOdəɹ, ʃˈOn ɪn ðə lˈɛft ænd ɹˈIt hˈævz ʌv fˈɪɡjəɹ wˈʌn, ɹəspˈɛktəvli.",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "3.1 Encoder and Decoder Stacks",
+   "phonemes": "θɹˈi pYnt wˈʌn ɪnkˈOdəɹ ænd dˌikˈOdəɹ stˈæks",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "Encoder: The encoder is composed of a stack of N = 6 identical layers.",
+   "phonemes": "ɪnkˈOdəɹ: ði ɪnkˈOdəɹ ɪz kəmpˈOzd ʌv ɐ stˈæk ʌv ˈɛn ˈikwᵊlz sˈɪks Idˈɛntəkᵊl lˈAəɹz.",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_3.txt",
+   "text": "Each layer has two sub-layers.",
+   "phonemes": "ˈiʧ lˈAəɹ hæz tˈu sˌʌblˈAəɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "The first is a multi-head self-attention mechanism, and the second is a simple, positionwise fully connected feed-forward network.",
+   "phonemes": "ðə fˈɜɹst ɪz ɐ mˈʌltihˌɛd sˌɛlfətˈɛnʧən mˈɛkənˌɪzəm, ænd ðə sˈɛkənd ɪz ɐ sˈɪmpəl, pəzˈɪʃənwˌIz fˈʊli kənˈɛktᵻd fˌidfˈɔɹwəɹd nˈɛtwˌɜɹk.",
+   "fallback": [
+    {
+     "text": "positionwise",
+     "phonemes": "pəzˈɪʃənwˌIz"
+    }
+   ]
+  },
+  {
+   "source": "page_3.txt",
+   "text": "We employ a residual connection [11] around each of the two sub-layers, followed by layer normalization [1J.",
+   "phonemes": "wˌi ɪmplˈY ɐ ɹəzˈɪʤəwəl kənˈɛkʃən [ɪlˈɛvən) əɹˈWnd ˈiʧ ʌv ðə tˈu sˌʌblˈAəɹz, fˈɑlOd bI lˈAəɹ nˌɔɹmələzˈAʃən [wˈʌn ʤˈA.",
+   "fallback": [
+    {
+     "text": "[11",
+     "phonemes": "[ɪlˈɛvən"
+    },
+    {
+     "text": "[1J.",
+     "phonemes": "[wˈʌn ʤˈA."
+    }
+   ]
+  },
+  {
+   "source": "page_3.txt",
+   "text": "That is, the output of each sub-layer is LayerNorm(z + Sublayer(z)), where Sublayer(z) is the function implemented by the sub-layer itself.",
+   "phonemes": "ðˌæt ɪz, ði ˈWtpˌʊt ʌv ˈiʧ sˌʌblˈAəɹ ɪz lˈAəɹ nˈɔɹm(zˈi plˈʌs sˈʌblAəɹ(zˈi)), wˌɛɹ sˈʌblAəɹ(zˈi) ɪz ðə fˈʌŋkʃən ˈɪmpləmˌɛntᵻd bI ðə sˌʌblˈAəɹ ɪtsˈɛlf.",
+   "fallback": [
+    {
+     "text": "LayerNorm(z",
+     "phonemes": "lˈAəɹ nˈɔɹm(zˈi"
+    },
+    {
+     "text": "Sublayer(z",
+     "phonemes": "sˈʌblAəɹ(zˈi"
+    },
+    {
+     "text": "Sublayer(z",
+     "phonemes": "sˈʌblAəɹ(zˈi"
+    }
+   ]
+  },
+  {
+   "source": "page_3.txt",
+   "text": "To facilitate these residual connections, all sub-layers in the model, as well as the embedding layers, produce outputs of dimension dmodel = 512.",
+   "phonemes": "tə fəsˈɪlətˌAt ðiz ɹəzˈɪʤəwəl kənˈɛkʃənz, ˈɔl sˌʌblˈAəɹz ɪn ðə mˈɑdᵊl, æz wˈɛl æz ði əmbˈɛdɪŋ lˈAəɹz, pɹədˈus ˈWtpˌʊts ʌv dəmˈɛnʃən dˈimˈɑdᵊl ˈikwᵊlz fˈIv hˈʌndɹəd twˈɛlv.",
+   "fallback": [
+    {
+     "text": "dmodel",
+     "phonemes": "dˈimˈɑdᵊl"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_3.txt",
+   "text": "Decoder: The decoder is also composed of a stack of N = 6 identical layers.",
+   "phonemes": "dˌikˈOdəɹ: ðə dˌikˈOdəɹ ɪz ˈɔlsO kəmpˈOzd ʌv ɐ stˈæk ʌv ˈɛn ˈikwᵊlz sˈɪks Idˈɛntəkᵊl lˈAəɹz.",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_3.txt",
+   "text": "In addition to the two sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack.",
+   "phonemes": "ɪn ədˈɪʃən tə ðə tˈu sˌʌblˈAəɹz ɪn ˈiʧ ɪnkˈOdəɹ lˈAəɹ, ðə dˌikˈOdəɹ ɪnsˈɜɹts ɐ θˈɜɹd sˌʌblˈAəɹ, wˌɪʧ pəɹfˈɔɹmz mˈʌltihˌɛd ətˈɛnʧən ˈOvəɹ ði ˈWtpˌʊt ʌv ði ɪnkˈOdəɹ stˈæk.",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "Similar to the encoder, we employ residual connections around each of the sub-layers, followed by layer normalization.",
+   "phonemes": "sˈɪmᵊləɹ tə ði ɪnkˈOdəɹ, wi ɪmplˈY ɹəzˈɪʤəwəl kənˈɛkʃənz əɹˈWnd ˈiʧ ʌv ðə sˌʌblˈAəɹz, fˈɑlOd bI lˈAəɹ nˌɔɹmələzˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions.",
+   "phonemes": "wˌi ˈɔlsO mˈɑdəfˌI ðə sˌɛlfətˈɛnʧən sˌʌblˈAəɹ ɪn ðə dˌikˈOdəɹ stˈæk tə pɹivˈɛnt pəzˈɪʃənz fɹʌm ətˈɛndɪŋ tə sˈʌbsəkwənt pəzˈɪʃənz.",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "This masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position i can depend only on the known outputs at positions less than i.",
+   "phonemes": "ðˌɪs mˈæskɪŋ, kəmbˈInd wɪð fˈækt ðæt ði ˈWtpˌʊt əmbˈɛdɪŋz ɑɹ ˌɔfsˈɛt bI wˈʌn pəzˈɪʃən, ɪnʃˈʊɹz ðæt ðə pɹidˈɪkʃənz fɔɹ pəzˈɪʃən ˈI kæn dəpˈɛnd ˈOnli ˌɔn ðə nˈOn ˈWtpˌʊts æt pəzˈɪʃənz lˈɛs ðən ˈI",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "3.2 Attention",
+   "phonemes": "θɹˈi pYnt tˈu ətˈɛnʧən",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors.",
+   "phonemes": "ɐn ətˈɛnʧən fˈʌŋkʃən kæn bi dəskɹˈIbd æz mˈæpɪŋ ɐ kwˈɪɹi ænd ɐ sˈɛt ʌv kˌivˈælju pˈɛɹz tə ɐn ˈWtpˌʊt, wˌɛɹ ðə kwˈɪɹi, kˈiz, vˈæljuz, ænd ˈWtpˌʊt ɑɹ ˈɔl vˈɛktəɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_3.txt",
+   "text": "The output is computed as a weighted sum",
+   "phonemes": "ði ˈWtpˌʊt ɪz kəmpjˈuTᵻd æz ɐ wˈATᵻd sˈʌm",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.",
+   "phonemes": "ʌv ðə vˈæljuz, wˌɛɹ ðə wˈAt əsˈInd tʊ ˈiʧ vˈælju ɪz kəmpjˈuTᵻd bI ɐ kəmpˌæTəbˈɪləTi fˈʌŋkʃən ʌv ðə kwˈɪɹi wɪð ðə kˌɔɹəspˈɑndɪŋ kˈi.",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "3.2.1 Scaled Dot-Product Attention",
+   "phonemes": "θɹˈi tˈu wˈʌn skˈAld dˌɑtpɹˈɑdˌʌkt ətˈɛnʧən",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "We call our particular attention \"Scaled Dot-Product Attention\" (Figure 2).",
+   "phonemes": "wˌi kˈɔl ˌWəɹ pəɹtˈɪkjələɹ ətˈɛnʧən “skˈAld dˌɑtpɹˈɑdˌʌkt ətˈɛnʧən” (fˈɪɡjəɹ tˈu).",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "The input consists of queries and keys of dimension dk, and values of dimension dy.",
+   "phonemes": "ði ˈɪnpˌʊt kənsˈɪsts ʌv kwˈɪɹiz ænd kˈiz ʌv dəmˈɛnʃən dˌikˈA, ænd vˈæljuz ʌv dəmˈɛnʃən dˈI.",
+   "fallback": [
+    {
+     "text": "dk",
+     "phonemes": "dˌikˈA"
+    },
+    {
+     "text": "dy",
+     "phonemes": "dˈI"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "We compute the dot products of the query with all keys, divide each by Vdk, and apply a softmax function to obtain the weights on the values.",
+   "phonemes": "wˌi kəmpjˈut ðə dˈɑt pɹˈɑdˌʌkts ʌv ðə kwˈɪɹi wɪð ˈɔl kˈiz, dəvˈId ˈiʧ bI vˌidˌikˈA, ænd əplˈI ɐ sˈɔftmæks fˈʌŋkʃən tʊ əbtˈAn ðə wˈAts ˌɔn ðə vˈæljuz.",
+   "fallback": [
+    {
+     "text": "Vdk",
+     "phonemes": "vˌidˌikˈA"
+    },
+    {
+     "text": "softmax",
+     "phonemes": "sˈɔftmæks"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "In practice, we compute the attention function on a set of queries simultaneously, packed together into a matrix Q.",
+   "phonemes": "ɪn pɹˈæktəs, wi kəmpjˈut ði ətˈɛnʧən fˈʌŋkʃən ˌɔn ɐ sˈɛt ʌv kwˈɪɹiz sˌIməltˈAniəsli, pˈækt təɡˈɛðəɹ ˈɪntu ɐ mˈAtɹɪks kjˈu",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "The keys and values are also packed together into matrices K and V.",
+   "phonemes": "ðə kˈiz ænd vˈæljuz ɑɹ ˈɔlsO pˈækt təɡˈɛðəɹ ˈɪntu mˈAtɹəsˌiz kˈA ænd vˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "We compute the matrix of outputs as:",
+   "phonemes": "wˌi kəmpjˈut ðə mˈAtɹɪks ʌv ˈWtpˌʊts æz:",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "QKT",
+   "phonemes": "kjˌukˌAtˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "Attention(Q, K, V) = softmax(",
+   "phonemes": "ətˈɛnʃən(kjˈu, kˈA, vˈi) ˈikwᵊlz sˈɔftmæks(",
+   "fallback": [
+    {
+     "text": "Attention(Q",
+     "phonemes": "ətˈɛnʃən(kjˈu"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "softmax",
+     "phonemes": "sˈɔftmæks"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "Vdk",
+   "phonemes": "vˌidˌikˈA",
+   "fallback": [
+    {
+     "text": "Vdk",
+     "phonemes": "vˌidˌikˈA"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "The two most commonly used attention functions are additive attention [2], and dot-product (multiplicative) attention.",
+   "phonemes": "ðə tˈu mˈOst kˈɑmənli jˈuzd ətˈɛnʧən fˈʌŋkʃənz ɑɹ ˈædəTɪv ətˈɛnʧən [tˈu), ænd dˌɑtpɹˈɑdˌʌkt (mˌʌltəplˈɪkəTɪv) ətˈɛnʧən.",
+   "fallback": [
+    {
+     "text": "[2",
+     "phonemes": "[tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "Dot-product attention is identical to our algorithm, except for the scaling factor of Vds Additive attention computes the compatibility function using a feed-forward network with a single hidden layer.",
+   "phonemes": "dˌɑtpɹˈɑdˌʌkt ətˈɛnʧən ɪz Idˈɛntəkᵊl tʊ ˌWəɹ ˈælɡəɹˌɪðəm, ɪksˈɛpt fɔɹ ðə skˈAlɪŋ fˈæktəɹ ʌv vˌidˌiˈɛs ˈædəTɪv ətˈɛnʧən kəmpjˈuts ðə kəmpˌæTəbˈɪləTi fˈʌŋkʃən jˈuzɪŋ ɐ fˌidfˈɔɹwəɹd nˈɛtwˌɜɹk wɪð ɐ sˈɪŋɡᵊl hˈɪdᵊn lˈAəɹ.",
+   "fallback": [
+    {
+     "text": "Vds",
+     "phonemes": "vˌidˌiˈɛs"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "While the two are similar in theoretical complexity, dot-product attention is much faster and more space-efficient in practice, since it can be implemented using highly optimized matrix multiplication code.",
+   "phonemes": "wˌIl ðə tˈu ɑɹ sˈɪmᵊləɹ ɪn θˌiəɹˈɛTəkᵊl kəmplˈɛksəTi, dˌɑtpɹˈɑdˌʌkt ətˈɛnʧən ɪz mˈʌʧ fˈæstəɹ ænd mˈɔɹ spˌAsəfˈɪʃənt ɪn pɹˈæktəs, sˈɪns ɪt kæn bi ˈɪmpləmˌɛntᵻd jˈuzɪŋ hˈIli ˈɑptəmˌIzd mˈAtɹɪks mˌʌltəpləkˈAʃən kˈOd.",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "While for small values of dk the two mechanisms perform similarly, additive attention outperforms dot product attention without scaling for larger values of dy [3]).",
+   "phonemes": "wˌIl fɔɹ smˈɔl vˈæljuz ʌv dˌikˈA ðə tˈu mˈɛkənˌɪzəmz pəɹfˈɔɹm sˈɪmᵊləɹli, ˈædəTɪv ətˈɛnʧən ˌWtpəɹfˈɔɹmz dˈɑt pɹˈɑdˌʌkt ətˈɛnʧən wɪðˈWt skˈAlɪŋ fɔɹ lˈɑɹʤəɹ vˈæljuz ʌv dˈI [θɹˈi)).",
+   "fallback": [
+    {
+     "text": "dk",
+     "phonemes": "dˌikˈA"
+    },
+    {
+     "text": "dy",
+     "phonemes": "dˈI"
+    },
+    {
+     "text": "[3",
+     "phonemes": "[θɹˈi"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "We suspect that for large values of",
+   "phonemes": "wˌi səspˈɛkt ðæt fɔɹ lˈɑɹʤ vˈæljuz ʌv",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "extremely small gradients lase To counteract this effect, we scale the dot products by I",
+   "phonemes": "ɪkstɹˈimli smˈɔl ɡɹˈAdiənts lˈAz tə kˌWntəɹˈækt ðɪs əfˈɛkt, wi skˈAl ðə dˈɑt pɹˈɑdˌʌkts bI ˌI",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "di, the dot products grow",
+   "phonemes": "di, ðə dˈɑt pɹˈɑdˌʌkts ɡɹˈO",
+   "fallback": [
+    {
+     "text": "di",
+     "phonemes": "di"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "in magnitude, pushing the softmax function into regions where it has",
+   "phonemes": "ɪn mˈæɡnətˌud, pˈʊʃɪŋ ðə sˈɔftmæks fˈʌŋkʃən ˈɪntu ɹˈiʤᵊnz wˌɛɹ ɪt hˈæz",
+   "fallback": [
+    {
+     "text": "softmax",
+     "phonemes": "sˈɔftmæks"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "Vdk",
+   "phonemes": "vˌidˌikˈA",
+   "fallback": [
+    {
+     "text": "Vdk",
+     "phonemes": "vˌidˌikˈA"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "3.2.2 Multi-Head Attention",
+   "phonemes": "θɹˈi tˈu tˈu mˈʌltihˌɛd ətˈɛnʧən",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "Instead of performing a single attention function with dmode-dimensional keys, values and queries, we found it beneficial to linearly project the queries, keys and values h times with different, learned linear projections to dk, dk and du dimensions, respectively.",
+   "phonemes": "ɪnstˈɛd ʌv pəɹfˈɔɹmɪŋ ɐ sˈɪŋɡᵊl ətˈɛnʧən fˈʌŋkʃən wɪð dˈimˈOddᵻmˈɛnʃənᵊl kˈiz, vˈæljuz ænd kwˈɪɹiz, wi fˈWnd ɪt bˌɛnəfˈɪʃᵊl tə lˈɪniəɹli pɹəʤˈɛkt ðə kwˈɪɹiz, kˈiz ænd vˈæljuz ˈAʧ tˈImz wɪð dˈɪfəɹənt, lˈɜɹnd lˈɪniəɹ pɹəʤˈɛkʃənz tə dˌikˈA, dˌikˈA ænd dˈu dəmˈɛnʃənz, ɹəspˈɛktəvli.",
+   "fallback": [
+    {
+     "text": "dmode-dimensional",
+     "phonemes": "dˈimˈOddᵻmˈɛnʃənᵊl"
+    },
+    {
+     "text": "dk",
+     "phonemes": "dˌikˈA"
+    },
+    {
+     "text": "dk",
+     "phonemes": "dˌikˈA"
+    },
+    {
+     "text": "du",
+     "phonemes": "dˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_4.txt",
+   "text": "On each of these projected versions of queries, keys and values we then perform the attention function in parallel, yielding d,-dimensional",
+   "phonemes": "ˌɔn ˈiʧ ʌv ðiz pɹəʤˈɛktᵻd vˈɜɹʒənz ʌv kwˈɪɹiz, kˈiz ænd vˈæljuz wi ðˈɛn pəɹfˈɔɹm ði ətˈɛnʧən fˈʌŋkʃən ɪn pˈɛɹəlˌɛl, jˈildɪŋ dˈidəmˌɛnʃᵊnəl",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "4To illustrate why the dot products get large, assume that the components of q and k are independent random variables with mean 0 and variance 1.",
+   "phonemes": "fˈɔɹ tʊ ˈɪləstɹˌAt wˌI ðə dˈɑt pɹˈɑdˌʌkts ɡɛt lˈɑɹʤ, əsˈum ðæt ðə kəmpˈOnənts ʌv kjˈu ænd kˈA ɑɹ ˌɪndəpˈɛndənt ɹˈændəm vˈɛɹiəbᵊlz wɪð mˈin zˈɪɹO ænd vˈɛɹiəns wˈʌn.",
+   "fallback": []
+  },
+  {
+   "source": "page_4.txt",
+   "text": "Then their dot product, q k = Ed, qiki, has mean 0 and variance di.",
+   "phonemes": "ðˈɛn ðɛɹ dˈɑt pɹˈɑdˌʌkt, kjˈu kˈA ˈikwᵊlz ˈɛd, kˈɪki, hæz mˈin zˈɪɹO ænd vˈɛɹiəns di.",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "Ed",
+     "phonemes": "ˈɛd"
+    },
+    {
+     "text": "qiki",
+     "phonemes": "kˈɪki"
+    },
+    {
+     "text": "di",
+     "phonemes": "di"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "output values.",
+   "phonemes": "ˈWtpˌʊt vˈæljuz.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "These are concatenated and once again projected, resulting in the final values, as depicted in Figure 2.",
+   "phonemes": "ðˌiz ɑɹ kənkˈætnˌATᵻd ænd wˈʌns əɡˈɛn pɹəʤˈɛktᵻd, ɹəzˈʌltɪŋ ɪn ðə fˈInᵊl vˈæljuz, æz dəpˈɪktᵻd ɪn fˈɪɡjəɹ tˈu.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions.",
+   "phonemes": "mˈʌltihˌɛd ətˈɛnʧən əlˈWz ðə mˈɑdᵊl tə ʤˈYntli ətˈɛnd tʊ ˌɪnfəɹmˈAʃən fɹʌm dˈɪfəɹənt ɹˌɛpɹəzˌɛntˈAʃən sˈʌbspˌAsᵻz æt dˈɪfəɹənt pəzˈɪʃənz.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "With a single attention head, averaging inhibits this.",
+   "phonemes": "wˌɪð ɐ sˈɪŋɡᵊl ətˈɛnʧən hˈɛd, ˈævɹɪʤɪŋ ɪnhˈɪbəts ðˈɪs.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "MultiHead(@, K, V) = Concat(headi, : head,)wo",
+   "phonemes": "mˈʌltI hˈɛd(ˈæt, kˈA, vˈi) ˈikwᵊlz kəŋkˈæt(hˈɛdi, : hˈɛd,)wˈO",
+   "fallback": [
+    {
+     "text": "MultiHead(@",
+     "phonemes": "mˈʌltI hˈɛd(ˈæt"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "Concat(headi",
+     "phonemes": "kəŋkˈæt(hˈɛdi"
+    },
+    {
+     "text": "head,)wo",
+     "phonemes": "hˈɛd,)wˈO"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "where head; = Attention(QW,, KW, vw)",
+   "phonemes": "wˌɛɹ hˈɛd; ˈikwᵊlz ətˈɛnʃən(kjˌudˈʌbᵊljˌu,, kˌAdˈʌbᵊlju, vˌidˈʌbᵊljˌu)",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "Attention(QW",
+     "phonemes": "ətˈɛnʃən(kjˌudˈʌbᵊljˌu"
+    },
+    {
+     "text": "vw",
+     "phonemes": "vˌidˈʌbᵊljˌu"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "Where the projections are parameter matrices w?",
+   "phonemes": "wˌɛɹ ðə pɹəʤˈɛkʃənz ɑɹ pəɹˈæməTəɹ mˈAtɹəsˌiz dˈʌbᵊlju?",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "€ Rdmodel xdy WK € Rdmodel xdk w.y € Rdmodal) xdy and wo € Rhdyxdmodel.",
+   "phonemes": "jˈʊɹɹOz ˌɑɹdˈimˈɑdᵊl ˌɛksdˌiwˈI dˌʌbᵊljukˈA jˈʊɹɹOz ˌɑɹdˈimˈɑdᵊl ˌɛksdˌikˈA dˌʌbᵊljuwˈI jˈʊɹɹOz ˌɑɹdˈimˈOdᵊl) ˌɛksdˌiwˈI ænd wˈO jˈʊɹɹOz ˌɑɹɹˈAʧdˈɪksdmɑdᵊl.",
+   "fallback": [
+    {
+     "text": "€",
+     "phonemes": "jˈʊɹɹOz"
+    },
+    {
+     "text": "Rdmodel",
+     "phonemes": "ˌɑɹdˈimˈɑdᵊl"
+    },
+    {
+     "text": "xdy",
+     "phonemes": "ˌɛksdˌiwˈI"
+    },
+    {
+     "text": "€",
+     "phonemes": "jˈʊɹɹOz"
+    },
+    {
+     "text": "Rdmodel",
+     "phonemes": "ˌɑɹdˈimˈɑdᵊl"
+    },
+    {
+     "text": "xdk",
+     "phonemes": "ˌɛksdˌikˈA"
+    },
+    {
+     "text": "€",
+     "phonemes": "jˈʊɹɹOz"
+    },
+    {
+     "text": "Rdmodal",
+     "phonemes": "ˌɑɹdˈimˈOdᵊl"
+    },
+    {
+     "text": "xdy",
+     "phonemes": "ˌɛksdˌiwˈI"
+    },
+    {
+     "text": "wo",
+     "phonemes": "wˈO"
+    },
+    {
+     "text": "€",
+     "phonemes": "jˈʊɹɹOz"
+    },
+    {
+     "text": "Rhdyxdmodel",
+     "phonemes": "ˌɑɹɹˈAʧdˈɪksdmɑdᵊl"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "In this work we employ h = 8 parallel attention layers, or heads.",
+   "phonemes": "ɪn ðɪs wˈɜɹk wi ɪmplˈY ˈAʧ ˈikwᵊlz ˈAt pˈɛɹəlˌɛl ətˈɛnʧən lˈAəɹz, ɔɹ hˈɛdz.",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "For each of these we use dy = dy = dmodel/h = 64.",
+   "phonemes": "fˌɔɹ ˈiʧ ʌv ðiz wi jˈuz dˈI ˈikwᵊlz dˈI ˈikwᵊlz dˈimˈɑdᵊl slˈæʃ ˈAʧ ˈikwᵊlz sˈɪksti fˈɔɹ.",
+   "fallback": [
+    {
+     "text": "dy",
+     "phonemes": "dˈI"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "dy",
+     "phonemes": "dˈI"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "dmodel/h",
+     "phonemes": "dˈimˈɑdᵊl slˈæʃ ˈAʧ"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "Due to the reduced dimension of each head, the total computational cost is similar to that of single-head attention with full dimensionality.",
+   "phonemes": "dˈu tə ðə ɹədˈust dəmˈɛnʃən ʌv ˈiʧ hˈɛd, ðə tˈOTᵊl kˌɑmpjətˈAʃᵊnəl kˈɔst ɪz sˈɪmᵊləɹ tə ðˈæt ʌv sˈɪŋɡᵊlhˌɛd ətˈɛnʧən wɪð fˈʊl dəmˌɛnʃənˈæləTi.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "3.2.3 Applications of Attention in our Model",
+   "phonemes": "θɹˈi tˈu θɹˈi ˌæpləkˈAʃənz ʌv ətˈɛnʧən ɪn ˌWəɹ mˈɑdᵊl",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "The Transformer uses multi-head attention in three different ways:",
+   "phonemes": "ðə tɹænsfˈɔɹməɹ jˈuzᵻz mˈʌltihˌɛd ətˈɛnʧən ɪn θɹˈi dˈɪfəɹənt wˈAz:",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer,",
+   "phonemes": "ɪn “ɪnkˌOdəɹdˌikˈOdəɹ ətˈɛnʧən” lˈAəɹz, ðə kwˈɪɹiz kˈʌm fɹʌm ðə pɹˈiviəs dˌikˈOdəɹ lˈAəɹ,",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "and the memory keys and values come from the output of the encoder.",
+   "phonemes": "ænd ðə mˈɛməɹi kˈiz ænd vˈæljuz kˈʌm fɹʌm ði ˈWtpˌʊt ʌv ði ɪnkˈOdəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "This allows every",
+   "phonemes": "ðˌɪs əlˈWz ˈɛvəɹi",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "position in the decoder to attend over all positions in the input sequence.",
+   "phonemes": "pəzˈɪʃən ɪn ðə dˌikˈOdəɹ tʊ ətˈɛnd ˈOvəɹ ˈɔl pəzˈɪʃənz ɪn ði ˈɪnpˌʊt sˈikwəns.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "This mimics the",
+   "phonemes": "ðˌɪs mˈɪmɪks ðə",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "typical encoder-decoder attention mechanisms in sequence-to-sequence models such as",
+   "phonemes": "tˈɪpəkᵊl ɪnkˌOdəɹdˌikˈOdəɹ ətˈɛnʧən mˈɛkənˌɪzəmz ɪn sˈikwənstəsˈikwəns mˈɑdᵊlz sˈʌʧ æz",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "The encoder contains self-attention layers.",
+   "phonemes": "ði ɪnkˈOdəɹ kəntˈAnz sˌɛlfətˈɛnʧən lˈAəɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "In a self-attention layer all of the keys, values",
+   "phonemes": "ɪn ɐ sˌɛlfətˈɛnʧən lˈAəɹ ˈɔl ʌv ðə kˈiz, vˈæljuz",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "and queries come from the same place, in this case, the output of the previous layer in the",
+   "phonemes": "ænd kwˈɪɹiz kˈʌm fɹʌm ðə sˈAm plˈAs, ɪn ðɪs kˈAs, ði ˈWtpˌʊt ʌv ðə pɹˈiviəs lˈAəɹ ɪn ðə",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "encoder.",
+   "phonemes": "ɪnkˈOdəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "Each position in the encoder can attend to all positions in the previous layer of the",
+   "phonemes": "ˈiʧ pəzˈɪʃən ɪn ði ɪnkˈOdəɹ kæn ətˈɛnd tʊ ˈɔl pəzˈɪʃənz ɪn ðə pɹˈiviəs lˈAəɹ ʌv ðə",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "encoder.",
+   "phonemes": "ɪnkˈOdəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "Similarly, self-attention layers in the decoder allow each position in the decoder to attend to",
+   "phonemes": "sˈɪmᵊləɹli, sˌɛlfətˈɛnʧən lˈAəɹz ɪn ðə dˌikˈOdəɹ əlˈW ˈiʧ pəzˈɪʃən ɪn ðə dˌikˈOdəɹ tʊ ətˈɛnd tu",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "all positions in the decoder up to and including that position.",
+   "phonemes": "ˈɔl pəzˈɪʃənz ɪn ðə dˌikˈOdəɹ ˌʌp tʊ ænd ɪnklˈudɪŋ ðˈæt pəzˈɪʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "We need to prevent leftward",
+   "phonemes": "wˌi nˈid tə pɹivˈɛnt lˈɛftwəɹd",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "information flow in the decoder to preserve the auto-regressive property.",
+   "phonemes": "ˌɪnfəɹmˈAʃən flˈO ɪn ðə dˌikˈOdəɹ tə pɹəzˈɜɹv ði ˌɔTOɹəɡɹˈɛsɪv pɹˈɑpəɹTi.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "We implement this",
+   "phonemes": "wˌi ˈɪmpləmˌɛnt ðˈɪs",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "inside of scaled dot-product attention by masking out (setting to -00) all values in the input",
+   "phonemes": "ɪnsˈId ʌv skˈAld dˌɑtpɹˈɑdˌʌkt ətˈɛnʧən bI mˈæskɪŋ ˈWt (sˈɛTɪŋ tʊ ) ˈɔl vˈæljuz ɪn ði ˈɪnpˌʊt",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "of the softmax which correspond to illegal connections.",
+   "phonemes": "ʌv ðə sˈɔftmæks wˌɪʧ kˌɔɹəspˈɑnd tʊ ɪllˈiɡᵊl kənˈɛkʃənz.",
+   "fallback": [
+    {
+     "text": "softmax",
+     "phonemes": "sˈɔftmæks"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "See Figure 2.",
+   "phonemes": "sˈi fˈɪɡjəɹ tˈu.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "3.3 Position-wise Feed-Forward Networks",
+   "phonemes": "θɹˈi pYnt θɹˈi pəzˈɪʃənwˌIz fˌidfˈɔɹwəɹd nˈɛtwˌɜɹks",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "In addition to attention sub-layers, each of the layers in our encoder and decoder contains a fully connected feed-forward network, which is applied to each position separately and identically.",
+   "phonemes": "ɪn ədˈɪʃən tʊ ətˈɛnʧən sˌʌblˈAəɹz, ˈiʧ ʌv ðə lˈAəɹz ɪn ˌWəɹ ɪnkˈOdəɹ ænd dˌikˈOdəɹ kəntˈAnz ɐ fˈʊli kənˈɛktᵻd fˌidfˈɔɹwəɹd nˈɛtwˌɜɹk, wˌɪʧ ɪz əplˈId tʊ ˈiʧ pəzˈɪʃən sˈɛpəɹətli ænd Idˈɛntəkᵊli.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "This consists of two linear transformations with a ReLU activation in between.",
+   "phonemes": "ðˌɪs kənsˈɪsts ʌv tˈu lˈɪniəɹ tɹˌænsfəɹmˈAʃənz wɪð ɐ ɹˌAˌɛljˈu ˌæktəvˈAʃən ɪn bətwˈin.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "FFN() = max(0, zWi + b1)W2 + b2",
+   "phonemes": "ˌɛfˌɛfˈɛn() ˈikwᵊlz mˈæks(zˈiəɹO, zˈi wˈI plˈʌs bˈi wˈʌn)dˈʌbᵊljˌu tˈu plˈʌs bˈi tˈu",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "max(0",
+     "phonemes": "mˈæks(zˈiəɹO"
+    },
+    {
+     "text": "zWi",
+     "phonemes": "zˈi wˈI"
+    },
+    {
+     "text": "b1)W2",
+     "phonemes": "bˈi wˈʌn)dˈʌbᵊljˌu tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "While the linear transformations are the same across different positions, they use different parameters from layer to layer.",
+   "phonemes": "wˌIl ðə lˈɪniəɹ tɹˌænsfəɹmˈAʃənz ɑɹ ðə sˈAm əkɹˈɔs dˈɪfəɹənt pəzˈɪʃənz, ðA jˈuz dˈɪfəɹənt pəɹˈæməTəɹz fɹʌm lˈAəɹ tə lˈAəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "Another way of describing this is as two convolutions with kernel size 1.",
+   "phonemes": "ənˈʌðəɹ wˈA ʌv dᵻskɹˈIbɪŋ ðɪs ɪz æz tˈu kˌɑnvəlˈuʃənz wɪð kˈɜɹnᵊl sˈIz wˈʌn.",
+   "fallback": []
+  },
+  {
+   "source": "page_5.txt",
+   "text": "The dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality dff = 2048.",
+   "phonemes": "ðə dəmˌɛnʃənˈæləTi ʌv ˈɪnpˌʊt ænd ˈWtpˌʊt ɪz dˈimˈɑdᵊl ˈikwᵊlz fˈIv hˈʌndɹəd twˈɛlv, ænd ði ˌɪnəɹlˈAəɹ hæz dəmˌɛnʃənˈæləTi dˌiˌɛfˈɛf ˈikwᵊlz twˈɛnti fˈɔɹTi ˈAt.",
+   "fallback": [
+    {
+     "text": "dmodel",
+     "phonemes": "dˈimˈɑdᵊl"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "dff",
+     "phonemes": "dˌiˌɛfˈɛf"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "3.4 Embeddings and Softmax",
+   "phonemes": "θɹˈi pYnt fˈɔɹ əmbˈɛdɪŋz ænd sˈɔftmæks",
+   "fallback": [
+    {
+     "text": "Softmax",
+     "phonemes": "sˈɔftmæks"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "Similarly to other sequence transduction models, we use learned embeddings to convert the input tokens and output tokens to vectors of dimension dmodel.",
+   "phonemes": "sˈɪmᵊləɹli tʊ ˈʌðəɹ sˈikwəns tɹˌænzdˈʌkʃən mˈɑdᵊlz, wi jˈuz lˈɜɹnd əmbˈɛdɪŋz tə kənvˈɜɹt ði ˈɪnpˌʊt tˈOkᵊnz ænd ˈWtpˌʊt tˈOkᵊnz tə vˈɛktəɹz ʌv dəmˈɛnʃən dˈimˈɑdᵊl.",
+   "fallback": [
+    {
+     "text": "dmodel",
+     "phonemes": "dˈimˈɑdᵊl"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "We also use the usual learned linear transformation and softmax function to convert the decoder output to predicted next-token probabilities.",
+   "phonemes": "wˌi ˈɔlsO jˈuz ðə jˈuʒəwəl lˈɜɹnd lˈɪniəɹ tɹˌænsfəɹmˈAʃən ænd sˈɔftmæks fˈʌŋkʃən tə kənvˈɜɹt ðə dˌikˈOdəɹ ˈWtpˌʊt tə pɹidˈɪktᵻd nˌɛksttˈOkᵊn pɹˌɑbəbˈɪləTiz.",
+   "fallback": [
+    {
+     "text": "softmax",
+     "phonemes": "sˈɔftmæks"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "In our model, we share the same weight matrix between the two embedding layers and the pre-softmax linear transformation, similar to [30].",
+   "phonemes": "ɪn ˌWəɹ mˈɑdᵊl, wi ʃˈɛɹ ðə sˈAm wˈAt mˈAtɹɪks bətwˈin ðə tˈu əmbˈɛdɪŋ lˈAəɹz ænd ðə pɹˈisˈɔftmæks lˈɪniəɹ tɹˌænsfəɹmˈAʃən, sˈɪmᵊləɹ tə [θˈɜɹTi).",
+   "fallback": [
+    {
+     "text": "pre-softmax",
+     "phonemes": "pɹˈisˈɔftmæks"
+    },
+    {
+     "text": "[30",
+     "phonemes": "[θˈɜɹTi"
+    }
+   ]
+  },
+  {
+   "source": "page_5.txt",
+   "text": "In the embedding layers, we multiply those weights by Vdmodel.",
+   "phonemes": "ɪn ði əmbˈɛdɪŋ lˈAəɹz, wi mˈʌltəplˌI ðOz wˈAts bI vˌidˈimˈɑdᵊl.",
+   "fallback": [
+    {
+     "text": "Vdmodel",
+     "phonemes": "vˌidˈimˈɑdᵊl"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types.",
+   "phonemes": "tˈAbᵊl wˈʌn: mˈæksəməm pˈæθ lˈɛŋθs, pɜɹlˈAəɹ kəmplˈɛksəTi ænd mˈɪnəməm nˈʌmbəɹ ʌv səkwˈɛnʧᵊl ˌɑpəɹˈAʃənz fɔɹ dˈɪfəɹənt lˈAəɹ tˈIps.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and T the size of the neighborhood in restricted self-attention.",
+   "phonemes": "ˈɛn ɪz ðə sˈikwəns lˈɛŋθ, dˈi ɪz ðə ɹˌɛpɹəzˌɛntˈAʃən dəmˈɛnʃən, kˈA ɪz ðə kˈɜɹnᵊl sˈIz ʌv kˌɑnvəlˈuʃənz ænd tˈi ðə sˈIz ʌv ðə nˈAbəɹhˌʊd ɪn ɹəstɹˈɪktᵻd sˌɛlfətˈɛnʧən.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Complexity per Layer Sequential Maximum Path Length",
+   "phonemes": "kəmplˈɛksəTi pɜɹ lˈAəɹ səkwˈɛnʧᵊl mˈæksəməm pˈæθ lˈɛŋθ",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Layer Type",
+   "phonemes": "lˈAəɹ tˈIp",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Operations",
+   "phonemes": "ˌɑpəɹˈAʃənz",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(m2.d)",
+   "phonemes": "ˈO(ˈɛm tˈu.dˈi)",
+   "fallback": [
+    {
+     "text": "O(m2.d",
+     "phonemes": "ˈO(ˈɛm tˈu.dˈi"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(1)",
+   "phonemes": "ˈO(wˈʌn)",
+   "fallback": [
+    {
+     "text": "O(1",
+     "phonemes": "ˈO(wˈʌn"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(1)",
+   "phonemes": "ˈO(wˈʌn)",
+   "fallback": [
+    {
+     "text": "O(1",
+     "phonemes": "ˈO(wˈʌn"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Self-Attention",
+   "phonemes": "sˌɛlfətˈɛnʧən",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(m-d?)",
+   "phonemes": "ˈO(ˈɛmdˈi?)",
+   "fallback": [
+    {
+     "text": "O(m-d",
+     "phonemes": "ˈO(ˈɛmdˈi"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(n)",
+   "phonemes": "ˈO(ˈɛn)",
+   "fallback": [
+    {
+     "text": "O(n",
+     "phonemes": "ˈO(ˈɛn"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(m)",
+   "phonemes": "ˈO(ˈɛm)",
+   "fallback": [
+    {
+     "text": "O(m",
+     "phonemes": "ˈO(ˈɛm"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Recurrent",
+   "phonemes": "ɹəkˈɜɹənt",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(k-md2)",
+   "phonemes": "ˈO(kˈAˌɛmdˈi tˈu)",
+   "fallback": [
+    {
+     "text": "O(k-md2",
+     "phonemes": "ˈO(kˈAˌɛmdˈi tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(1)",
+   "phonemes": "ˈO(wˈʌn)",
+   "fallback": [
+    {
+     "text": "O(1",
+     "phonemes": "ˈO(wˈʌn"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(logk(m))",
+   "phonemes": "ˈO(lˈɔɡk(ˈɛm))",
+   "fallback": [
+    {
+     "text": "O(logk(m",
+     "phonemes": "ˈO(lˈɔɡk(ˈɛm"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Convolutional",
+   "phonemes": "kˌɑnvəlˈuʃənᵊl",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(1)",
+   "phonemes": "ˈO(wˈʌn)",
+   "fallback": [
+    {
+     "text": "O(1",
+     "phonemes": "ˈO(wˈʌn"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(m/r)",
+   "phonemes": "ˈO(ˈɛm slˈæʃ ˈɑɹ)",
+   "fallback": [
+    {
+     "text": "O(m/r",
+     "phonemes": "ˈO(ˈɛm slˈæʃ ˈɑɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "O(r.m-d)",
+   "phonemes": "ˈO(ˈɑɹ.ˈɛmdˈi)",
+   "fallback": [
+    {
+     "text": "O(r.m-d",
+     "phonemes": "ˈO(ˈɑɹ.ˈɛmdˈi"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Self-Attention (restricted)",
+   "phonemes": "sˌɛlfətˈɛnʧən (ɹəstɹˈɪktᵻd)",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "3.5 Positional Encoding",
+   "phonemes": "θɹˈi pYnt fˈIv pəzˈɪʃᵊnᵊl ɛŋkˈOdɪŋ",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence.",
+   "phonemes": "sˈɪns ˌWəɹ mˈɑdᵊl kəntˈAnz nˈO ɹəkˈɜɹəns ænd nˈO kˌɑnvəlˈuʃən, ɪn ˈɔɹdəɹ fɔɹ ðə mˈɑdᵊl tə mˌAk jˈus ʌv ði ˈɔɹdəɹ ʌv ðə sˈikwəns, wi mˈʌst ɪnʤˈɛkt sˌʌm ˌɪnfəɹmˈAʃən əbˈWt ðə ɹˈɛləTɪv ɔɹ ˈæbsəlˌut pəzˈɪʃən ʌv ðə tˈOkᵊnz ɪn ðə sˈikwəns.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "To this end, we add 'positional encodings\" to the input embeddings at the bottoms of the encoder and decoder stacks.",
+   "phonemes": "tə ðɪs ˈɛnd, wi ˈæd “pəzˈɪʃᵊnᵊl ɛŋkˈOdɪŋz” tə ði ˈɪnpˌʊt əmbˈɛdɪŋz æt ðə bˈɑTəmz ʌv ði ɪnkˈOdəɹ ænd dˌikˈOdəɹ stˈæks.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "The positional encodings have the same dimension dmodel as the embeddings, SO that the two can be summed.",
+   "phonemes": "ðə pəzˈɪʃᵊnᵊl ɛŋkˈOdɪŋz hæv ðə sˈAm dəmˈɛnʃən dˈimˈɑdᵊl æz ði əmbˈɛdɪŋz, sˈO ðæt ðə tˈu kæn bi sˈʌmd.",
+   "fallback": [
+    {
+     "text": "dmodel",
+     "phonemes": "dˈimˈɑdᵊl"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "There are many choices of positional encodings, learned and fixed [9].",
+   "phonemes": "ðˌɛɹ ɑɹ mˈɛni ʧˈYsᵻz ʌv pəzˈɪʃᵊnᵊl ɛŋkˈOdɪŋz, lˈɜɹnd ænd fˈɪkst [nˈIn).",
+   "fallback": [
+    {
+     "text": "[9",
+     "phonemes": "[nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "In this work, we use sine and cosine functions of different frequencies:",
+   "phonemes": "ɪn ðɪs wˈɜɹk, wi jˈuz sˈIn ænd kˈOsˌIn fˈʌŋkʃənz ʌv dˈɪfəɹənt fɹˈikwənsiz:",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "PE(pos,2:) = sin(pos/10000/4-a)",
+   "phonemes": "pˈi(pˈɑs,tˈu: ˈikwᵊlz sˈɪn(pˈɑs slˈæʃ tˈɛn θˈWzənd slˈæʃ fˈɔɹˈA)",
+   "fallback": [
+    {
+     "text": "PE(pos,2",
+     "phonemes": "pˈi(pˈɑs,tˈu"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "sin(pos/10000/4-a",
+     "phonemes": "sˈɪn(pˈɑs slˈæʃ tˈɛn θˈWzənd slˈæʃ fˈɔɹˈA"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "PE(pos,2i+1) = cos(pos/10000-4/4--)",
+   "phonemes": "pˈi(pˈɑs,tˈu ˈI plˈʌs wˈʌn) ˈikwᵊlz kˈɑs(pˈɑs slˈæʃ tˈɛn θˈWzənd dˈæʃ fˈɔɹ slˈæʃ fˈɔɹ)",
+   "fallback": [
+    {
+     "text": "PE(pos,2i+1",
+     "phonemes": "pˈi(pˈɑs,tˈu ˈI plˈʌs wˈʌn"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "cos(pos/10000-4/4--",
+     "phonemes": "kˈɑs(pˈɑs slˈæʃ tˈɛn θˈWzənd dˈæʃ fˈɔɹ slˈæʃ fˈɔɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "where pos is the position and i is the dimension.",
+   "phonemes": "wˌɛɹ pˈOz ɪz ðə pəzˈɪʃən ænd ˈI ɪz ðə dəmˈɛnʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "That is, each dimension of the positional encoding corresponds to a sinusoid.",
+   "phonemes": "ðˌæt ɪz, ˈiʧ dəmˈɛnʃən ʌv ðə pəzˈɪʃᵊnᵊl ɛŋkˈOdɪŋ kˌɔɹəspˈɑndz tə ɐ sˈInəsˌYd.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "The wavelengths form a geometric progression from 2m to 10000 2m.",
+   "phonemes": "ðə wˈAvlˌɛŋθs fˈɔɹm ɐ ʤˌiəmˈɛtɹɪk pɹəɡɹˈɛʃən fɹʌm tˈu ˈɛm tə tˈɛn θˈWzᵊnd tˈu ˈɛm",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "We chose this function because we hypothesized it would allow the model to easily learn to attend by relative positions, since for any fixed offset k, PEpostk can be represented as a linear function of PEpos-",
+   "phonemes": "wˌi ʧˈOz ðɪs fˈʌŋkʃən bəkˈʌz wi hIpˈɑθəsˌIzd ɪt wʊd əlˈW ðə mˈɑdᵊl tʊ ˈizᵊli lˈɜɹn tʊ ətˈɛnd bI ɹˈɛləTɪv pəzˈɪʃənz, sˈɪns fɔɹ ˈɛni fˈɪkst ˈɔfsˌɛt kˈA, pˈi ˈɛpOstk kæn bi ɹˌɛpɹəzˈɛntᵻd æz ɐ lˈɪniəɹ fˈʌŋkʃən ʌv pˈi ˈipOz",
+   "fallback": [
+    {
+     "text": "PEpostk",
+     "phonemes": "pˈi ˈɛpOstk"
+    },
+    {
+     "text": "PEpos-",
+     "phonemes": "pˈi ˈipOz"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "We also experimented with using learned positional embeddings [9] instead, and found that the two versions produced nearly identical results (see Table 3 row (E)).",
+   "phonemes": "wˌi ˈɔlsO ɪkspˈɛɹəməntᵻd wɪð jˈuzɪŋ lˈɜɹnd pəzˈɪʃᵊnᵊl əmbˈɛdɪŋz [nˈIn) ɪnstˈɛd, ænd fˈWnd ðæt ðə tˈu vˈɜɹʒənz pɹədˈust nˈɪɹli Idˈɛntəkᵊl ɹəzˈʌlts (sˈi tˈAbᵊl θɹˈi ɹˈO (ˈi)).",
+   "fallback": [
+    {
+     "text": "[9",
+     "phonemes": "[nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "We chose the sinusoidal version because it may allow the model to extrapolate to sequence lengths longer than the ones encountered during training.",
+   "phonemes": "wˌi ʧˈOz ðə sˌInəsˈYdᵊl vˈɜɹʒən bəkˈʌz ɪt mˈA əlˈW ðə mˈɑdᵊl tʊ ɪkstɹˈæpəlˌAt tə sˈikwəns lˈɛŋθs lˈɔŋɡəɹ ðən ðə wˈʌnz ɪnkˈWntəɹd dˈʊɹɪŋ tɹˈAnɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "4 Why Self-Attention",
+   "phonemes": "fˈɔɹ wˌI sˌɛlfətˈɛnʧən",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "In this section we compare various aspects of self-attention layers to the recurrent and convolutional layers commonly used for mapping one variable-length sequence of symbol representations (1, In) to another sequence of equal length (21, Em), with Ci, Zi € R4, such as a hidden layer in a typical sequence transduction encoder or decoder.",
+   "phonemes": "ɪn ðɪs sˈɛkʃən wi kəmpˈɛɹ vˈɛɹiəs ˈæspˌɛkts ʌv sˌɛlfətˈɛnʧən lˈAəɹz tə ðə ɹəkˈɜɹənt ænd kˌɑnvəlˈuʃənᵊl lˈAəɹz kˈɑmənli jˈuzd fɔɹ mˈæpɪŋ wˈʌn vˈɛɹiəbᵊllˌɛŋθ sˈikwəns ʌv sˈɪmbᵊl ɹˌɛpɹəzˌɛntˈAʃənz (wˈʌn, ɪn) tʊ ənˈʌðəɹ sˈikwəns ʌv ˈikwᵊl lˈɛŋθ (twˈɛnti wˈʌn, ˈɛm), wɪð sˌiˈI, zˈI jˈʊɹɹOz ˈɑɹ fˈɔɹ, sˈʌʧ æz ɐ hˈɪdᵊn lˈAəɹ ɪn ɐ tˈɪpəkᵊl sˈikwəns tɹˌænzdˈʌkʃən ɪnkˈOdəɹ ɔɹ dˌikˈOdəɹ.",
+   "fallback": [
+    {
+     "text": "Zi",
+     "phonemes": "zˈI"
+    },
+    {
+     "text": "€",
+     "phonemes": "jˈʊɹɹOz"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Motivating our use of self-attention we consider three desiderata.",
+   "phonemes": "mˈOTᵻvˌATɪŋ ˌWəɹ jˈus ʌv sˌɛlfətˈɛnʧən wi kənsˈɪdəɹ θɹˈi dəzˌɪdəɹˈɑTə.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "One is the total computational complexity per layer.",
+   "phonemes": "wˈʌn ɪz ðə tˈOTᵊl kˌɑmpjətˈAʃᵊnəl kəmplˈɛksəTi pɜɹ lˈAəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Another is the amount of computation that can be parallelized, as measured by the minimum number of sequential operations required.",
+   "phonemes": "ənˈʌðəɹ ɪz ði əmˈWnt ʌv kˌɑmpjətˈAʃən ðæt kæn bi pˈɛɹəlˌɛlˌIzd, æz mˈɛʒəɹd bI ðə mˈɪnəməm nˈʌmbəɹ ʌv səkwˈɛnʧᵊl ˌɑpəɹˈAʃənz ɹəkwˈIəɹd.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "The third is the path length between long-range dependencies in the network.",
+   "phonemes": "ðə θˈɜɹd ɪz ðə pˈæθ lˈɛŋθ bətwˈin lˈɔŋɹˌAnʤ dəpˈɛndᵊnsiz ɪn ðə nˈɛtwˌɜɹk.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Learning long-range dependencies is a key challenge in many sequence transduction tasks.",
+   "phonemes": "lˈɜɹnɪŋ lˈɔŋɹˌAnʤ dəpˈɛndᵊnsiz ɪz ɐ kˈi ʧˈælənʤ ɪn mˈɛni sˈikwəns tɹˌænzdˈʌkʃən tˈæsks.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "One key factor affecting the ability to learn such dependencies is the length of the paths forward and backward signals have to traverse in the network.",
+   "phonemes": "wˈʌn kˈi fˈæktəɹ əfˈɛktɪŋ ði əbˈɪləTi tə lˈɜɹn sˈʌʧ dəpˈɛndᵊnsiz ɪz ðə lˈɛŋθ ʌv ðə pˈæðz fˈɔɹwəɹd ænd bˈækwəɹd sˈɪɡnᵊlz hæv tə tɹəvˈɜɹs ɪn ðə nˈɛtwˌɜɹk.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "The shorter these paths between any combination of positions in the input and output sequences, the easier it is to learn long-range dependencies [12].",
+   "phonemes": "ðə ʃˈɔɹTəɹ ðiz pˈæðz bətwˈin ˈɛni kˌɑmbənˈAʃən ʌv pəzˈɪʃənz ɪn ði ˈɪnpˌʊt ænd ˈWtpˌʊt sˈikwənsᵻz, ði ˈiziəɹ ɪt ɪz tə lˈɜɹn lˈɔŋɹˌAnʤ dəpˈɛndᵊnsiz [twˈɛlv).",
+   "fallback": [
+    {
+     "text": "[12",
+     "phonemes": "[twˈɛlv"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "Hence we also compare the maximum path length between any two input and output positions in networks composed of the different layer types.",
+   "phonemes": "hˈɛns wi ˈɔlsO kəmpˈɛɹ ðə mˈæksəməm pˈæθ lˈɛŋθ bətwˈin ˈɛni tˈu ˈɪnpˌʊt ænd ˈWtpˌʊt pəzˈɪʃənz ɪn nˈɛtwˌɜɹks kəmpˈOzd ʌv ðə dˈɪfəɹənt lˈAəɹ tˈIps.",
+   "fallback": []
+  },
+  {
+   "source": "page_6.txt",
+   "text": "As noted in Table 1,a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(m) sequential operations.",
+   "phonemes": "ˌæz nˈOTᵻd ɪn tˈAbᵊl wˈʌn ˈA sˌɛlfətˈɛnʧən lˈAəɹ kənˈɛkts ˈɔl pəzˈɪʃənz wɪð ɐ kˈɑnstᵊnt nˈʌmbəɹ ʌv səkwˈɛnʧəli ˈɛksəkjˌuTᵻd ˌɑpəɹˈAʃənz, wəɹˈæz ɐ ɹəkˈɜɹənt lˈAəɹ ɹəkwˈIəɹz ˈO(ˈɛm) səkwˈɛnʧᵊl ˌɑpəɹˈAʃənz.",
+   "fallback": [
+    {
+     "text": "O(m",
+     "phonemes": "ˈO(ˈɛm"
+    }
+   ]
+  },
+  {
+   "source": "page_6.txt",
+   "text": "In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence",
+   "phonemes": "ɪn tˈɜɹmz ʌv kˌɑmpjətˈAʃᵊnəl kəmplˈɛksəTi, sˌɛlfətˈɛnʧən lˈAəɹz ɑɹ fˈæstəɹ ðən ɹəkˈɜɹənt lˈAəɹz wˌɛn ðə sˈikwəns",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "length n is smaller than the representation dimensionality d, which is most often the case with sentence representations used by state-of-the-art models in machine translations, such as word-piece [38] and byte-pair [31] representations.",
+   "phonemes": "lˈɛŋθ ˈɛn ɪz smˈɔləɹ ðən ðə ɹˌɛpɹəzˌɛntˈAʃən dəmˌɛnʃənˈæləTi dˈi, wˌɪʧ ɪz mˈOst ˈɔfᵊn ðə kˈAs wɪð sˈɛntᵊns ɹˌɛpɹəzˌɛntˈAʃənz jˈuzd bI stˈAtʌvðiˈɑɹt mˈɑdᵊlz ɪn məʃˈin tɹænzlˈAʃənz, sˈʌʧ æz wˈɜɹdpˌis [θˈɜɹTi ˈAt) ænd bˈItpˌɛɹ [θˈɜɹTi wˈʌn) ɹˌɛpɹəzˌɛntˈAʃənz.",
+   "fallback": [
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    },
+    {
+     "text": "[31",
+     "phonemes": "[θˈɜɹTi wˈʌn"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "To improve computational performance for tasks involving very long sequences, self-attention could be restricted to considering only a neighborhood of size T in the input sequence centered around the respective output position.",
+   "phonemes": "tʊ ɪmpɹˈuv kˌɑmpjətˈAʃᵊnəl pəɹfˈɔɹməns fɔɹ tˈæsks ɪnvˈɑlvɪŋ vˈɛɹi lˈɔŋ sˈikwənsᵻz, sˌɛlfətˈɛnʧən kʊd bi ɹəstɹˈɪktᵻd tə kənsˈɪdəɹɪŋ ˈOnli ɐ nˈAbəɹhˌʊd ʌv sˈIz tˈi ɪn ði ˈɪnpˌʊt sˈikwəns sˈɛntəɹd əɹˈWnd ðə ɹəspˈɛktɪv ˈWtpˌʊt pəzˈɪʃən.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "This would increase the maximum path length to O(n/r).",
+   "phonemes": "ðˌɪs wʊd ɪnkɹˈis ðə mˈæksəməm pˈæθ lˈɛŋθ tʊ ˈO(ˈɛn slˈæʃ ˈɑɹ).",
+   "fallback": [
+    {
+     "text": "O(n/r",
+     "phonemes": "ˈO(ˈɛn slˈæʃ ˈɑɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We plan to investigate this approach further in future work.",
+   "phonemes": "wˌi plˈæn tʊ ɪnvˈɛstəɡˌAt ðɪs əpɹˈOʧ fˈɜɹðəɹ ɪn fjˈuʧəɹ wˈɜɹk.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "A single convolutional layer with kernel width k < n does not connect all pairs of input and output positions.",
+   "phonemes": "ɐ sˈɪŋɡᵊl kˌɑnvəlˈuʃənᵊl lˈAəɹ wɪð kˈɜɹnᵊl wˈɪdθ kˈA  ˈɛn dˈʌz nˌɑt kənˈɛkt ˈɔl pˈɛɹz ʌv ˈɪnpˌʊt ænd ˈWtpˌʊt pəzˈɪʃənz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Doing sO requires a stack of O(m/k) convolutional layers in the case of contiguous kernels, or O(logk(n)) in the case of dilated convolutions [18], increasing the length of the longest paths between any two positions in the network.",
+   "phonemes": "dˈuɪŋ ˌɛsˈO ɹəkwˈIəɹz ɐ stˈæk ʌv ˈO(ˈɛm slˈæʃ kˈA) kˌɑnvəlˈuʃənᵊl lˈAəɹz ɪn ðə kˈAs ʌv kəntˈɪɡjəwəs kˈɜɹnᵊlz, ɔɹ ˈO(lˈɔɡk(ˈɛn)) ɪn ðə kˈAs ʌv dIlˈATᵻd kˌɑnvəlˈuʃənz [ˈAtin), ɪnkɹˈisɪŋ ðə lˈɛŋθ ʌv ðə lˈɔŋɡᵻst pˈæðz bətwˈin ˈɛni tˈu pəzˈɪʃənz ɪn ðə nˈɛtwˌɜɹk.",
+   "fallback": [
+    {
+     "text": "O(m/k",
+     "phonemes": "ˈO(ˈɛm slˈæʃ kˈA"
+    },
+    {
+     "text": "O(logk(n",
+     "phonemes": "ˈO(lˈɔɡk(ˈɛn"
+    },
+    {
+     "text": "[18",
+     "phonemes": "[ˈAtin"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Convolutional layers are generally more expensive than recurrent layers, by a factor of k.",
+   "phonemes": "kˌɑnvəlˈuʃənᵊl lˈAəɹz ɑɹ ʤˈɛnəɹəli mˈɔɹ ɪkspˈɛnsɪv ðən ɹəkˈɜɹənt lˈAəɹz, bI ɐ fˈæktəɹ ʌv kˈA",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Separable convolutions [6], however, decrease the complexity considerably, to O(k .",
+   "phonemes": "sˈɛpəɹəbᵊl kˌɑnvəlˈuʃənz [sˈɪks), hWˈɛvəɹ, dəkɹˈis ðə kəmplˈɛksəTi kənsˈɪdəɹəbli, tə ˈO(kˈA .",
+   "fallback": [
+    {
+     "text": "[6",
+     "phonemes": "[sˈɪks"
+    },
+    {
+     "text": "O(k",
+     "phonemes": "ˈO(kˈA"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "n d + n d?) Even with k n, however, the complexity of a separable convolution is equal to the combination of a self-attention layer and a point-wise feed-forward layer, the approach we take in our model.",
+   "phonemes": "ˈɛn dˈi plˈʌs ˈɛn dˈi?) ˈivən wɪð kˈA ˈɛn, hWˈɛvəɹ, ðə kəmplˈɛksəTi ʌv ɐ sˈɛpəɹəbᵊl kˌɑnvəlˈuʃən ɪz ˈikwᵊl tə ðə kˌɑmbənˈAʃən ʌv ɐ sˌɛlfətˈɛnʧən lˈAəɹ ænd ɐ pˈYntwˌIz fˌidfˈɔɹwəɹd lˈAəɹ, ði əpɹˈOʧ wi tˈAk ˈɪn ˌWəɹ mˈɑdᵊl.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "As side benefit, self-attention could yield more interpretable models.",
+   "phonemes": "ˌæz sˈId bˈɛnəfɪt, sˌɛlfətˈɛnʧən kʊd jˈild mˈɔɹ ɪntˈɜɹpɹəTəbᵊl mˈɑdᵊlz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We inspect attention distributions from our models and present and discuss examples in the appendix.",
+   "phonemes": "wˌi ɪnspˈɛkt ətˈɛnʧən dˌɪstɹəbjˈuʃənz fɹʌm ˌWəɹ mˈɑdᵊlz ænd pɹˈɛzᵊnt ænd dəskˈʌs ɪɡzˈæmpəlz ɪn ði əpˈɛndɪks.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Not only do individual attention heads clearly learn to perform different tasks, many appear to exhibit behavior related to the syntactic and semantic structure of the sentences.",
+   "phonemes": "nˌɑt ˈOnli dˈu ˌɪndəvˈɪʤəwəl ətˈɛnʧən hˈɛdz klˈɪɹli lˈɜɹn tə pəɹfˈɔɹm dˈɪfəɹənt tˈæsks, mˈɛni əpˈɪɹ tʊ ɪɡzˈɪbət bəhˈAvjəɹ ɹəlˈATᵻd tə ðə sɪntˈæktɪk ænd səmˈæntɪk stɹˈʌkʧəɹ ʌv ðə sˈɛntᵊnsᵻz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "5 Training",
+   "phonemes": "fˈIv tɹˈAnɪŋ",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "This section describes the training regime for our models.",
+   "phonemes": "ðˌɪs sˈɛkʃən dəskɹˈIbz ðə tɹˈAnɪŋ ɹAʒˈim fɔɹ ˌWəɹ mˈɑdᵊlz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "5.1 Training Data and Batching",
+   "phonemes": "fˈIv pYnt wˈʌn tɹˈAnɪŋ dˈATə ænd bˈæʧɪŋ",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million sentence pairs.",
+   "phonemes": "wˌi tɹˈAnd ˌɔn ðə stˈændəɹd dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ˌɪŋɡlɪʃʤˈɜɹmən dˈATəsˌɛt kənsˈɪstɪŋ ʌv əbˈWt fˈɔɹ pYnt fˈIv mˈɪljᵊn sˈɛntᵊns pˈɛɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Sentences were encoded using byte-pair encoding [3], which has a shared sourcetarget vocabulary of about 37000 tokens.",
+   "phonemes": "sˈɛntᵊnsᵻz wɜɹ ɪnkˈOdᵻd jˈuzɪŋ bˈItpˌɛɹ ɛŋkˈOdɪŋ [θɹˈi), wˌɪʧ hæz ɐ ʃˈɛɹd sˈɔɹstɑɹɡɪt vOkˈæbjəlˌɛɹi ʌv əbˈWt θˈɜɹTi sˈɛvən θˈWzᵊnd tˈOkᵊnz.",
+   "fallback": [
+    {
+     "text": "[3",
+     "phonemes": "[θɹˈi"
+    },
+    {
+     "text": "sourcetarget",
+     "phonemes": "sˈɔɹstɑɹɡɪt"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "For English-French, we used the significantly larger WMT 2014 English-French dataset consisting of 36M sentences and split tokens into a 32000 word-piece vocabulary [38].",
+   "phonemes": "fˌɔɹ ˌɪŋɡlɪʃfɹˈɛnʧ, wi jˈuzd ðə səɡnˈɪfəkəntli lˈɑɹʤəɹ dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ˌɪŋɡlɪʃfɹˈɛnʧ dˈATəsˌɛt kənsˈɪstɪŋ ʌv θˈɜɹTi sˈɪks ˈɛm sˈɛntᵊnsᵻz ænd splˈɪt tˈOkᵊnz ˈɪntu ɐ θˈɜɹTi tˈu θˈWzᵊnd wˈɜɹdpˌis vOkˈæbjəlˌɛɹi [θˈɜɹTi ˈAt).",
+   "fallback": [
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Sentence pairs were batched together by approximate sequence length.",
+   "phonemes": "sˈɛntᵊns pˈɛɹz wɜɹ bˈæʧt təɡˈɛðəɹ bI əpɹˈɑksəmət sˈikwəns lˈɛŋθ.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Each training batch contained a set of sentence pairs containing approximately 25000 source tokens and 25000 target tokens.",
+   "phonemes": "ˈiʧ tɹˈAnɪŋ bˈæʧ kəntˈAnd ɐ sˈɛt ʌv sˈɛntᵊns pˈɛɹz kəntˈAnɪŋ əpɹˈɑksəmətli twˈɛnti fˈIv θˈWzᵊnd sˈɔɹs tˈOkᵊnz ænd twˈɛnti fˈIv θˈWzᵊnd tˈɑɹɡət tˈOkᵊnz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "5.2 Hardware and Schedule",
+   "phonemes": "fˈIv pYnt tˈu hˈɑɹdwˌɛɹ ænd skˈɛʤˌul",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We trained our models on one machine with 8 NVIDIA P100 GPUS.",
+   "phonemes": "wˌi tɹˈAnd ˌWəɹ mˈɑdᵊlz ˌɔn wˈʌn məʃˈin wɪð ˈAt ɛnvˈɪdiə pˈi wˈʌn hˈʌndɹəd ʤˌipˌijˌuˈɛs.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "For our base models using the hyperparameters described throughout the paper, each training step took about 0.4 seconds.",
+   "phonemes": "fˌɔɹ ˌWəɹ bˈAs mˈɑdᵊlz jˈuzɪŋ ðə hˌIpəɹpəɹɹˈæmɪTəɹz dəskɹˈIbd θɹuˈWt ðə pˈApəɹ, ˈiʧ tɹˈAnɪŋ stˈɛp tˈʊk əbˈWt zˈɪɹO pYnt fˈɔɹ sˈɛkəndz.",
+   "fallback": [
+    {
+     "text": "hyperparameters",
+     "phonemes": "hˌIpəɹpəɹɹˈæmɪTəɹz"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We trained the base models for a total of 100,000 steps or 12 hours.",
+   "phonemes": "wˌi tɹˈAnd ðə bˈAs mˈɑdᵊlz fɔɹ ɐ tˈOTᵊl ʌv wˈʌn hˈʌndɹəd θˈWzᵊnd stˈɛps ɔɹ twˈɛlv ˈWəɹz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "For our big models,described on the bottom line of table 3), step time was 1.0 seconds.",
+   "phonemes": "fˌɔɹ ˌWəɹ bˈɪɡ mˈɑdᵊlz,dəskɹˈIbd ˌɔn ðə bˈɑTəm lˈIn ʌv tˈAbᵊl θɹˈi), stˈɛp tˈIm wʌz wˈʌn sˈɛkəndz.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "The big models were trained for 300,000 steps (3.5 days).",
+   "phonemes": "ðə bˈɪɡ mˈɑdᵊlz wɜɹ tɹˈAnd fɔɹ θɹˈi hˈʌndɹəd θˈWzᵊnd stˈɛps (θɹˈi pYnt fˈIv dˈAz).",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "5.3 Optimizer",
+   "phonemes": "fˈIv pYnt θɹˈi ˈɑptɪmˌIzəɹ",
+   "fallback": [
+    {
+     "text": "Optimizer",
+     "phonemes": "ˈɑptɪmˌIzəɹ"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We used the Adam optimizer [20] with Bi = 0.9, B2 = 0.98 and E = 10-9.",
+   "phonemes": "wˌi jˈuzd ði ˈædəm ˈɑptɪmˌIzəɹ [twˈɛnti) wɪð bˈI ˈikwᵊlz zˈɪɹO pYnt nˈIn, bˈi tˈu ˈikwᵊlz zˈɪɹO pYnt nˈIn ˈAt ænd ˈi ˈikwᵊlz tˌɛnnˈIn.",
+   "fallback": [
+    {
+     "text": "optimizer",
+     "phonemes": "ˈɑptɪmˌIzəɹ"
+    },
+    {
+     "text": "[20",
+     "phonemes": "[twˈɛnti"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We varied the learning rate over the course of training, according to the formula:",
+   "phonemes": "wˌi vˈɛɹid ðə lˈɜɹnɪŋ ɹˈAt ˈOvəɹ ðə kˈɔɹs ʌv tɹˈAnɪŋ, əkˈɔɹdɪŋ tə ðə fˈɔɹmjələ:",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "Irate = dmos min(step.num -0.5 step_num warmup.steps 1.5)",
+   "phonemes": "IɹˈAt ˈikwᵊlz dˈimˈɑs mˈɪn(stˈɛp.nˈʌm mˈInəs zˈɪɹO pYnt fˈIv stˈɛpnˌʌm wˈɔɹmʌpstˌɛps wˈʌn pYnt fˈIv)",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "dmos",
+     "phonemes": "dˈimˈɑs"
+    },
+    {
+     "text": "min(step.num",
+     "phonemes": "mˈɪn(stˈɛp.nˈʌm"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "This corresponds to increasing the learning rate linearly for the first warmup_steps training steps, and decreasing it thereafter proportionally to the inverse square root of the step number.",
+   "phonemes": "ðˌɪs kˌɔɹəspˈɑndz tʊ ɪnkɹˈisɪŋ ðə lˈɜɹnɪŋ ɹˈAt lˈɪniəɹli fɔɹ ðə fˈɜɹst wˈɔɹmʌpstˌɛps tɹˈAnɪŋ stˈɛps, ænd dəkɹˈisɪŋ ɪt ðɛɹˈæftəɹ pɹəpˈɔɹʃᵊnəli tə ði ˈɪnvˌɜɹs skwˈɛɹ ɹˈut ʌv ðə stˈɛp nˈʌmbəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_7.txt",
+   "text": "We used warmup_steps = 4000.",
+   "phonemes": "wˌi jˈuzd wˈɔɹmʌpstˌɛps ˈikwᵊlz fˈɔɹ θˈWzᵊnd.",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_7.txt",
+   "text": "5.4 Regularization",
+   "phonemes": "fˈIv pYnt fˈɔɹ ɹˌɛɡjələɹəzˈAʃən",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.",
+   "phonemes": "tˈAbᵊl tˈu: ðə tɹænsfˈɔɹməɹ əʧˈivz bˈɛTəɹ bˌiˌɛlˌijˈu skˈɔɹz ðən pɹˈiviəs stˈAtʌvðiˈɑɹt mˈɑdᵊlz ˌɔn ði ˈɪŋɡlɪʃtəʤˈɜɹmən ænd ˈɪŋɡlɪʃtəfɹˈɛnʧ nˈuztɛst tˈu θˈWzənd fˈɔɹtin tˈɛsts æt ɐ fɹˈækʃən ʌv ðə tɹˈAnɪŋ kˈɔst.",
+   "fallback": [
+    {
+     "text": "newstest2014",
+     "phonemes": "nˈuztɛst tˈu θˈWzənd fˈɔɹtin"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "EN-DE EN-FR",
+   "phonemes": "ˌɛndˌiˈi ˌɛnˌɛfˈɑɹ",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "EN-DE",
+   "phonemes": "ˌɛndˌiˈi",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "EN-FR",
+   "phonemes": "ˌɛnˌɛfˈɑɹ",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "ByteNet [18]",
+   "phonemes": "bˈItnˌɛt [ˈAtin)",
+   "fallback": [
+    {
+     "text": "[18",
+     "phonemes": "[ˈAtin"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Deep-Att + PosUnk [39]",
+   "phonemes": "dˈipˈæt plˈʌs pˈɑs ˈʌŋk [θˈɜɹTi nˈIn)",
+   "fallback": [
+    {
+     "text": "Deep-Att",
+     "phonemes": "dˈipˈæt"
+    },
+    {
+     "text": "PosUnk",
+     "phonemes": "pˈɑs ˈʌŋk"
+    },
+    {
+     "text": "[39",
+     "phonemes": "[θˈɜɹTi nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "GNMT + RL [38]",
+   "phonemes": "ʤˌiˌɛnˌɛmtˈi plˈʌs ˌɑɹˈɛl [θˈɜɹTi ˈAt)",
+   "fallback": [
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "ConvS2S [9]",
+   "phonemes": "kˈɑnvˌɛstʊˈɛs [nˈIn)",
+   "fallback": [
+    {
+     "text": "[9",
+     "phonemes": "[nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "MoE [32]",
+   "phonemes": "mˈOˌi [θˈɜɹTi tˈu)",
+   "fallback": [
+    {
+     "text": "[32",
+     "phonemes": "[θˈɜɹTi tˈu"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Deep-Att + PosUnk Ensemble [39]",
+   "phonemes": "dˈipˈæt plˈʌs pˈɑs ˈʌŋk ɑnsˈɑmbᵊl [θˈɜɹTi nˈIn)",
+   "fallback": [
+    {
+     "text": "Deep-Att",
+     "phonemes": "dˈipˈæt"
+    },
+    {
+     "text": "PosUnk",
+     "phonemes": "pˈɑs ˈʌŋk"
+    },
+    {
+     "text": "[39",
+     "phonemes": "[θˈɜɹTi nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "GNMT + RL Ensemble [38]",
+   "phonemes": "ʤˌiˌɛnˌɛmtˈi plˈʌs ˌɑɹˈɛl ɑnsˈɑmbᵊl [θˈɜɹTi ˈAt)",
+   "fallback": [
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "ConvS2S Ensemble [9]",
+   "phonemes": "kˈɑnvˌɛstʊˈɛs ɑnsˈɑmbᵊl [nˈIn)",
+   "fallback": [
+    {
+     "text": "[9",
+     "phonemes": "[nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Transformer (base model)",
+   "phonemes": "tɹænsfˈɔɹməɹ (bˈAs mˈɑdᵊl)",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Transformer (big)",
+   "phonemes": "tɹænsfˈɔɹməɹ (bˈɪɡ)",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Residual Dropout We apply dropout [33] to the output of each sub-layer, before it is added to the sub-layer input and normalized.",
+   "phonemes": "ɹəzˈɪʤəwəl dɹˈɑpˌWt wˌi əplˈI dɹˈɑpˌWt [θˈɜɹTi θɹˈi] tə ði ˈWtpˌʊt ʌv ˈiʧ sˌʌblˈAəɹ, bəfˈɔɹ ɪt ɪz ˈædᵻd tə ðə sˌʌblˈAəɹ ˈɪnpˌʊt ænd nˈɔɹməlˌIzd.",
+   "fallback": [
+    {
+     "text": "[33]",
+     "phonemes": "[θˈɜɹTi θɹˈi]"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "In addition, we apply dropout to the sums of the embeddings and the positional encodings in both the encoder and decoder stacks.",
+   "phonemes": "ɪn ədˈɪʃən, wi əplˈI dɹˈɑpˌWt tə ðə sˈʌmz ʌv ði əmbˈɛdɪŋz ænd ðə pəzˈɪʃᵊnᵊl ɛŋkˈOdɪŋz ɪn bˈOθ ði ɪnkˈOdəɹ ænd dˌikˈOdəɹ stˈæks.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "For the base model, we use a rate of Pdrop = 0.1.",
+   "phonemes": "fˌɔɹ ðə bˈAs mˈɑdᵊl, wi jˈuz ɐ ɹˈAt ʌv pˈidɹˈɑp ˈikwᵊlz zˈɪɹO pYnt wˈʌn.",
+   "fallback": [
+    {
+     "text": "Pdrop",
+     "phonemes": "pˈidɹˈɑp"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Label Smoothing During training, we employed label smoothing of value Els = 0.1 [36].",
+   "phonemes": "lˈAbəl smˈuðɪŋ dˈʊɹɪŋ tɹˈAnɪŋ, wi ɪmplˈYd lˈAbəl smˈuðɪŋ ʌv vˈælju ˌɛlz ˈikwᵊlz zˈɪɹO pYnt wˈʌn [θˈɜɹTi sˈɪks).",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "[36",
+     "phonemes": "[θˈɜɹTi sˈɪks"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "This hurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score.",
+   "phonemes": "ðˌɪs hˈɜɹts pəɹplˈɛksəTi, æz ðə mˈɑdᵊl lˈɜɹnz tə bi mˈɔɹ ˌʌnʃˈʊɹ, bˌʌt ɪmpɹˈuvz ˈækjəɹəsi ænd bˌiˌɛlˌijˈu skˈɔɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "6 Results",
+   "phonemes": "sˈɪks ɹəzˈʌlts",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "6.1 Machine Translation",
+   "phonemes": "sˈɪks pYnt wˈʌn məʃˈin tɹænzlˈAʃən",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big) in Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4.",
+   "phonemes": "ˌɔn ðə dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ˈɪŋɡlɪʃtəʤˈɜɹmən tɹænzlˈAʃən tˈæsk, ðə bˈɪɡ tɹænsfˈɔɹməɹ mˈɑdᵊl (tɹænsfˈɔɹməɹ (bˈɪɡ) ɪn tˈAbᵊl tˈu) ˌWtpəɹfˈɔɹmz ðə bˈɛst pɹˈiviəsli ɹəpˈɔɹTᵻd mˈɑdᵊlz (ɪnklˈudɪŋ ɑnsˈɑmbᵊlz) bI mˈɔɹ ðən tˈu bˌiˌɛlˌijˈu, ɪstˈæblɪʃɪŋ ɐ nˈu stˈAtʌvðiˈɑɹt bˌiˌɛlˌijˈu skˈɔɹ ʌv twˈɛnti ˈAt pYnt fˈɔɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "The configuration of this model is listed in the bottom line of Table 3.",
+   "phonemes": "ðə kənfˌɪɡjəɹˈAʃən ʌv ðɪs mˈɑdᵊl ɪz lˈɪstᵻd ɪn ðə bˈɑTəm lˈIn ʌv tˈAbᵊl θɹˈi.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Training took 3.5 days on 8 P100 GPUS.",
+   "phonemes": "tɹˈAnɪŋ tˈʊk θɹˈi pYnt fˈIv dˈAz ˌɔn ˈAt pˈi wˈʌn hˈʌndɹəd ʤˌipˌijˌuˈɛs.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of any of the competitive models.",
+   "phonemes": "ˈivən ˌWəɹ bˈAs mˈɑdᵊl səɹpˈæsᵻz ˈɔl pɹˈiviəsli pˈʌblɪʃt mˈɑdᵊlz ænd ɑnsˈɑmbᵊlz, æt ɐ fɹˈækʃən ʌv ðə tɹˈAnɪŋ kˈɔst ʌv ˈɛni ʌv ðə kəmpˈɛTəTɪv mˈɑdᵊlz.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0, outperforming all of the previously published single models, at less than 1/4 the training cost of the previous state-of-the-art model.",
+   "phonemes": "ˌɔn ðə dˌʌbᵊljuˌɛmtˈi twˈɛnti fˌɔɹtˈin ˈɪŋɡlɪʃtəfɹˈɛnʧ tɹænzlˈAʃən tˈæsk, ˌWəɹ bˈɪɡ mˈɑdᵊl əʧˈivz ɐ bˌiˌɛlˌijˈu skˈɔɹ ʌv fˈɔɹTi wˈʌn, Wtpəɹfˈɔɹmɪŋ ˈɔl ʌv ðə pɹˈiviəsli pˈʌblɪʃt sˈɪŋɡᵊl mˈɑdᵊlz, æt lˈɛs ðən wˈʌn fˈɔɹ ðə tɹˈAnɪŋ kˈɔst ʌv ðə pɹˈiviəs stˈAtʌvðiˈɑɹt mˈɑdᵊl.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "The Transformer (big) model trained for English-to-French used dropout rate Pdrop = 0.1, instead of 0.3.",
+   "phonemes": "ðə tɹænsfˈɔɹməɹ (bˈɪɡ) mˈɑdᵊl tɹˈAnd fɔɹ ˈɪŋɡlɪʃtəfɹˈɛnʧ jˈuzd dɹˈɑpˌWt ɹˈAt pˈidɹˈɑp ˈikwᵊlz zˈɪɹO pYnt wˈʌn, ɪnstˈɛd ʌv zˈɪɹO pYnt θɹˈi.",
+   "fallback": [
+    {
+     "text": "Pdrop",
+     "phonemes": "pˈidɹˈɑp"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "For the base models, we used a single model obtained by averaging the last 5 checkpoints, which were written at 10-minute intervals.",
+   "phonemes": "fˌɔɹ ðə bˈAs mˈɑdᵊlz, wi jˈuzd ɐ sˈɪŋɡᵊl mˈɑdᵊl əbtˈAnd bI ˈævɹɪʤɪŋ ðə lˈæst fˈIv ʧˈɛkpˌYnts, wˌɪʧ wɜɹ ɹˈɪtn æt tˈɛn mˈɪnət ˈɪntəɹvᵊlz.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "For the big models, we averaged the last 20 checkpoints.",
+   "phonemes": "fˌɔɹ ðə bˈɪɡ mˈɑdᵊlz, wi ˈævəɹɪʤd ðə lˈæst twˈɛnti ʧˈɛkpˌYnts.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "We used beam search with a beam size of 4 and length penalty a = 0.6 [38].",
+   "phonemes": "wˌi jˈuzd bˈim sˈɜɹʧ wɪð ɐ bˈim sˈIz ʌv fˈɔɹ ænd lˈɛŋθ pˈɛnᵊlti ɐ ˈikwᵊlz zˈɪɹO pYnt sˈɪks [θˈɜɹTi ˈAt).",
+   "fallback": [
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "These hyperparameters were chosen after experimentation on the development set.",
+   "phonemes": "ðˌiz hˌIpəɹpəɹɹˈæmɪTəɹz wɜɹ ʧˈOzᵊn ˈæftəɹ ɪkspˌɛɹəməntˈAʃən ˌɔn ðə dəvˈɛləpmənt sˈɛt.",
+   "fallback": [
+    {
+     "text": "hyperparameters",
+     "phonemes": "hˌIpəɹpəɹɹˈæmɪTəɹz"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "We set the maximum output length during inference to input length + 50, but terminate early when possible [38].",
+   "phonemes": "wˌi sˈɛt ðə mˈæksəməm ˈWtpˌʊt lˈɛŋθ dˈʊɹɪŋ ˈɪnfəɹəns tʊ ˈɪnpˌʊt lˈɛŋθ plˈʌs fˈɪfti, bˌʌt tˈɛɹmənˌAt ˈɜɹli wˌɛn pˈɑsəbᵊl [θˈɜɹTi ˈAt).",
+   "fallback": [
+    {
+     "text": "[38",
+     "phonemes": "[θˈɜɹTi ˈAt"
+    }
+   ]
+  },
+  {
+   "source": "page_8.txt",
+   "text": "Table 2 summarizes our results and compares our translation quality and training costs to other model architectures from the literature.",
+   "phonemes": "tˈAbᵊl tˈu sˈʌməɹˌIzᵻz ˌWəɹ ɹəzˈʌlts ænd kəmpˈɛɹz ˌWəɹ tɹænzlˈAʃən kwˈɑləTi ænd tɹˈAnɪŋ kˈɔsts tʊ ˈʌðəɹ mˈɑdᵊl ˈɑɹkətˌɛkʧəɹz fɹʌm ðə lˈɪTəɹəʧəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "We estimate the number of floating point operations used to train a model by multiplying the training time, the number of GPUS used, and an estimate of the sustained single-precision floating-point capacity of each GPU 5.",
+   "phonemes": "wˌi ˈɛstəmˌAt ðə nˈʌmbəɹ ʌv flˈOTɪŋ pˈYnt ˌɑpəɹˈAʃənz jˈuzd tə tɹˈAn ɐ mˈɑdᵊl bI mˌʌltɪplˈIɪŋ ðə tɹˈAnɪŋ tˈIm, ðə nˈʌmbəɹ ʌv ʤˌipˌijˌuˈɛs jˈuzd, ænd ɐn ˈɛstəmət ʌv ðə səstˈAnd sˌɪŋɡᵊlpɹisˈɪʒᵊn flˈOTɪŋpˌYnt kəpˈæsəTi ʌv ˈiʧ ʤˌipˌijˈu fˈIv.",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "6.2 Model Variations",
+   "phonemes": "sˈɪks pYnt tˈu mˈɑdᵊl vˌɛɹiˈAʃənz",
+   "fallback": []
+  },
+  {
+   "source": "page_8.txt",
+   "text": "To evaluate the importance of different components of the Transformer, we varied our base model in different ways, measuring the change in performance on English-to-German translation on the",
+   "phonemes": "tʊ əvˈæljʊˌAt ði ɪmpˈɔɹtᵊns ʌv dˈɪfəɹənt kəmpˈOnənts ʌv ðə tɹænsfˈɔɹməɹ, wi vˈɛɹid ˌWəɹ bˈAs mˈɑdᵊl ɪn dˈɪfəɹənt wˈAz, mˈɛʒəɹɪŋ ðə ʧˈAnʤ ɪn pəɹfˈɔɹməns ˌɔn ˈɪŋɡlɪʃtəʤˈɜɹmən tɹænzlˈAʃən ˌɔn ðə",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "Table 3: Variations on the Transformer architecture.",
+   "phonemes": "tˈAbᵊl θɹˈi: vˌɛɹiˈAʃənz ˌɔn ðə tɹænsfˈɔɹməɹ ˈɑɹkətˌɛkʧəɹ.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "Unlisted values are identical to those of the base model.",
+   "phonemes": "ˌʌnlˈɪstᵻd vˈæljuz ɑɹ Idˈɛntəkᵊl tə ðOz ʌv ðə bˈAs mˈɑdᵊl.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "All metrics are on the English-to-German translation development set, newstest2013.",
+   "phonemes": "ˈɔl mˈɛtɹɪks ɑɹ ˌɔn ði ˈɪŋɡlɪʃtəʤˈɜɹmən tɹænzlˈAʃən dəvˈɛləpmənt sˈɛt, nˈuztɛst tˈu θˈWzənd θˈɜɹtin.",
+   "fallback": [
+    {
+     "text": "newstest2013",
+     "phonemes": "nˈuztɛst tˈu θˈWzənd θˈɜɹtin"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.",
+   "phonemes": "lˈɪstᵻd pəɹplˈɛksᵻTiz ɑɹ pɜɹwˈɜɹdpis, əkˈɔɹdɪŋ tʊ ˌWəɹ bˈItpˌɛɹ ɛŋkˈOdɪŋ, ænd ʃˌʊd nˌɑt bi kəmpˈɛɹd tə pɜɹwˈɜɹd pəɹplˈɛksᵻTiz.",
+   "fallback": [
+    {
+     "text": "per-wordpiece",
+     "phonemes": "pɜɹwˈɜɹdpis"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "N dmodel de h dy dy Pdrop Els train PPL BLEU params",
+   "phonemes": "ˈɛn dˈimˈɑdᵊl də ˈAʧ dˈI dˈI pˈidɹˈɑp ˌɛlz tɹˈAn pˌipˌiˈɛl bˌiˌɛlˌijˈu pˈæɹəmz",
+   "fallback": [
+    {
+     "text": "dmodel",
+     "phonemes": "dˈimˈɑdᵊl"
+    },
+    {
+     "text": "de",
+     "phonemes": "də"
+    },
+    {
+     "text": "dy",
+     "phonemes": "dˈI"
+    },
+    {
+     "text": "dy",
+     "phonemes": "dˈI"
+    },
+    {
+     "text": "Pdrop",
+     "phonemes": "pˈidɹˈɑp"
+    },
+    {
+     "text": "params",
+     "phonemes": "pˈæɹəmz"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "steps (dev) (dev) x106 base 6 512 2048 8 64 64 0.1 0.1 100K 4.92 25.8",
+   "phonemes": "stˈɛps (dˈɛv) (dˈɛv) ˈɛks wˈʌn O sˈɪks bˈAs sˈɪks fˈIv hˈʌndɹəd twˈɛlv twˈɛnti fˈɔɹTi ˈAt ˈAt sˈɪksti fˈɔɹ sˈɪksti fˈɔɹ zˈɪɹO pYnt wˈʌn zˈɪɹO pYnt wˈʌn wˈʌn hˈʌndɹəd kˈA fˈɔɹ pYnt nˈIn tˈu twˈɛnti fˈIv pYnt ˈAt",
+   "fallback": [
+    {
+     "text": "dev",
+     "phonemes": "dˈɛv"
+    },
+    {
+     "text": "dev",
+     "phonemes": "dˈɛv"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "(A)",
+   "phonemes": "(ˈA)",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "(B)",
+   "phonemes": "(bˈi)",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "(C)",
+   "phonemes": "(sˈi)",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "(D)",
+   "phonemes": "(dˈi)",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "(E)",
+   "phonemes": "(ˈi)",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "positional embedding instead of sinusoids",
+   "phonemes": "pəzˈɪʃᵊnᵊl əmbˈɛdɪŋ ɪnstˈɛd ʌv sˈInəsˌYdz",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "big 6 1024 4096 16",
+   "phonemes": "bˈɪɡ sˈɪks tˈɛn twˈɛnti fˈɔɹ fˈɔɹTi nˈIndi sˈɪks sˌɪkstˈin",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "300K 4.33 26.4",
+   "phonemes": "θɹˈi hˈʌndɹəd kˈA fˈɔɹ pYnt θɹˈi θɹˈi twˈɛnti sˈɪks pYnt fˈɔɹ",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "development set, newstest2013.",
+   "phonemes": "dəvˈɛləpmənt sˈɛt, nˈuztɛst tˈu θˈWzənd θˈɜɹtin.",
+   "fallback": [
+    {
+     "text": "newstest2013",
+     "phonemes": "nˈuztɛst tˈu θˈWzənd θˈɜɹtin"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "We used beam search as described in the previous section, but no checkpoint averaging.",
+   "phonemes": "wˌi jˈuzd bˈim sˈɜɹʧ æz dəskɹˈIbd ɪn ðə pɹˈiviəs sˈɛkʃən, bˌʌt nˈO ʧˈɛkpˌYnt ˈævɹɪʤɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "We present these results in Table 3.",
+   "phonemes": "wˌi pɹizˈɛnt ðiz ɹəzˈʌlts ɪn tˈAbᵊl θɹˈi.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "In Table 3 rows (A), we vary the number of attention heads and the attention key and value dimensions, keeping the amount of computation constant, as described in Section 3.2.2.",
+   "phonemes": "ɪn tˈAbᵊl θɹˈi ɹˈOz (ˈA), wi vˈɛɹi ðə nˈʌmbəɹ ʌv ətˈɛnʧən hˈɛdz ænd ði ətˈɛnʧən kˈi ænd vˈælju dəmˈɛnʃənz, kˈipɪŋ ði əmˈWnt ʌv kˌɑmpjətˈAʃən kˈɑnstᵊnt, æz dəskɹˈIbd ɪn sˈɛkʃən θɹˈi tˈu tˈu.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "While single-head attention is 0.9 BLEU worse than the best setting, quality also drops off with too many heads.",
+   "phonemes": "wˌIl sˈɪŋɡᵊlhˌɛd ətˈɛnʧən ɪz zˈɪɹO pYnt nˈIn bˌiˌɛlˌijˈu wˈɜɹs ðən ðə bˈɛst sˈɛTɪŋ, kwˈɑləTi ˈɔlsO dɹˈɑps ˈɔf wɪð tˈu mˈɛni hˈɛdz.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "In Table 3 rows (B), we observe that reducing the attention key size dk hurts model quality.",
+   "phonemes": "ɪn tˈAbᵊl θɹˈi ɹˈOz (bˈi), wi əbzˈɜɹv ðæt ɹᵻdˈusɪŋ ði ətˈɛnʧən kˈi sˈIz dˌikˈA hˈɜɹts mˈɑdᵊl kwˈɑləTi.",
+   "fallback": [
+    {
+     "text": "dk",
+     "phonemes": "dˌikˈA"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "This suggests that determining compatibility is not easy and that a more sophisticated compatibility function than dot product may be beneficial.",
+   "phonemes": "ðˌɪs səɡʤˈɛsts ðæt dətˈɜɹmənɪŋ kəmpˌæTəbˈɪləTi ɪz nˌɑt ˈizi ænd ðæt ɐ mˈɔɹ səfˈɪstəkˌATᵻd kəmpˌæTəbˈɪləTi fˈʌŋkʃən ðən dˈɑt pɹˈɑdˌʌkt mˈA bi bˌɛnəfˈɪʃᵊl.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "We further observe in rows (C) and (D) that, as expected, bigger models are better, and dropout is very helpful in avoiding over-fitting.",
+   "phonemes": "wˌi fˈɜɹðəɹ əbzˈɜɹv ɪn ɹˈOz (sˈi) ænd (dˈi) ðæt, æz ɪkspˈɛktᵻd, bˈɪɡəɹ mˈɑdᵊlz ɑɹ bˈɛTəɹ, ænd dɹˈɑpˌWt ɪz vˈɛɹi hˈɛlpfᵊl ɪn əvˈYdɪŋ ˌOvəɹfˈɪTɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "In row (E) we replace our sinusoidal positional encoding with learned positional embeddings [9], and observe nearly identical results to the base model.",
+   "phonemes": "ɪn ɹˈO (ˈi) wi ɹəplˈAs ˌWəɹ sˌInəsˈYdᵊl pəzˈɪʃᵊnᵊl ɛŋkˈOdɪŋ wɪð lˈɜɹnd pəzˈɪʃᵊnᵊl əmbˈɛdɪŋz [nˈIn), ænd əbzˈɜɹv nˈɪɹli Idˈɛntəkᵊl ɹəzˈʌlts tə ðə bˈAs mˈɑdᵊl.",
+   "fallback": [
+    {
+     "text": "[9",
+     "phonemes": "[nˈIn"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "6.3 English Constituency Parsing",
+   "phonemes": "sˈɪks pYnt θɹˈi ˈɪŋɡlɪʃ kənstˈɪʧʊənsi pˈɑɹsɪŋ",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing.",
+   "phonemes": "tʊ əvˈæljʊˌAt ɪf ðə tɹænsfˈɔɹməɹ kæn ʤˈɛnəɹəlˌIz tʊ ˈʌðəɹ tˈæsks wi pəɹfˈɔɹmd ɪkspˈɛɹəmənts ˌɔn ˈɪŋɡlɪʃ kənstˈɪʧʊənsi pˈɑɹsɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input.",
+   "phonemes": "ðˌɪs tˈæsk pɹizˈɛnts spəsˈɪfɪk ʧˈælənʤᵻz: ði ˈWtpˌʊt ɪz sˈʌbʤɛkt tə stɹˈɔŋ stɹˈʌkʧəɹəl kənstɹˈAnts ænd ɪz səɡnˈɪfəkəntli lˈɔŋɡəɹ ðən ði ˈɪnpˌʊt.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes [37].",
+   "phonemes": "fˈɜɹðəɹmˌɔɹ, ˌɑɹˌɛnˈɛn sˈikwənstəsˈikwəns mˈɑdᵊlz hæv nˌɑt bɪn ˈAbᵊl tʊ ətˈAn stˈAtʌvðiˈɑɹt ɹəzˈʌlts ɪn smˌɔldˈATə ɹAʒˈimz [θˈɜɹTi sˈɛvən).",
+   "fallback": [
+    {
+     "text": "[37",
+     "phonemes": "[θˈɜɹTi sˈɛvən"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "We trained a 4-layer transformer with dmodel = 1024 on the Wall Street Journal (WSJ) portion of the Penn Treebank [25], about 40K training sentences.",
+   "phonemes": "wˌi tɹˈAnd ɐ fˈɔɹ lˈAəɹ tɹænsfˈɔɹməɹ wɪð dˈimˈɑdᵊl ˈikwᵊlz tˈɛn twˈɛnti fˈɔɹ ˌɔn ðə wˈɔl stɹˈit ʤˈɜɹnᵊl (dˌʌbᵊljuˌɛsʤˈA) pˈɔɹʃən ʌv ðə pˈɛn tɹˈibæŋk [twˈɛnti fˈIv), əbˈWt fˈɔɹTi kˈA tɹˈAnɪŋ sˈɛntᵊnsᵻz.",
+   "fallback": [
+    {
+     "text": "dmodel",
+     "phonemes": "dˈimˈɑdᵊl"
+    },
+    {
+     "text": "=",
+     "phonemes": "ˈikwᵊlz"
+    },
+    {
+     "text": "Penn",
+     "phonemes": "pˈɛn"
+    },
+    {
+     "text": "Treebank",
+     "phonemes": "tɹˈibæŋk"
+    },
+    {
+     "text": "[25",
+     "phonemes": "[twˈɛnti fˈIv"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "We also trained it in a semi-supervised setting, using the larger high-confidence and BerkleyParser corpora from with approximately 17M sentences [37].",
+   "phonemes": "wˌi ˈɔlsO tɹˈAnd ɪt ɪn ɐ sˌɛmIsˈupəɹvˌIzd sˈɛTɪŋ, jˈuzɪŋ ðə lˈɑɹʤəɹ hˌIkˈɑnfədᵊns ænd bˈɜɹkli pˈɑɹsəɹ kˈɔɹpəɹə fɹʌm wɪð əpɹˈɑksəmətli sˌɛvəntˈin ˈɛm sˈɛntᵊnsᵻz [θˈɜɹTi sˈɛvən).",
+   "fallback": [
+    {
+     "text": "BerkleyParser",
+     "phonemes": "bˈɜɹkli pˈɑɹsəɹ"
+    },
+    {
+     "text": "[37",
+     "phonemes": "[θˈɜɹTi sˈɛvən"
+    }
+   ]
+  },
+  {
+   "source": "page_9.txt",
+   "text": "We used a vocabulary of 16K tokens for the WSJ only setting and a vocabulary of 32K tokens for the semi-supervised setting.",
+   "phonemes": "wˌi jˈuzd ɐ vOkˈæbjəlˌɛɹi ʌv sˌɪkstˈin kˈA tˈOkᵊnz fɔɹ ðə dˌʌbᵊljuˌɛsʤˈA ˈOnli sˈɛTɪŋ ænd ɐ vOkˈæbjəlˌɛɹi ʌv θˈɜɹTi tˈu kˈA tˈOkᵊnz fɔɹ ðə sˌɛmIsˈupəɹvˌIzd sˈɛTɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "We performed only a small number of experiments to select the dropout, both attention and residual (section 5.4), learning rates and beam size on the Section 22 development set, all other parameters remained unchanged from the English-to-German base translation model.",
+   "phonemes": "wˌi pəɹfˈɔɹmd ˈOnli ɐ smˈɔl nˈʌmbəɹ ʌv ɪkspˈɛɹəmənts tə səlˈɛkt ðə dɹˈɑpˌWt, bˈOθ ətˈɛnʧən ænd ɹəzˈɪʤəwəl (sˈɛkʃən fˈIv pYnt fˈɔɹ), lˈɜɹnɪŋ ɹˈAts ænd bˈim sˈIz ˌɔn ðə sˈɛkʃən twˈɛnti tˈu dəvˈɛləpmənt sˈɛt, ˈɔl ˈʌðəɹ pəɹˈæməTəɹz ɹəmˈAnd ˌʌnʧˈAnʤd fɹʌm ði ˈɪŋɡlɪʃtəʤˈɜɹmən bˈAs tɹænzlˈAʃən mˈɑdᵊl.",
+   "fallback": []
+  },
+  {
+   "source": "page_9.txt",
+   "text": "During inference, we",
+   "phonemes": "dˈʊɹɪŋ ˈɪnfəɹəns, wi",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "When you sleep, your brain replays what you learned during the day.",
+   "phonemes": "wˌɛn ju slˈip, jʊɹ bɹˈAn ɹiplˈAz wˌʌt ju lˈɜɹnd dˈʊɹɪŋ ðə dˈA.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "Memories move from short-term storage into long-term networks.",
+   "phonemes": "mˈɛməɹiz mˈuv fɹʌm ʃˈɔɹttˌɜɹm stˈɔɹɪʤ ˈɪntu lˈɔŋtˌɜɹm nˈɛtwˌɜɹks.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "That is why a good night's rest before an exam beats one more hour of cramming.",
+   "phonemes": "ðˈæt ɪz wˌI ɐ ɡˈʊd nˈIts ɹˈɛst bəfˈɔɹ ɐn ɪɡzˈæm bˈits wˈʌn mˈɔɹ ˈWəɹ ʌv kɹˈæmɪŋ.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "The storm had been building for three days when the lighthouse keeper saw the ship.",
+   "phonemes": "ðə stˈɔɹm hæd bɪn bˈɪldɪŋ fɔɹ θɹˈi dˈAz wˌɛn ðə lˈIthˌWs kˈipəɹ sˈɔ ðə ʃˈɪp.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "She lit the great lamp, and began to count the seconds.",
+   "phonemes": "ʃˌi lˈɪt ðə ɡɹˈAt lˈæmp, ænd bəɡˈæn tə kˈWnt ðə sˈɛkəndz.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "It's a well-known fact that a cat can't resist a box, isn't it?",
+   "phonemes": "ˌɪts ɐ wˌɛlnˈOn fˈækt ðæt ɐ kˈæt kˈænt ɹəzˈɪst ɐ bˈɑks, ˈɪzᵊnt ɪt?",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "On March 3, 2021, the company raised $4.5 million at a $40 million valuation.",
+   "phonemes": "ˌɔn mˈɑɹʧ θɹˈi, twˈɛnti twˈɛnti wˈʌn, ðə kˈʌmpᵊni ɹˈAzd fˈɔɹ pYnt fˈIv mˈɪljᵊn dˈɑləɹz æt ɐ fˈɔɹTi mˈɪljᵊn dˈɑləɹz vˌæljuˈAʃən.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "Dr.",
+   "phonemes": "dˈɑktəɹ",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "Smith arrived at 9:30 a.m.",
+   "phonemes": "smˈɪθ əɹˈIvd æt nˈIn:θˈɜɹTi ˌAˈɛm",
+   "fallback": [
+    {
+     "text": "9:30",
+     "phonemes": "nˈIn:θˈɜɹTi"
+    }
+   ]
+  },
+  {
+   "source": "prose.txt",
+   "text": "and left at 5 p.m.",
+   "phonemes": "ænd lˈɛft æt fˈIv pˌiˈɛm",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "on Friday.",
+   "phonemes": "ˌɔn fɹˈIdˌA.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "About 25% of the 1,200 people surveyed said they'd read a book in the last year.",
+   "phonemes": "əbˈWt twˈɛnti fˈIv pəɹsˈɛnt ʌv ðə wˈʌn θˈWzᵊnd tˈu hˈʌndɹəd pˈipᵊl səɹvˈAd sˈɛd ðAd ɹˈid ɐ bˈʊk ɪn ðə lˈæst jˈɪɹ.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "The U.S.",
+   "phonemes": "ðə jˌuˈɛs",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "and the U.K.",
+   "phonemes": "ænd ðə jˌukˈA",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "signed the agreement in 1998, after a twenty-year dispute.",
+   "phonemes": "sˈInd ði əɡɹˈimᵊnt ɪn nˌIntˈin nˈIndi ˈAt, ˈæftəɹ ɐ twˈɛntijˌɪɹ dɪspjˈut.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "Chapter 7 covers the years 1914 to 1918, a period of great upheaval.",
+   "phonemes": "ʧˈæptəɹ sˈɛvən kˈʌvəɹz ðə jˈɪɹz nˌIntˈin fˌɔɹtˈin tə nˌIntˈin ˌAtˈin, ɐ pˈɪɹiəd ʌv ɡɹˈAt ˌʌphˈivᵊl.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "I read the book yesterday, and I will read it again tomorrow.",
+   "phonemes": "ˌI ɹˈɛd ðə bˈʊk jˈɛstəɹdˌA, ænd ˌI wɪl ɹˈid ɪt əɡˈɛn təmˈɑɹO.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "They live near the river, where they lead a quiet life.",
+   "phonemes": "ðˌA lˈɪv nˌɪɹ ðə ɹˈɪvəɹ, wˌɛɹ ðA lˈid ɐ kwˈIət lˈIf.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "\"Don't go,\" she whispered — but he was already gone.",
+   "phonemes": "“dˈOnt ɡˌO,” ʃi wˈɪspəɹd — bˌʌt hi wʌz ˌɔlɹˈɛdi ɡˈɔn.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "The temperature dropped to -5 degrees, and the roads froze overnight.",
+   "phonemes": "ðə tˈɛmpɹəʧəɹ dɹˈɑpt tə mˈInəs fˈIv dəɡɹˈiz, ænd ðə ɹˈOdz fɹˈOz ˌOvəɹnˈIt.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "He paid £20 for a second-hand copy of the 3rd edition.",
+   "phonemes": "hˌi pˈAd twˈɛnti pˈWndz fɔɹ ɐ sˈɛkəndhˌænd kˈɑpi ʌv ðə θˈɜɹd ədˈɪʃən.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "The meeting is on the 21st floor, in room 2104.",
+   "phonemes": "ðə mˈiTɪŋ ɪz ˌɔn ðə twˈɛnti fˈɜɹst flˈɔɹ, ɪn ɹˈum twˈɛnti wˈʌn ˈO fˈɔɹ.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "Mr.",
+   "phonemes": "mˈɪstəɹ",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "and Mrs.",
+   "phonemes": "ænd mˈɪsɪz",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "Jones have three kids: Anna, Ben, and Clara.",
+   "phonemes": "ʤˈOnz hæv θɹˈi kˈɪdz: ˈɑnə, bˈɛn, ænd klˈɑɹɹə.",
+   "fallback": [
+    {
+     "text": "Clara",
+     "phonemes": "klˈɑɹɹə"
+    }
+   ]
+  },
+  {
+   "source": "prose.txt",
+   "text": "Version 2.0 is twice as fast as version 1.5, according to the team.",
+   "phonemes": "vˈɜɹʒən tˈu ɪz twˈIs æz fˈæst æz vˈɜɹʒən wˈʌn pYnt fˈIv, əkˈɔɹdɪŋ tə ðə tˈim.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "A state-of-the-art model doesn't always beat a well-tuned baseline.",
+   "phonemes": "ɐ stˈAtʌvðiˈɑɹt mˈɑdᵊl dˈʌzᵊnt ˈɔlwˌAz bˈit ɐ wˌɛltˈund bˈAslˌIn.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "Her mother-in-law lives in a three-story house on Elm Street.",
+   "phonemes": "hˌɜɹ mˈʌðəɹənlˌɔ lˈɪvz ɪn ɐ θɹˌistˈɔɹi hˈWs ˌɔn ˈɛlm stɹˈit.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "We'll need about 3.5 kg of flour, 2 eggs, and a pinch of salt.",
+   "phonemes": "wˌil nˈid əbˈWt θɹˈi pYnt fˈIv kˌAʤˈi ʌv flˈWəɹ, tˈu ˈɛɡz, ænd ɐ pˈɪnʧ ʌv sˈɔlt.",
+   "fallback": [
+    {
+     "text": "kg",
+     "phonemes": "kˌAʤˈi"
+    }
+   ]
+  },
+  {
+   "source": "prose.txt",
+   "text": "The ratio was 3:1 in favor of the proposal, so it passed easily.",
+   "phonemes": "ðə ɹˈAʃiO wʌz θɹˈi:wˈʌn ɪn fˈAvəɹ ʌv ðə pɹəpˈOzᵊl, sˌO ɪt pˈæst ˈizᵊli.",
+   "fallback": [
+    {
+     "text": "3:1",
+     "phonemes": "θɹˈi:wˈʌn"
+    }
+   ]
+  },
+  {
+   "source": "prose.txt",
+   "text": "NASA and the FBI both use AI to analyze large data sets.",
+   "phonemes": "nˈæsə ænd ði ˌɛfbˌiˈI bˈOθ jˈuz ˈAˌI tʊ ˈænᵊlˌIz lˈɑɹʤ dˈATə sˈɛts.",
+   "fallback": []
+  },
+  {
+   "source": "prose.txt",
+   "text": "He was born in the '80s and grew up listening to his parents' records.",
+   "phonemes": "hˌi wʌz bˈɔɹn ɪn ði ˈATiz ænd ɡɹˈu ˌʌp lˈɪsənɪŋ tə hɪz pˈɛɹᵊnts ɹˈɛkəɹdz.",
+   "fallback": []
+  }
+ ]
+}
