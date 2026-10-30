@@ -223,7 +223,8 @@ final public class EnglishG2P {
         
       return true
     }
-                            
+    mutableTokens = spacyLikeMerges(mutableTokens)
+
     // Simplistic alignment by index to add stress and pre-phonemization features to tokens
     // TO_DO: Doesn't match the capability of spacy.training.Alignment.from_strings()
     for feature in preprocessedText.features {
@@ -250,6 +251,28 @@ final public class EnglishG2P {
     return mutableTokens
   }
   
+  /// Where NLTagger and spaCy disagree on an apostrophe or a minus sign, retag to what spaCy produces:
+  /// "parents'" is a possessive (POS), not a closing quote; "'80s" is one word, not an opening quote; "-5" is a
+  /// signed number (read "minus five"), not a dash. Untagged apostrophes then resolve as sub-token junk.
+  private func spacyLikeMerges(_ tokens: [MToken]) -> [MToken] {
+    var out: [MToken] = []
+    for (i, token) in tokens.enumerated() {
+      let prev = out.last, next = i + 1 < tokens.count ? tokens[i + 1] : nil
+      if token.text == "'", token.tag == .closeQuote, let p = prev, p.whitespace.isEmpty, p.text.last?.lowercased() == "s" {
+        token.tag = .otherWord
+      } else if token.text == "'", token.tag == .openQuote, token.whitespace.isEmpty, next?.text.first?.isNumber == true {
+        token.tag = .otherWord
+      } else if token.tag == .number, let p = prev, p.text == "-", p.whitespace.isEmpty,
+                out.count < 2 || !out[out.count - 2].whitespace.isEmpty {
+        out[out.count - 1] = MToken(text: "-" + token.text, tokenRange: p.tokenRange.lowerBound..<token.tokenRange.upperBound,
+                                    tag: .number, whitespace: token.whitespace)
+        continue
+      }
+      out.append(token)
+    }
+    return out
+  }
+
   func mergeTokens(_ tokens: [MToken], unk: String? = nil) -> MToken {
     let stressSet = Set(tokens.compactMap { $0._.stress })
     let currencySet = Set(tokens.compactMap { $0._.currency })

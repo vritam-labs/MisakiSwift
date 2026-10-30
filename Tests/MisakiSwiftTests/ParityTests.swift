@@ -42,6 +42,7 @@ struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
   func heard(_ s: String) -> String { String(String.UnicodeScalarView(s.unicodeScalars.filter { vocab.contains($0) })) }
   let g2p = EnglishG2P(british: false, unk: "")
   var words = 0, bugWords = 0, fallbackWords = 0, exact = 0
+  var perSource: [String: (words: Int, bugs: Int)] = [:]
   var report: [String: Int] = [:], example: [String: String] = [:]
   for c in cases {
     let got = heard(g2p.phonemize(text: c.text).0), want = heard(c.phonemes)
@@ -49,11 +50,13 @@ struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
     // omittingEmptySubsequences: false, so a doubled space (an extra pause token) counts as a difference
     let expected = want.split(separator: " ", omittingEmptySubsequences: false)
     words += expected.count
+    perSource[c.source, default: (0, 0)].words += expected.count
     let fb = c.fallback.map { heard($0.phonemes) }
     for (e, a) in wordHunks(expected, got.split(separator: " ", omittingEmptySubsequences: false)) {
       let n = max(e.count, a.count)
       if e.contains(where: { w in fb.contains { !$0.isEmpty && w.contains($0) } }) { fallbackWords += n; continue }
       bugWords += n
+      perSource[c.source, default: (0, 0)].bugs += n
       let key = "\(e.joined(separator: " ")) -> \(a.joined(separator: " "))"
       report[key, default: 0] += 1
       example[key] = example[key] ?? c.text
@@ -62,6 +65,7 @@ struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
   let lexAgreement = 1 - Double(bugWords) / Double(words)
   var lines = [String(format: "PARITY: %d sentences, %d exact (%.1f%%), %d words, %d non-fallback words differ (agreement %.3f), %d fallback words differ",
                cases.count, exact, 100 * Double(exact) / Double(cases.count), words, bugWords, lexAgreement, fallbackWords)]
+  lines += perSource.sorted { $0.key < $1.key }.map { String(format: "  %@: agreement %.3f (%d words)", $0.key, 1 - Double($0.value.bugs) / Double($0.value.words), $0.value.words) }
   lines += report.sorted(by: { ($0.value, $1.key) > ($1.value, $0.key) }).map { "\($0.value)x  \($0.key)    | \(example[$0.key]!)" }
   // xcodebuild hides test stdout, so the full report also lands next to the fixture (gitignored).
   try lines.joined(separator: "\n").write(to: url.deletingLastPathComponent().appendingPathComponent("report.txt"),
