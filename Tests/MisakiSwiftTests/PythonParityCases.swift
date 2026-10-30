@@ -20,6 +20,7 @@ let pythonMisakiCases: [(text: String, phonemes: String)] = [
   ("He paid £20 for the 3rd edition.", "hˌi pˈAd twˈɛnti pˈWndz fɔɹ ðə θˈɜɹd ədˈɪʃən."),  // ordinal spacing
   ("He was born in the '80s and grew up listening to his parents' records.", "hˌi wʌz bˈɔɹn ɪn ði ˈATiz ænd ɡɹˈu ˌʌp lˈɪsənɪŋ tə hɪz pˈɛɹᵊnts ɹˈɛkəɹdz."),  // apostrophes
   ("It dropped to -5 degrees.", "ˌɪt dɹˈɑpt tə mˈInəs fˈIv dəɡɹˈiz."),  // signed number
+  ("The encoder is a stack of N = 6 identical layers.", "ði ɪnkˈOdəɹ ɪz ɐ stˈæk ʌv ˈɛn ˈikwᵊlz sˈɪks Idˈɛntəkᵊl lˈAəɹz."),  // "=" reads "equals" (espeak's word)
   ("We propose a new model in this paper.", "wˌi pɹəpˈOz ɐ nˈu mˈɑdᵊl ɪn ðɪs pˈApəɹ."),  // POS tags present (a, in)
 ]
 

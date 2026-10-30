@@ -12,7 +12,8 @@ final class Lexicon {
   static let primaryStress: Character = "ˈ"
   static let secondaryStress: Character = "ˌ"
   static let vowelSet: Set<Character> = Set("AIOQWYaiuæɑɒɔəɛɜɪʊʌᵻ")
-  static let symbolSet: [String: String] = ["%": "percent", "&": "and", "+": "plus", "@": "at"]
+  // "=" is not in misaki's table: Python sends it to espeak, which says "equals". Our BART fallback guesses "ex".
+  static let symbolSet: [String: String] = ["%": "percent", "&": "and", "+": "plus", "@": "at", "=": "equals"]
   static let usTaus: Set<Character> = Set("AIOWYiuæɑəɛɪɹʊʌ")
   static let currencies: [String: (String, String)] = [
       "$": ("dollar", "cent"),
