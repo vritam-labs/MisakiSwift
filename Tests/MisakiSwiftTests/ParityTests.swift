@@ -34,8 +34,12 @@ func wordHunks(_ a: [Substring], _ b: [Substring]) -> [([Substring], [Substring]
 
 struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
 
-@Test func testParityWithPythonMisaki() throws {
-  let url = URL(fileURLWithPath: #filePath).deletingLastPathComponent().appendingPathComponent("../Parity/parity.json")
+let parityFixture = URL(fileURLWithPath: #filePath).deletingLastPathComponent().appendingPathComponent("../Parity/parity.json")
+
+// The fixture is read from the source tree, which a physical device can't reach; PythonParityCases runs there instead.
+@Test(.enabled(if: FileManager.default.fileExists(atPath: parityFixture.path)))
+func testParityWithPythonMisaki() throws {
+  let url = parityFixture
   let fixture = try JSONDecoder().decode(ParityFixture.self, from: Data(contentsOf: url)), cases = fixture.cases
   // Compare only what the voice model hears: characters outside Kokoro's vocabulary are dropped before inference.
   let vocab = Set(fixture.vocab.unicodeScalars)
