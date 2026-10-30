@@ -68,3 +68,15 @@ struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
   print(lines.prefix(40).joined(separator: "\n"))
   #expect(lexAgreement >= 0)  // ratcheted up as fixes land
 }
+
+/// Debug aid: phonemizes each line of Tests/Parity/debug.txt (gitignored) into debug_out.txt with token detail.
+@Test func testDebugSentences() throws {
+  let dir = URL(fileURLWithPath: #filePath).deletingLastPathComponent().appendingPathComponent("../Parity")
+  guard let text = try? String(contentsOf: dir.appendingPathComponent("debug.txt"), encoding: .utf8) else { return }
+  let g2p = EnglishG2P(british: false, unk: "")
+  let out = text.split(separator: "\n").map { line -> String in
+    let (ps, tokens) = g2p.phonemize(text: String(line))
+    return "\(line)\n  -> \(ps)\n  " + tokens.map { "\($0.text)/\($0.tag?.rawValue ?? "nil")/\($0.phonemes ?? "nil")" }.joined(separator: "  ")
+  }
+  try out.joined(separator: "\n").write(to: dir.appendingPathComponent("debug_out.txt"), atomically: true, encoding: .utf8)
+}

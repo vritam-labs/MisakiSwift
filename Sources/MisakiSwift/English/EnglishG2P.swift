@@ -206,6 +206,12 @@ final public class EnglishG2P {
         let word = String(preprocessedText.text[tokenRange])
         if tag == .whitespace, let lastToken = mutableTokens.last {
           lastToken.whitespace = word
+        } else if word == ".", let last = mutableTokens.last, last.whitespace.isEmpty, last.text.count == 1,
+                  last.text.first!.isASCII, last.text.first!.isLetter {
+          // spaCy keeps a single letter and its period as one token ("V.", "i."), so misaki reads the letter and
+          // drops the period, even at a sentence end. NLTagger splits them.
+          mutableTokens[mutableTokens.count - 1] = MToken(text: last.text + ".", tokenRange: last.tokenRange.lowerBound..<tokenRange.upperBound,
+                                                          tag: last.tag, whitespace: "")
         } else {
           mutableTokens.append(MToken(text: word, tokenRange: tokenRange, tag: tag, whitespace: ""))
         }
@@ -348,11 +354,23 @@ final public class EnglishG2P {
           currency = token.text
           token.phonemes = ""
           token.`_`.rating = 4
+        } else if token.tag == .dash, i > 0, tokens[i - 1].whitespace.isEmpty, token.whitespace.isEmpty, i + 1 < tokens.count {
+          // A hyphen glued to words on both sides ("self-attention") is spaCy's HYPH, which misaki leaves
+          // unphonemized so the compound resolves as one word. NLTagger tags it .dash, same as a spaced dash.
         } else if token.tag == .dash || (token.tag == .punctuation && token.text == "–") {
           token.phonemes = "—"
           token.`_`.rating = 3
         } else if let tag = token.tag, EnglishG2P.punctuationTags.contains(tag), !token.text.lowercased().unicodeScalars.allSatisfy({ (97...122).contains(Int($0.value)) }) {
-          if let val = EnglishG2P.punctuationTagPhonemes[token.text] {
+          // spaCy's -LRB-/-RRB-/``/'' map to ( ) “ ”, which Kokoro hears; "[" is not -LRB- there, so it says nothing.
+          if token.tag == .openParenthesis {
+            token.phonemes = token.text == "[" ? "" : "("
+          } else if token.tag == .closeParenthesis {
+            token.phonemes = ")"
+          } else if token.tag == .openQuote {
+            token.phonemes = "“"
+          } else if token.tag == .closeQuote {
+            token.phonemes = "”"
+          } else if let val = EnglishG2P.punctuationTagPhonemes[token.text] {
             token.phonemes = val
           } else {
             token.phonemes = token.text.filter { EnglishG2P.punctuactions.contains($0) }
