@@ -62,3 +62,4 @@ fastlane/test_output
 Tests/Parity/report.txt
 Tests/Parity/debug.txt
 Tests/Parity/debug_out.txt
+Tests/Parity/swift_out.json

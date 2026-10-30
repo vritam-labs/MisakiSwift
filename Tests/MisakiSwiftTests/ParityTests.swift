@@ -42,10 +42,12 @@ struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
   func heard(_ s: String) -> String { String(String.UnicodeScalarView(s.unicodeScalars.filter { vocab.contains($0) })) }
   let g2p = EnglishG2P(british: false, unk: "")
   var words = 0, bugWords = 0, fallbackWords = 0, exact = 0
-  var perSource: [String: (words: Int, bugs: Int)] = [:]
+  var perSource: [String: (words: Int, bugs: Int)] = [:], outputs: [String] = []
   var report: [String: Int] = [:], example: [String: String] = [:]
   for c in cases {
-    let got = heard(g2p.phonemize(text: c.text).0), want = heard(c.phonemes)
+    let raw = g2p.phonemize(text: c.text).0
+    outputs.append(raw)
+    let got = heard(raw), want = heard(c.phonemes)
     if got == want { exact += 1 }
     // omittingEmptySubsequences: false, so a doubled space (an extra pause token) counts as a difference
     let expected = want.split(separator: " ", omittingEmptySubsequences: false)
@@ -70,8 +72,13 @@ struct ParityFixture: Decodable { let vocab: String; let cases: [ParityCase] }
   // xcodebuild hides test stdout, so the full report also lands next to the fixture (gitignored).
   try lines.joined(separator: "\n").write(to: url.deletingLastPathComponent().appendingPathComponent("report.txt"),
                                           atomically: true, encoding: .utf8)
+  // Raw outputs, to diff against the same fixture phonemized on a device (platform tagger differences).
+  try JSONSerialization.data(withJSONObject: outputs).write(to: url.deletingLastPathComponent().appendingPathComponent("swift_out.json"))
   print(lines.prefix(40).joined(separator: "\n"))
-  #expect(lexAgreement >= 0)  // ratcheted up as fixes land
+  // Floors from the fork's fixes (upstream 1.0.6 scored 0.864 overall, 0.89 on prose); raise as fixes land.
+  #expect(lexAgreement >= 0.93)
+  let prose = perSource["prose.txt"]!
+  #expect(1 - Double(prose.bugs) / Double(prose.words) >= 0.96)
 }
 
 /// Debug aid: phonemizes each line of Tests/Parity/debug.txt (gitignored) into debug_out.txt with token detail.

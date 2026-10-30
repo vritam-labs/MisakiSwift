@@ -42,9 +42,21 @@ final public class EnglishG2P {
     let tokenRange: Range<String.Index>
   }
 
+  /// On iOS the English word-class and name models are not usable until requested, even when already on the device:
+  /// until then every word is tagged OtherWord and every POS-dependent rule silently falls through ("a" read as the
+  /// letter "ay"). The request returns at once when the models are local; the wait is capped in case one downloads.
+  private static func loadTaggerAssets() {
+    for scheme in [NLTagScheme.lexicalClass, .nameType] {
+      let done = DispatchSemaphore(value: 0)
+      NLTagger.requestAssets(for: .english, tagScheme: scheme) { _, _ in done.signal() }
+      _ = done.wait(timeout: .now() + 5)
+    }
+  }
+
   public init(british: Bool = false, unk: String = "❓") {
     self.british = british
-    self.tagger = NLTagger(tagSchemes: [.nameTypeOrLexicalClass])
+    self.tagger = NLTagger(tagSchemes: [.lexicalClass, .nameType])
+    EnglishG2P.loadTaggerAssets()
     self.lexicon = Lexicon(british: british)
     self.fallback = EnglishFallbackNetwork(british: british)
     self.unk = unk
@@ -197,12 +209,16 @@ final public class EnglishG2P {
     tagger.string = preprocessedText.text
     tagger.setLanguage(.english, range: preprocessedText.text.startIndex..<preprocessedText.text.endIndex)
     let options: NLTagger.Options = []
+    // The two schemes are run separately: on iOS 27 the combined .nameTypeOrLexicalClass tags every word "Other"
+    // (macOS still answers), which silently disables every POS-dependent rule ("a" read as the letter, etc.).
+    let names: Set<NLTag> = [.personalName, .placeName, .organizationName]
     tagger.enumerateTags(
       in: preprocessedText.text.startIndex..<preprocessedText.text.endIndex,
       unit: .word,
-      scheme: .nameTypeOrLexicalClass,
-      options: options) { tag, tokenRange in
-      if let tag = tag {
+      scheme: .lexicalClass,
+      options: options) { lexical, tokenRange in
+      let name = tagger.tag(at: tokenRange.lowerBound, unit: .word, scheme: .nameType).0
+      if let tag = name.flatMap({ names.contains($0) ? $0 : nil }) ?? lexical {
         let word = String(preprocessedText.text[tokenRange])
         if tag == .whitespace, let lastToken = mutableTokens.last {
           lastToken.whitespace = word
@@ -388,9 +404,9 @@ final public class EnglishG2P {
           token.phonemes = "—"
           token.`_`.rating = 3
         } else if let tag = token.tag, EnglishG2P.punctuationTags.contains(tag), !token.text.lowercased().unicodeScalars.allSatisfy({ (97...122).contains(Int($0.value)) }) {
-          // spaCy's -LRB-/-RRB-/``/'' map to ( ) “ ”, which Kokoro hears; "[" is not -LRB- there, so it says nothing.
+          // spaCy's -LRB-/-RRB-/``/'' map to ( ) “ ”; "[" is not -LRB- there and passes through as itself.
           if token.tag == .openParenthesis {
-            token.phonemes = token.text == "[" ? "" : "("
+            token.phonemes = token.text == "[" ? "[" : "("
           } else if token.tag == .closeParenthesis {
             token.phonemes = ")"
           } else if token.tag == .openQuote {
