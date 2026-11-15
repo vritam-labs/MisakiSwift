@@ -7,7 +7,8 @@ final public class EnglishG2P {
   private let british: Bool
   private let tagger: NLTagger
   private let lexicon: Lexicon
-  private let fallback: EnglishFallbackNetwork
+  // Loaded at the first word the lexicon does not know: most text never needs it.
+  private lazy var fallback = EnglishFallbackNetwork(british: british)
   private let unk: String
     
   static let punctuationTags: Set<NLTag> =  Set([.openQuote, .closeQuote, .openParenthesis, .closeParenthesis, .punctuation, .sentenceTerminator, .otherPunctuation])
@@ -45,21 +46,32 @@ final public class EnglishG2P {
   /// On iOS the English word-class and name models are not usable until requested, even when already on the device:
   /// until then every word is tagged OtherWord and every POS-dependent rule silently falls through ("a" read as the
   /// letter "ay"). The request returns at once when the models are local; the wait is capped in case one downloads.
-  private static func loadTaggerAssets() {
+  /// Once per process: where the request never answers (the iOS simulator) only the first G2P waits for it.
+  private static let taggerAssets: Void = {
     for scheme in [NLTagScheme.lexicalClass, .nameType] {
       let done = DispatchSemaphore(value: 0)
       NLTagger.requestAssets(for: .english, tagScheme: scheme) { _, _ in done.signal() }
       _ = done.wait(timeout: .now() + 5)
     }
-  }
+  }()
+
+  private static func loadTaggerAssets() { _ = taggerAssets }
 
   public init(british: Bool = false, unk: String = "❓") {
     self.british = british
     self.tagger = NLTagger(tagSchemes: [.lexicalClass, .nameType])
     EnglishG2P.loadTaggerAssets()
     self.lexicon = Lexicon(british: british)
-    self.fallback = EnglishFallbackNetwork(british: british)
     self.unk = unk
+  }
+
+  private func fallbackPhonemes(_ token: MToken) -> (phoneme: String, rating: Int) {
+    #if targetEnvironment(simulator)
+    // MLX has no GPU to run on in the iOS simulator (it aborts): unknown words stay unspoken there.
+    return ("", 1)
+    #else
+    return fallback(token)
+    #endif
   }
 
   private func tokenContext(_ ctx: TokenContext, ps: String?, token: MToken) -> TokenContext {
@@ -478,7 +490,7 @@ final public class EnglishG2P {
         }
         
         if w.phonemes == nil {
-          let out = fallback(w)
+          let out = fallbackPhonemes(w)
           w.phonemes = out.0
           w.`_`.rating = out.1
         }
@@ -525,7 +537,7 @@ final public class EnglishG2P {
         if shouldFallback {
           let token = mergeTokens(arr)
           let first = arr[0]
-          let out = fallback(token)
+          let out = fallbackPhonemes(token)
           first.phonemes = out.0
           first.`_`.rating = out.1
           arr[0] = first
