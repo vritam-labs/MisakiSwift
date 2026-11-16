@@ -57,6 +57,10 @@ final public class EnglishG2P {
 
   private static func loadTaggerAssets() { _ = taggerAssets }
 
+  /// Whether words the lexicon hasn't got may be guessed (on the GPU). Off,
+  /// they go unpronounced. An iOS app turns it off while in the background.
+  nonisolated(unsafe) public static var guessingAllowed = true
+
   public init(british: Bool = false, unk: String = "❓") {
     self.british = british
     self.tagger = NLTagger(tagSchemes: [.lexicalClass, .nameType])
@@ -70,6 +74,9 @@ final public class EnglishG2P {
     // MLX has no GPU to run on in the iOS simulator (it aborts): unknown words stay unspoken there.
     return ("", 1)
     #else
+    // The guesser runs on the GPU, which iOS refuses an app in the background
+    // (MLX then aborts the app): the app switches it off while not active.
+    guard EnglishG2P.guessingAllowed else { return ("", 1) }
     return fallback(token)
     #endif
   }
